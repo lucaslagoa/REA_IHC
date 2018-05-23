@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Bone (3).png-83640090313cbbc706e92b0a95cef968.stex"
+
+[deps]
+
+source_file="res://graveyard/png/Tiles/Bone (3).png"
+source_md5="8f689a29623a528fbbdcbb230bc82d2c"
+
+dest_files=[ "res://.import/Bone (3).png-83640090313cbbc706e92b0a95cef968.stex" ]
+dest_md5="24b3c47ccf0ed7968e2c6d687975a629"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

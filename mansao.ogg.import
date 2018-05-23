@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mansao.ogg-8ce435b39410c4410364b315e915cee1.oggstr"
+
+[deps]
+
+source_file="res://mansao.ogg"
+source_md5="f1de610cbbc8b6b57d1ce0f12670a6c3"
+
+dest_files=[ "res://.import/mansao.ogg-8ce435b39410c4410364b315e915cee1.oggstr" ]
+dest_md5="24f94c07b4539b0265c8adcb84cdee72"
+
+[params]
+
+loop=true
+loop_offset=0

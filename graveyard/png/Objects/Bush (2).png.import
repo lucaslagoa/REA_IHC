@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Bush (2).png-4939600d4f11e91dfdf3e78e5e25168d.stex"
+
+[deps]
+
+source_file="res://graveyard/png/Objects/Bush (2).png"
+source_md5="337fa262e0ddd83d99ef43fcbe71dd59"
+
+dest_files=[ "res://.import/Bush (2).png-4939600d4f11e91dfdf3e78e5e25168d.stex" ]
+dest_md5="fb2ab3080a4535cde5de49c2a8838cbb"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
