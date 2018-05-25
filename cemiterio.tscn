@@ -1,0 +1,515 @@
+[gd_scene load_steps=51 format=2]
+
+[ext_resource path="res://graveyard/png/Objects/DeadBush.png" type="Texture" id=1]
+[ext_resource path="res://graveyard/png/Objects/Bush (1).png" type="Texture" id=2]
+[ext_resource path="res://graveyard/png/Tiles/Tile (5).png" type="Texture" id=3]
+[ext_resource path="res://graveyard/png/Tiles/Tile (2).png" type="Texture" id=4]
+[ext_resource path="res://graveyard/png/Tiles/Tile (7).png" type="Texture" id=5]
+[ext_resource path="res://graveyard/png/BG_nolua.png" type="Texture" id=6]
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=7]
+[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=8]
+[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=9]
+[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=10]
+[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=11]
+[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=12]
+[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=13]
+[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=14]
+[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=15]
+[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=16]
+[ext_resource path="res://templerun/Run__000.png" type="Texture" id=17]
+[ext_resource path="res://templerun/Run__001.png" type="Texture" id=18]
+[ext_resource path="res://templerun/Run__003.png" type="Texture" id=19]
+[ext_resource path="res://templerun/Run__002.png" type="Texture" id=20]
+[ext_resource path="res://templerun/Run__004.png" type="Texture" id=21]
+[ext_resource path="res://templerun/Run__005.png" type="Texture" id=22]
+[ext_resource path="res://templerun/Run__006.png" type="Texture" id=23]
+[ext_resource path="res://templerun/Run__008.png" type="Texture" id=24]
+[ext_resource path="res://templerun/Run__007.png" type="Texture" id=25]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=26]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=27]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=28]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=29]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=30]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=31]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=32]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=33]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=34]
+[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=35]
+[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=36]
+[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=37]
+[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=38]
+[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=39]
+[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=40]
+[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=41]
+[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=42]
+[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=43]
+[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=44]
+[ext_resource path="res://mansao.ogg" type="AudioStream" id=45]
+[ext_resource path="res://graveyard/png/Tiles/Bone (3).png" type="Texture" id=46]
+[ext_resource path="res://graveyard/png/Tiles/Bone (2).png" type="Texture" id=47]
+[ext_resource path="res://graveyard/png/Tiles/Bone (4).png" type="Texture" id=48]
+[ext_resource path="res://graveyard/png/Objects/TombStone (2).png" type="Texture" id=49]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "parado",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ) ],
+"loop": true,
+"name": "caminhando_dir",
+"speed": 6.01
+}, {
+"frames": [ ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ) ],
+"loop": true,
+"name": "parado_esq",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ) ],
+"loop": true,
+"name": "caminhando_esq",
+"speed": 6.01002
+} ]
+_sections_unfolded = [ "Resource" ]
+
+[node name="Cemiterio" type="Node" index="0"]
+
+[node name="TileMap" type="TileMap" parent="." index="0"]
+
+mode = 0
+tile_set = null
+cell_size = Vector2( 64, 64 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray(  )
+
+[node name="Node" type="Node" parent="TileMap" index="0"]
+
+[node name="DeadBush" type="Sprite" parent="TileMap/Node" index="0"]
+
+position = Vector2( 730, 490 )
+scale = Vector2( 0.80303, 1 )
+texture = ExtResource( 1 )
+
+[node name="Bush (1)" type="Sprite" parent="TileMap/Node" index="1"]
+
+position = Vector2( 480, 490 )
+texture = ExtResource( 2 )
+
+[node name="chao_extra" type="Sprite" parent="TileMap" index="1"]
+
+editor/display_folded = true
+position = Vector2( 64.2013, 665.937 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)2" type="Sprite" parent="TileMap/chao_extra" index="0"]
+
+position = Vector2( 240.79, 1.86511 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)" type="Sprite" parent="TileMap/chao_extra" index="1"]
+
+position = Vector2( 118.923, 1.37036 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)3" type="Sprite" parent="TileMap/chao_extra" index="2"]
+
+position = Vector2( 362.915, 2.8833 )
+scale = Vector2( 1.02493, 1 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)4" type="Sprite" parent="TileMap/chao_extra" index="3"]
+
+position = Vector2( 490.416, 2.35773 )
+scale = Vector2( 1, 0.986472 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)5" type="Sprite" parent="TileMap/chao_extra" index="4"]
+
+position = Vector2( 617.883, 2.60718 )
+scale = Vector2( 1, 0.981747 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)6" type="Sprite" parent="TileMap/chao_extra" index="5"]
+
+position = Vector2( 741.011, 1.99847 )
+scale = Vector2( 1, 0.99225 )
+texture = ExtResource( 3 )
+
+[node name="Terreno" type="Sprite" parent="TileMap" index="2"]
+
+editor/display_folded = true
+position = Vector2( 39.5417, 567.27 )
+scale = Vector2( 0.597351, 0.61477 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno" index="0"]
+
+position = Vector2( 171.763, -0.406807 )
+scale = Vector2( 1.6919, 0.991381 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno" index="1"]
+
+position = Vector2( 345.924, -0.28486 )
+scale = Vector2( 1.10926, 0.996032 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno" index="2"]
+
+position = Vector2( 469.861, -0.24798 )
+scale = Vector2( 0.858133, 0.997299 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno" index="3"]
+
+position = Vector2( 578.196, -0.169408 )
+scale = Vector2( 0.858133, 0.999723 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno" index="4"]
+
+editor/display_folded = true
+position = Vector2( 693.589, -0.294006 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Tile (2)6" index="0"]
+
+position = Vector2( 171.763, 0.284002 )
+scale = Vector2( 1.6919, 1.00217 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Tile (2)6" index="1"]
+
+position = Vector2( 345.924, 0.389515 )
+scale = Vector2( 1.10926, 1.00657 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Tile (2)6" index="2"]
+
+position = Vector2( 469.861, -0.0294878 )
+scale = Vector2( 0.858133, 1.00071 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Tile (2)6" index="3"]
+
+position = Vector2( 578.196, -0.169408 )
+scale = Vector2( 0.858133, 0.999723 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno" index="5"]
+
+position = Vector2( 1387.73, -0.776855 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Tile (2)7" index="0"]
+
+position = Vector2( 171.763, 0.00447059 )
+scale = Vector2( 1.6919, 0.997807 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Tile (2)7" index="1"]
+
+position = Vector2( 345.924, 0.127646 )
+scale = Vector2( 1.10926, 1.00248 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Tile (2)7" index="2"]
+
+position = Vector2( 469.861, -0.968696 )
+scale = Vector2( 0.858133, 0.986038 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Tile (2)7" index="3"]
+
+position = Vector2( 578.196, -0.169408 )
+scale = Vector2( 0.858133, 0.999723 )
+texture = ExtResource( 4 )
+
+[node name="Terreno2" type="Sprite" parent="TileMap" index="3"]
+
+editor/display_folded = true
+position = Vector2( 1283.99, 566.806 )
+scale = Vector2( 0.597351, 0.61477 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno2" index="0"]
+
+position = Vector2( 171.763, -0.406807 )
+scale = Vector2( 1.6919, 0.991381 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno2" index="1"]
+
+position = Vector2( 347.979, 1.71222 )
+scale = Vector2( 1.10926, 0.996032 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno2" index="2"]
+
+position = Vector2( 469.861, -0.24798 )
+scale = Vector2( 0.858133, 0.997299 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno2" index="3"]
+
+position = Vector2( 578.196, -0.169408 )
+scale = Vector2( 0.858133, 0.999723 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno2" index="4"]
+
+editor/display_folded = true
+position = Vector2( 693.589, -0.294006 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno2/Tile (2)6" index="0"]
+
+position = Vector2( 171.763, 0.284002 )
+scale = Vector2( 1.6919, 1.00217 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno2/Tile (2)6" index="1"]
+
+position = Vector2( 345.924, 0.389515 )
+scale = Vector2( 1.10926, 1.00657 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno2/Tile (2)6" index="2"]
+
+position = Vector2( 469.861, -0.0294878 )
+scale = Vector2( 0.858133, 1.00071 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno2/Tile (2)6" index="3"]
+
+position = Vector2( 578.196, -0.169408 )
+scale = Vector2( 0.858133, 0.999723 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno2" index="5"]
+
+editor/display_folded = true
+position = Vector2( 1387.73, -0.776855 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno2/Tile (2)7" index="0"]
+
+position = Vector2( 171.763, 0.00447059 )
+scale = Vector2( 1.6919, 0.997807 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno2/Tile (2)7" index="1"]
+
+position = Vector2( 345.924, 0.127646 )
+scale = Vector2( 1.10926, 1.00248 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno2/Tile (2)7" index="2"]
+
+position = Vector2( 469.861, -0.968696 )
+scale = Vector2( 0.858133, 0.986038 )
+texture = ExtResource( 4 )
+
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno2/Tile (2)7" index="3"]
+
+position = Vector2( 578.196, -0.169408 )
+scale = Vector2( 0.858133, 0.999723 )
+texture = ExtResource( 4 )
+
+[node name="chao_extra3" type="Sprite" parent="TileMap" index="4"]
+
+editor/display_folded = true
+position = Vector2( 1748.47, 665.796 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)2" type="Sprite" parent="TileMap/chao_extra3" index="0"]
+
+position = Vector2( 240.79, 1.86511 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)" type="Sprite" parent="TileMap/chao_extra3" index="1"]
+
+position = Vector2( 118.923, 1.37036 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)3" type="Sprite" parent="TileMap/chao_extra3" index="2"]
+
+editor/display_folded = true
+position = Vector2( 367.164, 1.55646 )
+scale = Vector2( 1, 1 )
+texture = ExtResource( 3 )
+
+[node name="Tile (7)" type="Sprite" parent="TileMap/chao_extra3/Tile (5)3" index="0"]
+
+position = Vector2( 438.111, -101.746 )
+scale = Vector2( 1, 0.604514 )
+texture = ExtResource( 5 )
+
+[node name="Tile (5)4" type="Sprite" parent="TileMap/chao_extra3" index="3"]
+
+position = Vector2( 490.416, 2.35773 )
+scale = Vector2( 1, 0.986472 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)5" type="Sprite" parent="TileMap/chao_extra3" index="4"]
+
+position = Vector2( 614.7, 1.19031 )
+scale = Vector2( 1, 0.981747 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)6" type="Sprite" parent="TileMap/chao_extra3" index="5"]
+
+position = Vector2( 741.011, 1.99847 )
+scale = Vector2( 1, 0.99225 )
+texture = ExtResource( 3 )
+
+[node name="chao_extra2" type="Sprite" parent="TileMap" index="5"]
+
+editor/display_folded = true
+position = Vector2( 928.042, 668.298 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)2" type="Sprite" parent="TileMap/chao_extra2" index="0"]
+
+position = Vector2( 242.411, -2.99811 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)" type="Sprite" parent="TileMap/chao_extra2" index="1"]
+
+position = Vector2( 118.923, 1.37036 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)3" type="Sprite" parent="TileMap/chao_extra2" index="2"]
+
+position = Vector2( 369.818, -2.44354 )
+scale = Vector2( 1, 1 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)4" type="Sprite" parent="TileMap/chao_extra2" index="3"]
+
+position = Vector2( 488.2, -4.29047 )
+scale = Vector2( 1, 0.986472 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)5" type="Sprite" parent="TileMap/chao_extra2" index="4"]
+
+position = Vector2( 615.722, -1.7157 )
+scale = Vector2( 1, 0.981747 )
+texture = ExtResource( 3 )
+
+[node name="Tile (5)6" type="Sprite" parent="TileMap/chao_extra2" index="5"]
+
+position = Vector2( 740.471, -0.703369 )
+scale = Vector2( 1, 0.99225 )
+texture = ExtResource( 3 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." index="1"]
+
+editor/display_folded = true
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = false
+
+[node name="BG_nolua" type="Sprite" parent="ParallaxBackground" index="0"]
+
+position = Vector2( 645.66, 263.226 )
+scale = Vector2( 0.644703, 0.459613 )
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="BG_nolua2" type="Sprite" parent="ParallaxBackground" index="1"]
+
+position = Vector2( 1924.56, 263.04 )
+scale = Vector2( 0.644703, 0.459613 )
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="." index="2"]
+
+editor/display_folded = true
+position = Vector2( 257.217, 515.451 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 7 )
+_sections_unfolded = [ "Collision", "Material", "Pause", "Pickable", "Visibility", "collision" ]
+speed = 200
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D" index="0"]
+
+position = Vector2( -112.866, -20.5703 )
+scale = Vector2( 4.29592, 6.55693 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D" index="1"]
+
+position = Vector2( -117.539, -43.7584 )
+scale = Vector2( 0.254105, 0.258356 )
+frames = SubResource( 1 )
+animation = "caminhando_dir"
+_sections_unfolded = [ "Visibility" ]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="3"]
+
+stream = ExtResource( 45 )
+volume_db = 0.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+[node name="Bone (3)" type="Sprite" parent="." index="4"]
+
+position = Vector2( 330, 610 )
+texture = ExtResource( 46 )
+
+[node name="Bone (2)" type="Sprite" parent="." index="5"]
+
+position = Vector2( 868, 570 )
+scale = Vector2( 0.8125, 0.625 )
+texture = ExtResource( 47 )
+
+[node name="Bone (4)" type="Sprite" parent="." index="6"]
+
+position = Vector2( 648, 575 )
+scale = Vector2( 0.65625, 0.390625 )
+texture = ExtResource( 48 )
+
+[node name="TombStone (2)" type="Sprite" parent="." index="7"]
+
+position = Vector2( 970, 490 )
+texture = ExtResource( 49 )
+
+
