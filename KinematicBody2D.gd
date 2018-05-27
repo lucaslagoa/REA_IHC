@@ -3,7 +3,7 @@ extends KinematicBody2D
 # class member variables go here, for example:
 # var a = 2
 # var b = "textvar"
-export (int) var speed = 200
+export (int) var speed = 5
 
 var velocity = Vector2()
 
@@ -36,9 +36,12 @@ func _process(delta):
 	# Called every frame. Delta is time since last frame.
 	# Update game logic here.
 	#$AnimatedSprite.play()
+	var estado;
 	parado()
 	get_input()
-	move_and_slide(velocity)
+	estado = move_and_collide(velocity)
+	if(estado):
+		print("colisao");
 	
 
 	
