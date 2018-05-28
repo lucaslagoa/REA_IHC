@@ -11,7 +11,7 @@ config_version=3
 [application]
 
 config/name="Md Investigacões - Mansão mal assombrada"
-run/main_scene="res://Mansao.tscn"
+run/main_scene="res://cemiterio.tscn"
 config/icon="res://icon.png"
 
 [rendering]

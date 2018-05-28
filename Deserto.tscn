@@ -78,7 +78,7 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[node name="Deserto" type="Node" index="0"]
+[node name="Deserto" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
