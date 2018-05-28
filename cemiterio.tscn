@@ -59,23 +59,23 @@
 [ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=57]
 [ext_resource path="res://graveyard/png/Tiles/Bone (1).png" type="Texture" id=58]
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 49.6995, 27.7895 )
 
-[sub_resource type="RectangleShape2D" id=5]
+[sub_resource type="RectangleShape2D" id=2]
 
 custom_solver_bias = 0.0
 extents = Vector2( 30, 40 )
 
-[sub_resource type="CapsuleShape2D" id=1]
+[sub_resource type="CapsuleShape2D" id=3]
 
 custom_solver_bias = 0.0
 radius = 10.0
 height = 20.0
 
-[sub_resource type="SpriteFrames" id=2]
+[sub_resource type="SpriteFrames" id=4]
 
 animations = [ {
 "frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ) ],
@@ -100,12 +100,12 @@ animations = [ {
 } ]
 _sections_unfolded = [ "Resource" ]
 
-[sub_resource type="RectangleShape2D" id=3]
+[sub_resource type="RectangleShape2D" id=5]
 
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[node name="Cemiterio" type="Node" index="0"]
+[node name="Cemiterio" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -126,6 +126,7 @@ collision_mask = 1
 occluder_light_mask = 1
 format = 1
 tile_data = PoolIntArray(  )
+_sections_unfolded = [ "Cell" ]
 
 [node name="chao_extra" type="Sprite" parent="TileMap" index="0"]
 
@@ -652,8 +653,6 @@ texture = ExtResource( 1 )
 
 [node name="Objetos do cenario" type="Node2D" parent="TileMap" index="9"]
 
-editor/display_folded = true
-
 [node name="DeadBush" type="Sprite" parent="TileMap/Objetos do cenario" index="0"]
 
 position = Vector2( 2487, 498.5 )
@@ -782,7 +781,7 @@ bounce = 0.0
 
 position = Vector2( -2.66675, 0 )
 scale = Vector2( 1.0597, 1 )
-shape = SubResource( 4 )
+shape = SubResource( 1 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." index="1"]
 
@@ -853,6 +852,7 @@ texture = ExtResource( 18 )
 
 [node name="TombStone (2)" type="Sprite" parent="." index="6"]
 
+editor/display_folded = true
 position = Vector2( 970, 490 )
 texture = ExtResource( 19 )
 
@@ -871,11 +871,10 @@ _sections_unfolded = [ "Collision" ]
 
 position = Vector2( 0, 3.5 )
 scale = Vector2( 1, 1.0814 )
-shape = SubResource( 5 )
+shape = SubResource( 2 )
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="." index="7"]
 
-editor/display_folded = true
 position = Vector2( 320, 510 )
 input_pickable = false
 collision_layer = 1
@@ -889,19 +888,19 @@ speed = 5
 
 position = Vector2( -112.217, -20.5703 )
 scale = Vector2( 5, 6.55693 )
-shape = SubResource( 1 )
+shape = SubResource( 3 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D" index="1"]
 
 position = Vector2( -117.539, -43.7584 )
 scale = Vector2( 0.254105, 0.258356 )
-frames = SubResource( 2 )
+frames = SubResource( 4 )
 animation = "caminhando_dir"
-_sections_unfolded = [ "Visibility" ]
+_sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="Camera2D" type="Camera2D" parent="KinematicBody2D" index="2"]
 
-position = Vector2( 252.783, -215.451 )
+position = Vector2( 255.573, -207.082 )
 anchor_mode = 1
 rotating = false
 current = true
@@ -928,11 +927,8 @@ _sections_unfolded = [ "Drag Margin", "Limit" ]
 
 [node name="Node2D" type="Node2D" parent="." index="8"]
 
-editor/display_folded = true
-
 [node name="Crate2" type="Sprite" parent="Node2D" index="0"]
 
-editor/display_folded = true
 position = Vector2( 50, 380 )
 texture = ExtResource( 11 )
 
@@ -950,7 +946,7 @@ bounce = 0.0
 
 position = Vector2( 5, 50 )
 scale = Vector2( 5.5, 10 )
-shape = SubResource( 3 )
+shape = SubResource( 5 )
 
 [node name="Crate" type="Sprite" parent="Node2D/Crate2" index="1"]
 
