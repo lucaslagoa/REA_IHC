@@ -14,6 +14,10 @@ config/name="Md Investigacões - Mansão mal assombrada"
 run/main_scene="res://cemiterio.tscn"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "GodotTIE" )
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
