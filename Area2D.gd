@@ -24,7 +24,11 @@ func saiu(body):
 func _process(delta):
 	if(interacao and Input.is_action_pressed("ui_accept")):
 		print("Clique")
+		mensagem()
 	# print(is_colliding())
 #	# Called every frame. Delta is time since last frame.
 #	# Update game logic here.
 #	pass
+func mensagem():
+	get_node("RichTextLabel").percent_visible=1
+	get_node("Bone").visible=1
