@@ -104,11 +104,10 @@ extents = Vector2( 10, 10 )
 custom_solver_bias = 0.0
 extents = Vector2( 16.25, 12.8267 )
 
-[node name="Deserto" type="Node" index="0"]
+[node name="Deserto" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
-editor/display_folded = true
 mode = 0
 tile_set = null
 cell_size = Vector2( 64, 64 )
@@ -626,7 +625,6 @@ texture = ExtResource( 4 )
 
 [node name="Sign3" type="Sprite" parent="TileMap" index="56"]
 
-editor/display_folded = true
 position = Vector2( 2041.64, 464.353 )
 scale = Vector2( 1.00659, 1.06958 )
 texture = ExtResource( 14 )
