@@ -9,8 +9,8 @@
 [ext_resource path="res://deserttiles/png/Objects/Cactus (3).png" type="Texture" id=7]
 [ext_resource path="res://deserttiles/png/Tile/4.png" type="Texture" id=8]
 [ext_resource path="res://deserttiles/png/Tile/1.png" type="Texture" id=9]
-[ext_resource path="res://deserttiles/png/Objects/Bush (1).png" type="Texture" id=10]
-[ext_resource path="res://deserttiles/png/Objects/Cactus (1).png" type="Texture" id=11]
+[ext_resource path="res://deserttiles/png/Objects/Cactus (1).png" type="Texture" id=10]
+[ext_resource path="res://deserttiles/png/Objects/Bush (1).png" type="Texture" id=11]
 [ext_resource path="res://deserttiles/png/Tile/5.png" type="Texture" id=12]
 [ext_resource path="res://deserttiles/png/BG.png" type="Texture" id=13]
 [ext_resource path="res://deserttiles/png/Objects/Sign.png" type="Texture" id=14]
@@ -58,12 +58,12 @@
 [ext_resource path="res://templerun/Run__009.png" type="Texture" id=56]
 [ext_resource path="res://desert.ogg" type="AudioStream" id=57]
 
-[sub_resource type="RectangleShape2D" id=5]
+[sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 12.146, 10 )
 
-[sub_resource type="SpriteFrames" id=1]
+[sub_resource type="SpriteFrames" id=2]
 
 animations = [ {
 "frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
@@ -88,23 +88,23 @@ animations = [ {
 } ]
 _sections_unfolded = [ "Resource" ]
 
-[sub_resource type="CapsuleShape2D" id=2]
+[sub_resource type="CapsuleShape2D" id=3]
 
 custom_solver_bias = 0.0
 radius = 4.84627
 height = 20.0
 
-[sub_resource type="RectangleShape2D" id=3]
+[sub_resource type="RectangleShape2D" id=4]
 
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=5]
 
 custom_solver_bias = 0.0
 extents = Vector2( 16.25, 12.8267 )
 
-[node name="Deserto" type="Node"]
+[node name="Deserto" type="Node" index="0"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -129,7 +129,6 @@ _sections_unfolded = [ "Cell" ]
 
 [node name="BG" type="Sprite" parent="TileMap" index="0"]
 
-editor/display_folded = true
 position = Vector2( 484, 304 )
 scale = Vector2( 0.800608, 0.628665 )
 texture = ExtResource( 1 )
@@ -219,135 +218,135 @@ position = Vector2( 702.964, 565.63 )
 scale = Vector2( 0.705486, 0.721001 )
 texture = ExtResource( 2 )
 
-[node name="Bush (1)" type="Sprite" parent="TileMap" index="4"]
+[node name="Cactus (1)" type="Sprite" parent="TileMap" index="4"]
 
-position = Vector2( 946.449, 477.147 )
+position = Vector2( 166.839, 420.931 )
+scale = Vector2( 0.411828, 0.381948 )
 texture = ExtResource( 10 )
 
-[node name="Cactus (1)" type="Sprite" parent="TileMap/Bush (1)" index="0"]
+[node name="Bush (1)" type="Sprite" parent="TileMap" index="5"]
 
-position = Vector2( -767.722, -49.7322 )
-scale = Vector2( 0.411828, 0.381948 )
+position = Vector2( 939.965, 473.905 )
 texture = ExtResource( 11 )
 
-[node name="BG2" type="Sprite" parent="TileMap" index="5"]
+[node name="BG2" type="Sprite" parent="TileMap" index="6"]
 
-editor/display_folded = true
-position = Vector2( 1515.29, 304 )
+position = Vector2( 1514.41, 298.997 )
 scale = Vector2( 0.816461, 0.647983 )
 texture = ExtResource( 1 )
 _sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="2" type="Sprite" parent="TileMap/BG2" index="0"]
 
-position = Vector2( -400.546, 413.469 )
+position = Vector2( -402.492, 414.695 )
 scale = Vector2( 1.37653, 1.22047 )
 texture = ExtResource( 2 )
 
-[node name="5" type="Sprite" parent="TileMap" index="6"]
+[node name="5" type="Sprite" parent="TileMap" index="7"]
 
 position = Vector2( 226.413, 660.19 )
 texture = ExtResource( 12 )
 
-[node name="6" type="Sprite" parent="TileMap" index="7"]
+[node name="6" type="Sprite" parent="TileMap" index="8"]
 
 position = Vector2( 349.36, 655.089 )
 texture = ExtResource( 12 )
 
-[node name="7" type="Sprite" parent="TileMap" index="8"]
+[node name="7" type="Sprite" parent="TileMap" index="9"]
 
 position = Vector2( 469.944, 656.999 )
 texture = ExtResource( 12 )
 
-[node name="8" type="Sprite" parent="TileMap" index="9"]
+[node name="8" type="Sprite" parent="TileMap" index="10"]
 
-position = Vector2( 596.429, 663.718 )
+position = Vector2( 595.348, 659.395 )
 texture = ExtResource( 12 )
 
-[node name="9" type="Sprite" parent="TileMap" index="10"]
+[node name="9" type="Sprite" parent="TileMap" index="11"]
 
-position = Vector2( 722.756, 663.468 )
+position = Vector2( 721.675, 662.387 )
 texture = ExtResource( 12 )
 
-[node name="10" type="Sprite" parent="TileMap" index="11"]
+[node name="10" type="Sprite" parent="TileMap" index="12"]
 
 position = Vector2( 844.271, 657.343 )
 texture = ExtResource( 12 )
 
-[node name="11" type="Sprite" parent="TileMap" index="12"]
+[node name="11" type="Sprite" parent="TileMap" index="13"]
 
 position = Vector2( 117.521, 640.084 )
 scale = Vector2( 0.731683, 0.692854 )
 texture = ExtResource( 12 )
 
-[node name="12" type="Sprite" parent="TileMap" index="13"]
+[node name="50" type="Sprite" parent="TileMap" index="14"]
+
+position = Vector2( 1055.13, 581.912 )
+texture = ExtResource( 2 )
+
+[node name="12" type="Sprite" parent="TileMap" index="15"]
 
 position = Vector2( 967.61, 657.343 )
 texture = ExtResource( 12 )
 
-[node name="2" type="Sprite" parent="TileMap/12" index="0"]
+[node name="4" type="Sprite" parent="TileMap" index="16"]
 
-position = Vector2( 85.3635, -75.431 )
+position = Vector2( 1340.31, 581.077 )
+scale = Vector2( 1.42737, 1 )
 texture = ExtResource( 2 )
 
-[node name="4" type="Sprite" parent="TileMap" index="14"]
-
-position = Vector2( 1320.9, 581.871 )
-texture = ExtResource( 2 )
-
-[node name="13" type="Sprite" parent="TileMap" index="15"]
+[node name="13" type="Sprite" parent="TileMap" index="17"]
 
 position = Vector2( 1446.54, 582.665 )
 texture = ExtResource( 2 )
 
-[node name="14" type="Sprite" parent="TileMap" index="16"]
+[node name="14" type="Sprite" parent="TileMap" index="18"]
 
 position = Vector2( 1572.97, 582.665 )
 texture = ExtResource( 2 )
 
-[node name="15" type="Sprite" parent="TileMap" index="17"]
+[node name="15" type="Sprite" parent="TileMap" index="19"]
 
 position = Vector2( 1700.88, 582.665 )
 texture = ExtResource( 2 )
 
-[node name="16" type="Sprite" parent="TileMap" index="18"]
+[node name="16" type="Sprite" parent="TileMap" index="20"]
 
 position = Vector2( 1828.8, 582.665 )
 texture = ExtResource( 2 )
 
-[node name="17" type="Sprite" parent="TileMap" index="19"]
+[node name="17" type="Sprite" parent="TileMap" index="21"]
 
 position = Vector2( 1955.59, 582.568 )
 texture = ExtResource( 2 )
 
-[node name="BG3" type="Sprite" parent="TileMap" index="20"]
+[node name="BG3" type="Sprite" parent="TileMap" index="22"]
 
 position = Vector2( 2520.88, 304 )
 scale = Vector2( 0.786583, 0.642622 )
 texture = ExtResource( 13 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="18" type="Sprite" parent="TileMap" index="21"]
+[node name="18" type="Sprite" parent="TileMap" index="23"]
 
 position = Vector2( 2078.2, 582 )
 texture = ExtResource( 2 )
 
-[node name="19" type="Sprite" parent="TileMap" index="22"]
+[node name="19" type="Sprite" parent="TileMap" index="24"]
 
 position = Vector2( 2205.83, 581.877 )
 texture = ExtResource( 2 )
 
-[node name="20" type="Sprite" parent="TileMap" index="23"]
+[node name="20" type="Sprite" parent="TileMap" index="25"]
 
 position = Vector2( 2332.76, 581.877 )
 texture = ExtResource( 2 )
 
-[node name="21" type="Sprite" parent="TileMap" index="24"]
+[node name="21" type="Sprite" parent="TileMap" index="26"]
 
 position = Vector2( 2456.1, 581.877 )
 texture = ExtResource( 2 )
 
-[node name="22" type="Sprite" parent="TileMap" index="25"]
+[node name="22" type="Sprite" parent="TileMap" index="27"]
 
 position = Vector2( 2581.54, 595.096 )
 texture = ExtResource( 2 )
@@ -357,148 +356,149 @@ texture = ExtResource( 2 )
 position = Vector2( -125.804, 112.97 )
 texture = ExtResource( 12 )
 
-[node name="23" type="Sprite" parent="TileMap" index="26"]
+[node name="23" type="Sprite" parent="TileMap" index="28"]
 
 position = Vector2( 2710.25, 580.52 )
 texture = ExtResource( 2 )
 
-[node name="24" type="Sprite" parent="TileMap" index="27"]
+[node name="24" type="Sprite" parent="TileMap" index="29"]
 
 position = Vector2( 2836.29, 579.193 )
 texture = ExtResource( 2 )
 
-[node name="25" type="Sprite" parent="TileMap" index="28"]
+[node name="25" type="Sprite" parent="TileMap" index="30"]
 
 position = Vector2( 2962.34, 579.193 )
 texture = ExtResource( 2 )
 
-[node name="26" type="Sprite" parent="TileMap" index="29"]
+[node name="26" type="Sprite" parent="TileMap" index="31"]
 
 position = Vector2( 1095.06, 665.833 )
 texture = ExtResource( 12 )
 
-[node name="27" type="Sprite" parent="TileMap" index="30"]
+[node name="27" type="Sprite" parent="TileMap" index="32"]
 
 position = Vector2( 1217.24, 677.236 )
 texture = ExtResource( 12 )
 
-[node name="28" type="Sprite" parent="TileMap" index="31"]
+[node name="28" type="Sprite" parent="TileMap" index="33"]
 
 position = Vector2( 1334.52, 678.865 )
 texture = ExtResource( 12 )
 
-[node name="29" type="Sprite" parent="TileMap" index="32"]
+[node name="29" type="Sprite" parent="TileMap" index="34"]
 
 position = Vector2( 1448.55, 691.897 )
 texture = ExtResource( 12 )
 
-[node name="30" type="Sprite" parent="TileMap" index="33"]
+[node name="30" type="Sprite" parent="TileMap" index="35"]
 
 position = Vector2( 1552.81, 678.865 )
 texture = ExtResource( 12 )
 
-[node name="31" type="Sprite" parent="TileMap" index="34"]
+[node name="31" type="Sprite" parent="TileMap" index="36"]
 
 position = Vector2( 1657.07, 687.01 )
 texture = ExtResource( 12 )
 
-[node name="32" type="Sprite" parent="TileMap" index="35"]
+[node name="32" type="Sprite" parent="TileMap" index="37"]
 
 position = Vector2( 1772.73, 693.526 )
 texture = ExtResource( 12 )
 
-[node name="33" type="Sprite" parent="TileMap" index="36"]
+[node name="33" type="Sprite" parent="TileMap" index="38"]
 
 position = Vector2( 1896.53, 693.526 )
 texture = ExtResource( 12 )
 
-[node name="34" type="Sprite" parent="TileMap" index="37"]
+[node name="34" type="Sprite" parent="TileMap" index="39"]
 
 position = Vector2( 2012.19, 701.672 )
 texture = ExtResource( 12 )
 
-[node name="35" type="Sprite" parent="TileMap" index="38"]
+[node name="35" type="Sprite" parent="TileMap" index="40"]
 
 position = Vector2( 2118.08, 695.156 )
 texture = ExtResource( 12 )
 
-[node name="36" type="Sprite" parent="TileMap" index="39"]
+[node name="36" type="Sprite" parent="TileMap" index="41"]
 
 position = Vector2( 2227.22, 700.043 )
 texture = ExtResource( 12 )
 
-[node name="37" type="Sprite" parent="TileMap" index="40"]
+[node name="37" type="Sprite" parent="TileMap" index="42"]
 
 position = Vector2( 2341.25, 700.043 )
 texture = ExtResource( 12 )
 
-[node name="38" type="Sprite" parent="TileMap" index="41"]
+[node name="38" type="Sprite" parent="TileMap" index="43"]
 
-position = Vector2( 2583.36, 582.206 )
+position = Vector2( 2581.93, 580.772 )
 texture = ExtResource( 2 )
 
-[node name="39" type="Sprite" parent="TileMap" index="42"]
+[node name="39" type="Sprite" parent="TileMap" index="44"]
 
 position = Vector2( 2710.5, 582.698 )
 texture = ExtResource( 2 )
 
-[node name="40" type="Sprite" parent="TileMap" index="43"]
+[node name="40" type="Sprite" parent="TileMap" index="45"]
 
 position = Vector2( 2839.02, 582.698 )
 texture = ExtResource( 2 )
 
-[node name="41" type="Sprite" parent="TileMap" index="44"]
+[node name="41" type="Sprite" parent="TileMap" index="46"]
 
 position = Vector2( 2965.78, 583.578 )
 texture = ExtResource( 2 )
 
-[node name="42" type="Sprite" parent="TileMap" index="45"]
+[node name="42" type="Sprite" parent="TileMap" index="47"]
 
 position = Vector2( 2573.19, 699.771 )
 texture = ExtResource( 12 )
 
-[node name="43" type="Sprite" parent="TileMap" index="46"]
+[node name="43" type="Sprite" parent="TileMap" index="48"]
 
 position = Vector2( 2690.04, 680.665 )
 texture = ExtResource( 12 )
 
-[node name="44" type="Sprite" parent="TileMap" index="47"]
+[node name="44" type="Sprite" parent="TileMap" index="49"]
 
 position = Vector2( 2797.36, 683.606 )
 texture = ExtResource( 12 )
 
-[node name="45" type="Sprite" parent="TileMap" index="48"]
+[node name="45" type="Sprite" parent="TileMap" index="50"]
 
 position = Vector2( 2919.39, 699.778 )
 texture = ExtResource( 12 )
 
-[node name="46" type="Sprite" parent="TileMap" index="49"]
+[node name="46" type="Sprite" parent="TileMap" index="51"]
 
 position = Vector2( 3029.65, 688.016 )
 texture = ExtResource( 12 )
 
-[node name="47" type="Sprite" parent="TileMap" index="50"]
+[node name="47" type="Sprite" parent="TileMap" index="52"]
 
 position = Vector2( 3081.51, 633.751 )
 texture = ExtResource( 12 )
 
-[node name="BG4" type="Sprite" parent="TileMap" index="51"]
+[node name="BG4" type="Sprite" parent="TileMap" index="53"]
 
-position = Vector2( 3628.69, 275.634 )
-scale = Vector2( 0.945687, 0.829585 )
+position = Vector2( 3495.75, 297.299 )
+scale = Vector2( 0.74, 0.66604 )
 texture = ExtResource( 13 )
+_sections_unfolded = [ "Transform" ]
 
-[node name="48" type="Sprite" parent="TileMap" index="52"]
+[node name="48" type="Sprite" parent="TileMap" index="54"]
 
 position = Vector2( 3084.85, 627.07 )
 texture = ExtResource( 12 )
 
-[node name="49" type="Sprite" parent="TileMap" index="53"]
+[node name="49" type="Sprite" parent="TileMap" index="55"]
 
-position = Vector2( 3083.38, 583.245 )
+position = Vector2( 3082.05, 579.264 )
 texture = ExtResource( 3 )
 
-[node name="Sign" type="Sprite" parent="TileMap" index="54"]
+[node name="Sign" type="Sprite" parent="TileMap" index="56"]
 
 editor/display_folded = true
 position = Vector2( 726.318, 475.235 )
@@ -520,7 +520,7 @@ script = ExtResource( 15 )
 
 position = Vector2( 1.81012, -0.284973 )
 scale = Vector2( 3.77378, 4.17342 )
-shape = SubResource( 5 )
+shape = SubResource( 1 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Sign/Area2DDesert" index="1"]
 
@@ -560,7 +560,7 @@ position = Vector2( -4.63873, -123.938 )
 scale = Vector2( 0.420783, 0.822639 )
 texture = ExtResource( 4 )
 
-[node name="Sign2" type="Sprite" parent="TileMap" index="55"]
+[node name="Sign2" type="Sprite" parent="TileMap" index="57"]
 
 editor/display_folded = true
 position = Vector2( 1438.28, 469.5 )
@@ -583,7 +583,7 @@ script = ExtResource( 15 )
 
 position = Vector2( -683.57, -0.591522 )
 scale = Vector2( 3.77378, 4.17342 )
-shape = SubResource( 5 )
+shape = SubResource( 1 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Sign2/Area2DDesert" index="1"]
 
@@ -623,7 +623,7 @@ position = Vector2( -682.22, -99.3076 )
 scale = Vector2( 0.420783, 0.822639 )
 texture = ExtResource( 4 )
 
-[node name="Sign3" type="Sprite" parent="TileMap" index="56"]
+[node name="Sign3" type="Sprite" parent="TileMap" index="58"]
 
 position = Vector2( 2041.64, 464.353 )
 scale = Vector2( 1.00659, 1.06958 )
@@ -645,7 +645,7 @@ script = ExtResource( 15 )
 
 position = Vector2( -505.546, -1.41315 )
 scale = Vector2( 3.77378, 4.17342 )
-shape = SubResource( 5 )
+shape = SubResource( 1 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Sign3/Area2DDesert" index="1"]
 
@@ -687,7 +687,6 @@ texture = ExtResource( 4 )
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="." index="1"]
 
-editor/display_folded = true
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -699,7 +698,7 @@ speed = 5
 
 position = Vector2( 197.033, 454.822 )
 scale = Vector2( 0.254, 0.258 )
-frames = SubResource( 1 )
+frames = SubResource( 2 )
 animation = "caminhando_esq"
 _sections_unfolded = [ "Transform" ]
 
@@ -707,7 +706,7 @@ _sections_unfolded = [ "Transform" ]
 
 position = Vector2( 193.396, 440.692 )
 scale = Vector2( 10.9856, 6.93669 )
-shape = SubResource( 2 )
+shape = SubResource( 3 )
 
 [node name="Camera2D" type="Camera2D" parent="KinematicBody2D" index="2"]
 
@@ -750,7 +749,7 @@ bus = "Master"
 editor/display_folded = true
 position = Vector2( 33.8049, 408.289 )
 scale = Vector2( 1.2688, 1.96761 )
-texture = ExtResource( 11 )
+texture = ExtResource( 10 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Cactus (1)" index="0"]
 
@@ -766,14 +765,14 @@ bounce = 0.0
 
 position = Vector2( 8.91103, 10.9726 )
 scale = Vector2( 4.50119, 4.5981 )
-shape = SubResource( 3 )
+shape = SubResource( 4 )
 
 [node name="Cactus (1)2" type="Sprite" parent="." index="4"]
 
 editor/display_folded = true
 position = Vector2( 2317.75, 426.853 )
 scale = Vector2( 1.36157, 1.70796 )
-texture = ExtResource( 11 )
+texture = ExtResource( 10 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Cactus (1)2" index="0"]
 
@@ -789,6 +788,12 @@ bounce = 0.0
 
 position = Vector2( -0.00704861, 3.46184 )
 scale = Vector2( 3.22961, 4.96605 )
-shape = SubResource( 4 )
+shape = SubResource( 5 )
+
+[node name="2" type="Sprite" parent="." index="5"]
+
+position = Vector2( 1053.66, 568.153 )
+scale = Vector2( 1.07273, 0.78785 )
+texture = ExtResource( 2 )
 
 

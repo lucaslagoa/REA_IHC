@@ -57,22 +57,22 @@
 [ext_resource path="res://forest/png/Object/Stone.png" type="Texture" id=55]
 [ext_resource path="res://forest.ogg" type="AudioStream" id=56]
 
-[sub_resource type="RectangleShape2D" id=6]
+[sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[sub_resource type="RectangleShape2D" id=5]
+[sub_resource type="RectangleShape2D" id=2]
 
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[sub_resource type="RectangleShape2D" id=7]
+[sub_resource type="RectangleShape2D" id=3]
 
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[sub_resource type="SpriteFrames" id=1]
+[sub_resource type="SpriteFrames" id=4]
 
 animations = [ {
 "frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
@@ -96,18 +96,18 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="CapsuleShape2D" id=2]
+[sub_resource type="CapsuleShape2D" id=5]
 
 custom_solver_bias = 0.0
 radius = 10.0
 height = 10.3709
 
-[sub_resource type="RectangleShape2D" id=3]
+[sub_resource type="RectangleShape2D" id=6]
 
 custom_solver_bias = 0.0
 extents = Vector2( 10, 21.5556 )
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=7]
 
 custom_solver_bias = 0.0
 extents = Vector2( 13.65, 21.2196 )
@@ -460,7 +460,7 @@ script = ExtResource( 9 )
 
 position = Vector2( -0.0221894, 1.06449 )
 scale = Vector2( 2.43184, 1.9771 )
-shape = SubResource( 6 )
+shape = SubResource( 1 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Mushroom_1/Area2DForest" index="1"]
 
@@ -521,7 +521,7 @@ script = ExtResource( 9 )
 
 position = Vector2( -1.65344, -0.78244 )
 scale = Vector2( 3.64885, 3.7314 )
-shape = SubResource( 5 )
+shape = SubResource( 2 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Crate/Area2DForest" index="1"]
 
@@ -580,7 +580,7 @@ script = ExtResource( 9 )
 
 position = Vector2( -0.932251, -1.1088 )
 scale = Vector2( 2.35271, 2.41383 )
-shape = SubResource( 7 )
+shape = SubResource( 3 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Mushroom_2/Area2DForest" index="1"]
 
@@ -632,7 +632,7 @@ speed = 5
 
 position = Vector2( 266.726, 449.464 )
 scale = Vector2( 0.254, 0.258 )
-frames = SubResource( 1 )
+frames = SubResource( 4 )
 animation = "caminhando_esq"
 _sections_unfolded = [ "Transform" ]
 
@@ -640,7 +640,7 @@ _sections_unfolded = [ "Transform" ]
 
 position = Vector2( 269.717, 435.082 )
 scale = Vector2( 5.57753, -6.145 )
-shape = SubResource( 2 )
+shape = SubResource( 5 )
 
 [node name="Camera2D" type="Camera2D" parent="KinematicBody2D" index="2"]
 
@@ -689,7 +689,7 @@ bounce = 0.0
 
 position = Vector2( 2.16344, -0.403214 )
 scale = Vector2( 4.36021, 1.83995 )
-shape = SubResource( 3 )
+shape = SubResource( 6 )
 
 [node name="Stone2" type="Sprite" parent="." index="3"]
 
@@ -711,7 +711,7 @@ bounce = 0.0
 
 position = Vector2( 15.8027, -0.82251 )
 scale = Vector2( 5.01233, 2.18981 )
-shape = SubResource( 4 )
+shape = SubResource( 7 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="4"]
 

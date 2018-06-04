@@ -110,6 +110,7 @@ extents = Vector2( 10, 10 )
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
+editor/display_folded = true
 mode = 0
 tile_set = null
 cell_size = Vector2( 64, 64 )
@@ -832,7 +833,7 @@ __meta__ = {
 
 stream = ExtResource( 16 )
 volume_db = 0.0
-autoplay = false
+autoplay = true
 mix_target = 0
 bus = "Master"
 

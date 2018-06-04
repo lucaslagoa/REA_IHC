@@ -7,6 +7,7 @@ export (int) var speed = 5
 
 var velocity = Vector2()
 
+
 func _ready():
 	# Called every time the node is added to the scene.
 	# Initialization here
@@ -44,4 +45,5 @@ func _process(delta):
 		print("colisao");
 	
 
+	
 	
