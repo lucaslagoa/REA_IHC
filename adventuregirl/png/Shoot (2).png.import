@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Shoot (2).png-25337ec8bd1633709341e88585621b21.stex"
+
+[deps]
+
+source_file="res://adventuregirl/png/Shoot (2).png"
+source_md5="90b79f943f0c23d25822da76993ed04d"
+
+dest_files=[ "res://.import/Shoot (2).png-25337ec8bd1633709341e88585621b21.stex" ]
+dest_md5="dafb1a01806e9d609e073e0d39d1b044"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

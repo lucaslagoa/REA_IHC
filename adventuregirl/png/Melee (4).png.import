@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Melee (4).png-3766da755112a8a801196ddd6ef2118c.stex"
+
+[deps]
+
+source_file="res://adventuregirl/png/Melee (4).png"
+source_md5="c790a1ede98fdef6102dcc614d1258fc"
+
+dest_files=[ "res://.import/Melee (4).png-3766da755112a8a801196ddd6ef2118c.stex" ]
+dest_md5="5b88c3a67cb86f86e5fc5aa14cf810bd"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

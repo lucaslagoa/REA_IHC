@@ -33,6 +33,7 @@ func mensagem():
 	get_node("RichTextLabel").percent_visible=1
 	get_node("ButtonOkIteracao").flat=0
 	get_node("ButtonOkIteracao").text="OK"
+	get_node("Resposta Charada").show()
 	#print("Deu certo")
 
 func _on_ButtonOkIteracao_pressed():
@@ -40,6 +41,5 @@ func _on_ButtonOkIteracao_pressed():
 	get_node("ButtonOkIteracao").hide()
 	get_node("ButtonOkIteracao").text=""
 	get_node("AnimatedSprite").hide();
-	var posicao = get_node("/root/Forest/NPC2")
-	posicao.show()
+	get_node("Resposta Charada").hide()
 	pass # replace with function body
