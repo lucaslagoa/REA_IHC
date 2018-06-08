@@ -1,4 +1,4 @@
-[gd_scene load_steps=65 format=2]
+[gd_scene load_steps=79 format=2]
 
 [ext_resource path="res://graveyard/png/Tiles/Tile (5).png" type="Texture" id=1]
 [ext_resource path="res://graveyard/png/Tiles/Tile (2).png" type="Texture" id=2]
@@ -13,57 +13,85 @@
 [ext_resource path="res://graveyard/png/Objects/Crate.png" type="Texture" id=11]
 [ext_resource path="res://graveyard/png/Tiles/Bone (2).png" type="Texture" id=12]
 [ext_resource path="res://graveyard/png/Objects/Bush (2).png" type="Texture" id=13]
-[ext_resource path="res://graveyard/png/BG_nolua.png" type="Texture" id=14]
-[ext_resource path="res://graveyard/png/BG.png" type="Texture" id=15]
-[ext_resource path="res://mansao.ogg" type="AudioStream" id=16]
-[ext_resource path="res://graveyard/png/Tiles/Bone (3).png" type="Texture" id=17]
-[ext_resource path="res://graveyard/png/Tiles/Bone (4).png" type="Texture" id=18]
-[ext_resource path="res://graveyard/png/Objects/TombStone (2).png" type="Texture" id=19]
-[ext_resource path="res://Area2D.gd" type="Script" id=20]
-[ext_resource path="res://KinematicBody2D.gd" type="Script" id=21]
-[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=22]
-[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=23]
-[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=24]
-[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=25]
-[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=26]
-[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=27]
-[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=28]
-[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=29]
-[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=30]
-[ext_resource path="res://templerun/Run__000.png" type="Texture" id=31]
-[ext_resource path="res://templerun/Run__001.png" type="Texture" id=32]
-[ext_resource path="res://templerun/Run__003.png" type="Texture" id=33]
-[ext_resource path="res://templerun/Run__002.png" type="Texture" id=34]
-[ext_resource path="res://templerun/Run__004.png" type="Texture" id=35]
-[ext_resource path="res://templerun/Run__005.png" type="Texture" id=36]
-[ext_resource path="res://templerun/Run__006.png" type="Texture" id=37]
-[ext_resource path="res://templerun/Run__008.png" type="Texture" id=38]
-[ext_resource path="res://templerun/Run__007.png" type="Texture" id=39]
-[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=40]
-[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=41]
-[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=42]
-[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=43]
-[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=44]
-[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=45]
-[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=46]
-[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=47]
-[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=48]
-[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=49]
-[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=50]
-[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=51]
-[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=52]
-[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=53]
-[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=54]
-[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=55]
-[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=56]
-[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=57]
-[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=58]
-[ext_resource path="res://graveyard/png/Tiles/Bone (1).png" type="Texture" id=59]
+[ext_resource path="res://NPC.gd" type="Script" id=14]
+[ext_resource path="res://graveyard/jack/esp_Idle (1).png" type="Texture" id=15]
+[ext_resource path="res://graveyard/jack/esp_Idle (2).png" type="Texture" id=16]
+[ext_resource path="res://graveyard/jack/esp_Idle (3).png" type="Texture" id=17]
+[ext_resource path="res://graveyard/jack/esp_Idle (4).png" type="Texture" id=18]
+[ext_resource path="res://graveyard/jack/esp_Idle (5).png" type="Texture" id=19]
+[ext_resource path="res://graveyard/jack/esp_Idle (6).png" type="Texture" id=20]
+[ext_resource path="res://graveyard/jack/esp_Idle (7).png" type="Texture" id=21]
+[ext_resource path="res://graveyard/jack/esp_Idle (8).png" type="Texture" id=22]
+[ext_resource path="res://graveyard/jack/esp_Idle (9).png" type="Texture" id=23]
+[ext_resource path="res://graveyard/jack/esp_Idle (10).png" type="Texture" id=24]
+[ext_resource path="res://NPC2.gd" type="Script" id=25]
+[ext_resource path="res://graveyard/png/BG_nolua.png" type="Texture" id=26]
+[ext_resource path="res://graveyard/png/BG.png" type="Texture" id=27]
+[ext_resource path="res://graveyard/cemiterio.ogg" type="AudioStream" id=28]
+[ext_resource path="res://graveyard/png/Tiles/Bone (3).png" type="Texture" id=29]
+[ext_resource path="res://graveyard/png/Tiles/Bone (4).png" type="Texture" id=30]
+[ext_resource path="res://graveyard/png/Objects/TombStone (2).png" type="Texture" id=31]
+[ext_resource path="res://Area2D.gd" type="Script" id=32]
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=33]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=34]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=35]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=36]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=37]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=38]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=39]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=40]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=41]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=42]
+[ext_resource path="res://templerun/Run__000.png" type="Texture" id=43]
+[ext_resource path="res://templerun/Run__001.png" type="Texture" id=44]
+[ext_resource path="res://templerun/Run__003.png" type="Texture" id=45]
+[ext_resource path="res://templerun/Run__002.png" type="Texture" id=46]
+[ext_resource path="res://templerun/Run__004.png" type="Texture" id=47]
+[ext_resource path="res://templerun/Run__005.png" type="Texture" id=48]
+[ext_resource path="res://templerun/Run__006.png" type="Texture" id=49]
+[ext_resource path="res://templerun/Run__008.png" type="Texture" id=50]
+[ext_resource path="res://templerun/Run__007.png" type="Texture" id=51]
+[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=52]
+[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=53]
+[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=54]
+[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=55]
+[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=56]
+[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=57]
+[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=58]
+[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=59]
+[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=60]
+[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=61]
+[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=62]
+[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=63]
+[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=64]
+[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=65]
+[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=66]
+[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=67]
+[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=68]
+[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=69]
+[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=70]
+[ext_resource path="res://graveyard/png/Tiles/Bone (1).png" type="Texture" id=71]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 49.6995, 27.7895 )
+
+[sub_resource type="SpriteFrames" id=6]
+
+animations = [ {
+"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="CapsuleShape2D" id=7]
+
+custom_solver_bias = 0.0
+radius = 10.0
+height = 20.0
 
 [sub_resource type="RectangleShape2D" id=2]
 
@@ -79,25 +107,25 @@ height = 20.0
 [sub_resource type="SpriteFrames" id=4]
 
 animations = [ {
-"frames": [ ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ) ],
+"frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ) ],
 "loop": true,
 "name": "parado_esq",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ) ],
+"frames": [ ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
 "loop": true,
 "name": "caminhando_dir",
 "speed": 6.01
 }, {
-"frames": [ ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ) ],
-"loop": true,
-"name": "parado",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ) ],
+"frames": [ ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ) ],
 "loop": true,
 "name": "caminhando_esq",
 "speed": 6.01002
+}, {
+"frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ) ],
+"loop": true,
+"name": "parado",
+"speed": 5.0
 } ]
 _sections_unfolded = [ "Resource" ]
 
@@ -106,7 +134,7 @@ _sections_unfolded = [ "Resource" ]
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[node name="Cemiterio" type="Node"]
+[node name="Cemiterio" type="Node" index="0"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -129,532 +157,595 @@ format = 1
 tile_data = PoolIntArray(  )
 _sections_unfolded = [ "Cell" ]
 
-[node name="chao_extra" type="Sprite" parent="TileMap" index="0"]
+[node name="Terreno" type="Node2D" parent="TileMap" index="0"]
+
+editor/display_folded = true
+
+[node name="chao_extra" type="Sprite" parent="TileMap/Terreno" index="0"]
 
 editor/display_folded = true
 position = Vector2( 64.2013, 665.937 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)2" type="Sprite" parent="TileMap/chao_extra" index="0"]
+[node name="Tile (5)2" type="Sprite" parent="TileMap/Terreno/chao_extra" index="0"]
 
 position = Vector2( 240.79, 1.86511 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)" type="Sprite" parent="TileMap/chao_extra" index="1"]
+[node name="Tile (5)" type="Sprite" parent="TileMap/Terreno/chao_extra" index="1"]
 
 position = Vector2( 118.923, 1.37036 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)3" type="Sprite" parent="TileMap/chao_extra" index="2"]
+[node name="Tile (5)3" type="Sprite" parent="TileMap/Terreno/chao_extra" index="2"]
 
 position = Vector2( 362.915, 2.8833 )
 scale = Vector2( 1.02493, 1 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)4" type="Sprite" parent="TileMap/chao_extra" index="3"]
+[node name="Tile (5)4" type="Sprite" parent="TileMap/Terreno/chao_extra" index="3"]
 
 position = Vector2( 490.416, 2.35773 )
 scale = Vector2( 1, 0.986472 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)5" type="Sprite" parent="TileMap/chao_extra" index="4"]
+[node name="Tile (5)5" type="Sprite" parent="TileMap/Terreno/chao_extra" index="4"]
 
 position = Vector2( 617.883, 2.60718 )
 scale = Vector2( 1, 0.981747 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)6" type="Sprite" parent="TileMap/chao_extra" index="5"]
+[node name="Tile (5)6" type="Sprite" parent="TileMap/Terreno/chao_extra" index="5"]
 
 position = Vector2( 741.011, 1.99847 )
 scale = Vector2( 1, 0.99225 )
 texture = ExtResource( 1 )
 
-[node name="Terreno" type="Sprite" parent="TileMap" index="1"]
+[node name="Terreno" type="Sprite" parent="TileMap/Terreno" index="1"]
 
 editor/display_folded = true
 position = Vector2( 39.5417, 567.27 )
 scale = Vector2( 0.597351, 0.61477 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno" index="0"]
 
 position = Vector2( 171.763, -0.406807 )
 scale = Vector2( 1.6919, 0.991381 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno" index="1"]
 
 position = Vector2( 345.924, -0.28486 )
 scale = Vector2( 1.10926, 0.996032 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno" index="2"]
 
 position = Vector2( 469.861, -0.24798 )
 scale = Vector2( 0.858133, 0.997299 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno" index="4"]
+[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno/Terreno" index="4"]
 
 editor/display_folded = true
 position = Vector2( 693.589, -0.294006 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Tile (2)6" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno/Tile (2)6" index="0"]
 
 position = Vector2( 171.763, 0.284002 )
 scale = Vector2( 1.6919, 1.00217 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Tile (2)6" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno/Tile (2)6" index="1"]
 
 position = Vector2( 345.924, 0.389515 )
 scale = Vector2( 1.10926, 1.00657 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Tile (2)6" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno/Tile (2)6" index="2"]
 
 position = Vector2( 469.861, -0.0294878 )
 scale = Vector2( 0.858133, 1.00071 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Tile (2)6" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno/Tile (2)6" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno" index="5"]
+[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno/Terreno" index="5"]
 
 position = Vector2( 1387.73, -0.776855 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Tile (2)7" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno/Tile (2)7" index="0"]
 
 position = Vector2( 171.763, 0.00447059 )
 scale = Vector2( 1.6919, 0.997807 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Tile (2)7" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno/Tile (2)7" index="1"]
 
 position = Vector2( 345.924, 0.127646 )
 scale = Vector2( 1.10926, 1.00248 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Tile (2)7" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno/Tile (2)7" index="2"]
 
 position = Vector2( 469.861, -0.968696 )
 scale = Vector2( 0.858133, 0.986038 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Tile (2)7" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno/Tile (2)7" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Terreno3" type="Sprite" parent="TileMap" index="2"]
+[node name="Terreno3" type="Sprite" parent="TileMap/Terreno" index="2"]
 
 editor/display_folded = true
 position = Vector2( 2640, 570 )
 scale = Vector2( 0.597351, 0.69801 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno3" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno3" index="0"]
 
 position = Vector2( 171.763, -0.406807 )
 scale = Vector2( 1.6919, 0.991381 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno3" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno3" index="1"]
 
 position = Vector2( 345.924, -0.28486 )
 scale = Vector2( 1.10926, 0.996032 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno3" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno3" index="2"]
 
 position = Vector2( 469.861, -0.24798 )
 scale = Vector2( 0.858133, 0.997299 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno3" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno3" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno3" index="4"]
+[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno/Terreno3" index="4"]
 
 editor/display_folded = true
 position = Vector2( 693.589, -0.294006 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno3/Tile (2)6" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno3/Tile (2)6" index="0"]
 
 position = Vector2( 171.763, 0.284002 )
 scale = Vector2( 1.6919, 1.00217 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno3/Tile (2)6" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno3/Tile (2)6" index="1"]
 
 position = Vector2( 345.924, 0.389515 )
 scale = Vector2( 1.10926, 1.00657 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno3/Tile (2)6" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno3/Tile (2)6" index="2"]
 
 position = Vector2( 469.861, -0.0294878 )
 scale = Vector2( 0.858133, 1.00071 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno3/Tile (2)6" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno3/Tile (2)6" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno3" index="5"]
+[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno/Terreno3" index="5"]
 
 editor/display_folded = true
 position = Vector2( 1387.73, -0.776855 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno3/Tile (2)7" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno3/Tile (2)7" index="0"]
 
 position = Vector2( 171.763, 0.00447059 )
 scale = Vector2( 1.6919, 0.997807 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno3/Tile (2)7" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno3/Tile (2)7" index="1"]
 
 position = Vector2( 345.924, 0.127646 )
 scale = Vector2( 1.10926, 1.00248 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno3/Tile (2)7" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno3/Tile (2)7" index="2"]
 
 position = Vector2( 469.861, -0.968696 )
 scale = Vector2( 0.858133, 0.986038 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno3/Tile (2)7" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno3/Tile (2)7" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Terreno4" type="Sprite" parent="TileMap" index="3"]
+[node name="Terreno4" type="Sprite" parent="TileMap/Terreno" index="3"]
 
 editor/display_folded = true
 position = Vector2( 3870, 570 )
 scale = Vector2( 0.597351, 0.69801 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno4" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno4" index="0"]
 
 position = Vector2( 171.763, -0.406807 )
 scale = Vector2( 1.6919, 0.991381 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno4" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno4" index="1"]
 
 position = Vector2( 345.924, -0.28486 )
 scale = Vector2( 1.10926, 0.996032 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno4" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno4" index="2"]
 
 position = Vector2( 469.861, -0.24798 )
 scale = Vector2( 0.858133, 0.997299 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno4" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno4" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno4" index="4"]
+[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno/Terreno4" index="4"]
 
 editor/display_folded = true
 position = Vector2( 693.589, -0.294006 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno4/Tile (2)6" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno4/Tile (2)6" index="0"]
 
 position = Vector2( 171.763, 0.284002 )
 scale = Vector2( 1.6919, 1.00217 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno4/Tile (2)6" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno4/Tile (2)6" index="1"]
 
 position = Vector2( 345.924, 0.389515 )
 scale = Vector2( 1.10926, 1.00657 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno4/Tile (2)6" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno4/Tile (2)6" index="2"]
 
 position = Vector2( 469.861, -0.0294878 )
 scale = Vector2( 0.858133, 1.00071 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno4/Tile (2)6" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno4/Tile (2)6" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno4" index="5"]
+[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno/Terreno4" index="5"]
 
 position = Vector2( 1387.73, -0.776855 )
 texture = ExtResource( 2 )
 
-[node name="Terreno2" type="Sprite" parent="TileMap" index="4"]
+[node name="Terreno2" type="Sprite" parent="TileMap/Terreno" index="4"]
 
 editor/display_folded = true
 position = Vector2( 1283.99, 566.806 )
 scale = Vector2( 0.597351, 0.61477 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno2" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno2" index="0"]
 
 position = Vector2( 171.763, -0.406807 )
 scale = Vector2( 1.6919, 0.991381 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno2" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno2" index="1"]
 
 position = Vector2( 347.979, 1.71222 )
 scale = Vector2( 1.10926, 0.996032 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno2" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno2" index="2"]
 
 position = Vector2( 469.861, -0.24798 )
 scale = Vector2( 0.858133, 0.997299 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno2" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno2" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno2" index="4"]
+[node name="Tile (2)6" type="Sprite" parent="TileMap/Terreno/Terreno2" index="4"]
 
 position = Vector2( 693.589, -0.294006 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno2/Tile (2)6" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno2/Tile (2)6" index="0"]
 
 position = Vector2( 171.763, 0.284002 )
 scale = Vector2( 1.6919, 1.00217 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno2/Tile (2)6" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno2/Tile (2)6" index="1"]
 
 position = Vector2( 345.924, 0.389515 )
 scale = Vector2( 1.10926, 1.00657 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno2/Tile (2)6" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno2/Tile (2)6" index="2"]
 
 position = Vector2( 469.861, -0.0294878 )
 scale = Vector2( 0.858133, 1.00071 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno2/Tile (2)6" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno2/Tile (2)6" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno2" index="5"]
+[node name="Tile (2)7" type="Sprite" parent="TileMap/Terreno/Terreno2" index="5"]
 
 editor/display_folded = true
 position = Vector2( 1387.73, -0.776855 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno2/Tile (2)7" index="0"]
+[node name="Tile (2)2" type="Sprite" parent="TileMap/Terreno/Terreno2/Tile (2)7" index="0"]
 
 position = Vector2( 171.763, 0.00447059 )
 scale = Vector2( 1.6919, 0.997807 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno2/Tile (2)7" index="1"]
+[node name="Tile (2)3" type="Sprite" parent="TileMap/Terreno/Terreno2/Tile (2)7" index="1"]
 
 position = Vector2( 345.924, 0.127646 )
 scale = Vector2( 1.10926, 1.00248 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno2/Tile (2)7" index="2"]
+[node name="Tile (2)4" type="Sprite" parent="TileMap/Terreno/Terreno2/Tile (2)7" index="2"]
 
 position = Vector2( 469.861, -0.968696 )
 scale = Vector2( 0.858133, 0.986038 )
 texture = ExtResource( 2 )
 
-[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno2/Tile (2)7" index="3"]
+[node name="Tile (2)5" type="Sprite" parent="TileMap/Terreno/Terreno2/Tile (2)7" index="3"]
 
 position = Vector2( 578.196, -0.169408 )
 scale = Vector2( 0.858133, 0.999723 )
 texture = ExtResource( 2 )
 
-[node name="chao_extra3" type="Sprite" parent="TileMap" index="5"]
+[node name="chao_extra3" type="Sprite" parent="TileMap/Terreno" index="5"]
 
-editor/display_folded = true
 position = Vector2( 1748.47, 665.796 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)2" type="Sprite" parent="TileMap/chao_extra3" index="0"]
+[node name="Tile (5)2" type="Sprite" parent="TileMap/Terreno/chao_extra3" index="0"]
 
 position = Vector2( 240.79, 1.86511 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)" type="Sprite" parent="TileMap/chao_extra3" index="1"]
+[node name="Tile (5)" type="Sprite" parent="TileMap/Terreno/chao_extra3" index="1"]
 
 position = Vector2( 118.923, 1.37036 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)3" type="Sprite" parent="TileMap/chao_extra3" index="2"]
+[node name="Tile (5)3" type="Sprite" parent="TileMap/Terreno/chao_extra3" index="2"]
 
 position = Vector2( 367.164, 1.55646 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)4" type="Sprite" parent="TileMap/chao_extra3" index="3"]
+[node name="Tile (5)4" type="Sprite" parent="TileMap/Terreno/chao_extra3" index="3"]
 
 position = Vector2( 490.416, 2.35773 )
 scale = Vector2( 1, 0.986472 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)5" type="Sprite" parent="TileMap/chao_extra3" index="4"]
+[node name="Tile (5)5" type="Sprite" parent="TileMap/Terreno/chao_extra3" index="4"]
 
 position = Vector2( 614.7, 1.19031 )
 scale = Vector2( 1, 0.981747 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)6" type="Sprite" parent="TileMap/chao_extra3" index="5"]
+[node name="Tile (5)6" type="Sprite" parent="TileMap/Terreno/chao_extra3" index="5"]
 
 position = Vector2( 741.011, 1.99847 )
 scale = Vector2( 1, 0.99225 )
 texture = ExtResource( 1 )
 
-[node name="chao_extra4" type="Sprite" parent="TileMap" index="6"]
+[node name="chao_extra4" type="Sprite" parent="TileMap/Terreno" index="6"]
 
 editor/display_folded = true
 position = Vector2( 2670, 670 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)2" type="Sprite" parent="TileMap/chao_extra4" index="0"]
+[node name="Tile (5)2" type="Sprite" parent="TileMap/Terreno/chao_extra4" index="0"]
 
 position = Vector2( 240.79, 1.86511 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)" type="Sprite" parent="TileMap/chao_extra4" index="1"]
+[node name="Tile (5)" type="Sprite" parent="TileMap/Terreno/chao_extra4" index="1"]
 
 position = Vector2( 118.923, 1.37036 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)3" type="Sprite" parent="TileMap/chao_extra4" index="2"]
+[node name="Tile (5)3" type="Sprite" parent="TileMap/Terreno/chao_extra4" index="2"]
 
 position = Vector2( 367.164, 1.55646 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)4" type="Sprite" parent="TileMap/chao_extra4" index="3"]
+[node name="Tile (5)4" type="Sprite" parent="TileMap/Terreno/chao_extra4" index="3"]
 
 position = Vector2( 490.416, 2.35773 )
 scale = Vector2( 1, 0.986472 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)5" type="Sprite" parent="TileMap/chao_extra4" index="4"]
+[node name="Tile (5)5" type="Sprite" parent="TileMap/Terreno/chao_extra4" index="4"]
 
 position = Vector2( 614.7, 1.19031 )
 scale = Vector2( 1, 0.981747 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)6" type="Sprite" parent="TileMap/chao_extra4" index="5"]
+[node name="Tile (5)6" type="Sprite" parent="TileMap/Terreno/chao_extra4" index="5"]
 
 position = Vector2( 741.011, 1.99847 )
 scale = Vector2( 1, 0.99225 )
 texture = ExtResource( 1 )
 
-[node name="chao_extra5" type="Sprite" parent="TileMap" index="7"]
+[node name="chao_extra5" type="Sprite" parent="TileMap/Terreno" index="7"]
 
 editor/display_folded = true
 position = Vector2( 3420, 660 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)2" type="Sprite" parent="TileMap/chao_extra5" index="0"]
+[node name="Tile (5)2" type="Sprite" parent="TileMap/Terreno/chao_extra5" index="0"]
 
 position = Vector2( 240.79, 1.86511 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)" type="Sprite" parent="TileMap/chao_extra5" index="1"]
+[node name="Tile (5)" type="Sprite" parent="TileMap/Terreno/chao_extra5" index="1"]
 
 position = Vector2( 118.923, 1.37036 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)3" type="Sprite" parent="TileMap/chao_extra5" index="2"]
+[node name="Tile (5)3" type="Sprite" parent="TileMap/Terreno/chao_extra5" index="2"]
 
 position = Vector2( 367.164, 1.55646 )
 texture = ExtResource( 1 )
 
-[node name="chao_extra2" type="Sprite" parent="TileMap" index="8"]
+[node name="chao_extra6" type="Sprite" parent="TileMap/Terreno" index="8"]
+
+editor/display_folded = true
+position = Vector2( 3874.36, 666.182 )
+texture = ExtResource( 1 )
+
+[node name="Tile (5)2" type="Sprite" parent="TileMap/Terreno/chao_extra6" index="0"]
+
+position = Vector2( 240.79, 1.86511 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 1 )
+
+[node name="Tile (5)" type="Sprite" parent="TileMap/Terreno/chao_extra6" index="1"]
+
+position = Vector2( 118.923, 1.37036 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 1 )
+
+[node name="Tile (5)3" type="Sprite" parent="TileMap/Terreno/chao_extra6" index="2"]
+
+position = Vector2( 367.164, 1.55646 )
+texture = ExtResource( 1 )
+
+[node name="chao_extra7" type="Sprite" parent="TileMap/Terreno" index="9"]
+
+position = Vector2( 4307.08, 656.909 )
+texture = ExtResource( 1 )
+
+[node name="Tile (5)2" type="Sprite" parent="TileMap/Terreno/chao_extra7" index="0"]
+
+position = Vector2( 240.79, 1.86511 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 1 )
+
+[node name="Tile (5)" type="Sprite" parent="TileMap/Terreno/chao_extra7" index="1"]
+
+position = Vector2( 118.923, 1.37036 )
+scale = Vector2( 1, 0.98808 )
+texture = ExtResource( 1 )
+
+[node name="Tile (5)3" type="Sprite" parent="TileMap/Terreno/chao_extra7" index="2"]
+
+position = Vector2( 367.164, 1.55646 )
+texture = ExtResource( 1 )
+
+[node name="chao_extra2" type="Sprite" parent="TileMap/Terreno" index="10"]
 
 editor/display_folded = true
 position = Vector2( 928.042, 668.298 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)2" type="Sprite" parent="TileMap/chao_extra2" index="0"]
+[node name="Tile (5)2" type="Sprite" parent="TileMap/Terreno/chao_extra2" index="0"]
 
 position = Vector2( 242.411, -2.99811 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)" type="Sprite" parent="TileMap/chao_extra2" index="1"]
+[node name="Tile (5)" type="Sprite" parent="TileMap/Terreno/chao_extra2" index="1"]
 
 position = Vector2( 118.923, 1.37036 )
 scale = Vector2( 1, 0.98808 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)3" type="Sprite" parent="TileMap/chao_extra2" index="2"]
+[node name="Tile (5)3" type="Sprite" parent="TileMap/Terreno/chao_extra2" index="2"]
 
 position = Vector2( 369.818, -2.44354 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)4" type="Sprite" parent="TileMap/chao_extra2" index="3"]
+[node name="Tile (5)4" type="Sprite" parent="TileMap/Terreno/chao_extra2" index="3"]
 
 position = Vector2( 488.2, -4.29047 )
 scale = Vector2( 1, 0.986472 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)5" type="Sprite" parent="TileMap/chao_extra2" index="4"]
+[node name="Tile (5)5" type="Sprite" parent="TileMap/Terreno/chao_extra2" index="4"]
 
 position = Vector2( 615.722, -1.7157 )
 scale = Vector2( 1, 0.981747 )
 texture = ExtResource( 1 )
 
-[node name="Tile (5)6" type="Sprite" parent="TileMap/chao_extra2" index="5"]
+[node name="Tile (5)6" type="Sprite" parent="TileMap/Terreno/chao_extra2" index="5"]
 
 position = Vector2( 740.471, -0.703369 )
 scale = Vector2( 1, 0.99225 )
 texture = ExtResource( 1 )
 
-[node name="Objetos do cenario" type="Node2D" parent="TileMap" index="9"]
+[node name="Tile (5)" type="Sprite" parent="TileMap/Terreno" index="11"]
+
+editor/display_folded = true
+position = Vector2( 2581.5, 667 )
+scale = Vector2( 0.601564, 1.04688 )
+texture = ExtResource( 1 )
+
+[node name="Tile (2)" type="Sprite" parent="TileMap/Terreno/Tile (5)" index="0"]
+
+position = Vector2( -52.3638, -89.5522 )
+scale = Vector2( 1.66233, 0.697761 )
+texture = ExtResource( 2 )
+
+[node name="Objetos do cenario" type="Node2D" parent="TileMap" index="1"]
+
+editor/display_folded = true
 
 [node name="DeadBush" type="Sprite" parent="TileMap/Objetos do cenario" index="0"]
 
@@ -751,26 +842,14 @@ position = Vector2( 1480, 500 )
 scale = Vector2( 0.445313, 0.367188 )
 texture = ExtResource( 12 )
 
-[node name="Tile (5)" type="Sprite" parent="TileMap" index="10"]
+[node name="Bush (2)" type="Sprite" parent="TileMap/Objetos do cenario" index="15"]
 
 editor/display_folded = true
-position = Vector2( 2581.5, 667 )
-scale = Vector2( 0.601564, 1.04688 )
-texture = ExtResource( 1 )
-
-[node name="Tile (2)" type="Sprite" parent="TileMap/Tile (5)" index="0"]
-
-position = Vector2( -52.3638, -89.5522 )
-scale = Vector2( 1.66233, 0.697761 )
-texture = ExtResource( 2 )
-
-[node name="Bush (2)" type="Sprite" parent="TileMap" index="11"]
-
 position = Vector2( 3780, 456 )
 scale = Vector2( 1.2, 2.375 )
 texture = ExtResource( 13 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="TileMap/Bush (2)" index="0"]
+[node name="StaticBody2D" type="StaticBody2D" parent="TileMap/Objetos do cenario/Bush (2)" index="0"]
 
 input_pickable = false
 collision_layer = 1
@@ -780,11 +859,177 @@ constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Bush (2)/StaticBody2D" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos do cenario/Bush (2)/StaticBody2D" index="0"]
 
 position = Vector2( -2.66675, 0 )
 scale = Vector2( 1.0597, 1 )
 shape = SubResource( 1 )
+
+[node name="NPC" type="Area2D" parent="TileMap" index="2"]
+
+position = Vector2( 721.007, 497.116 )
+input_pickable = false
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 14 )
+
+[node name="npc_sprite" type="AnimatedSprite" parent="TileMap/NPC" index="0"]
+
+position = Vector2( -0.418844, -32.998 )
+scale = Vector2( 0.181048, 0.188173 )
+frames = SubResource( 6 )
+animation = "default"
+frame = 9
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/NPC" index="1"]
+
+position = Vector2( 3.04131, -16.4678 )
+scale = Vector2( 4.55025, 3.89574 )
+shape = SubResource( 7 )
+
+[node name="boas_vindas" type="RichTextLabel" parent="TileMap/NPC" index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -92.0
+margin_top = -186.0
+margin_right = 112.0
+margin_bottom = -99.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "Olá, Bem Vindo ao Cemiterio!
+Colete todas as pistas e me encontre no final do cemiterio!"
+visible_characters = 0
+percent_visible = 0.0
+meta_underlined = true
+tab_size = 4
+text = "Olá, Bem Vindo ao Cemiterio!
+Colete todas as pistas e me encontre no final do cemiterio!"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="Button" type="Button" parent="TileMap/NPC" index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -44.0
+margin_top = -134.0
+margin_right = 34.0
+margin_bottom = -106.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+flat = true
+align = 1
+
+[node name="NPC2" type="Area2D" parent="TileMap" index="3"]
+
+visible = false
+position = Vector2( 713.455, 497.116 )
+input_pickable = false
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 25 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="npc2_sprite" type="AnimatedSprite" parent="TileMap/NPC2" index="0"]
+
+position = Vector2( 1658.67, -34.3027 )
+scale = Vector2( 0.181048, 0.188173 )
+frames = SubResource( 6 )
+animation = "default"
+frame = 9
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="colisor" type="CollisionShape2D" parent="TileMap/NPC2" index="1"]
+
+position = Vector2( 1668.75, -22.4239 )
+scale = Vector2( 4.55025, 3.89574 )
+shape = SubResource( 7 )
+
+[node name="boas_vindas" type="RichTextLabel" parent="TileMap/NPC2" index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 1522.0
+margin_top = -214.0
+margin_right = 1726.0
+margin_bottom = -127.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "Olá, Bem Vindo ao Cemiterio!
+Colete todas as pistas e me encontre no final do cemiterio!"
+visible_characters = 0
+percent_visible = 0.0
+meta_underlined = true
+tab_size = 4
+text = "Olá, Bem Vindo ao Cemiterio!
+Colete todas as pistas e me encontre no final do cemiterio!"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="Button" type="Button" parent="TileMap/NPC2" index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 1610.0
+margin_top = -134.0
+margin_right = 1688.0
+margin_bottom = -106.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+flat = true
+align = 1
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." index="1"]
 
@@ -805,7 +1050,7 @@ scroll_ignore_camera_zoom = false
 
 position = Vector2( 645.66, 275.153 )
 scale = Vector2( 0.644703, 0.480501 )
-texture = ExtResource( 14 )
+texture = ExtResource( 26 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -814,7 +1059,7 @@ __meta__ = {
 
 position = Vector2( 1950, 280 )
 scale = Vector2( 0.670071, 0.480664 )
-texture = ExtResource( 14 )
+texture = ExtResource( 26 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -823,14 +1068,14 @@ __meta__ = {
 
 position = Vector2( 3327.5, 280 )
 scale = Vector2( 0.7225, 0.482846 )
-texture = ExtResource( 15 )
+texture = ExtResource( 27 )
 __meta__ = {
 "_edit_lock_": true
 }
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="2"]
 
-stream = ExtResource( 16 )
+stream = ExtResource( 28 )
 volume_db = 0.0
 autoplay = true
 mix_target = 0
@@ -839,7 +1084,7 @@ bus = "Master"
 [node name="Bone (3)" type="Sprite" parent="." index="3"]
 
 position = Vector2( 330, 610 )
-texture = ExtResource( 17 )
+texture = ExtResource( 29 )
 
 [node name="Bone (2)" type="Sprite" parent="." index="4"]
 
@@ -851,15 +1096,17 @@ texture = ExtResource( 12 )
 
 position = Vector2( 648, 575 )
 scale = Vector2( 0.65625, 0.390625 )
-texture = ExtResource( 18 )
+texture = ExtResource( 30 )
 
 [node name="TombStone (2)" type="Sprite" parent="." index="6"]
 
+editor/display_folded = true
 position = Vector2( 970, 490 )
-texture = ExtResource( 19 )
+texture = ExtResource( 31 )
 
 [node name="Area2D" type="Area2D" parent="TombStone (2)" index="0"]
 
+editor/display_folded = true
 input_pickable = true
 space_override = 3
 gravity_vec = Vector2( 0, 1 )
@@ -868,7 +1115,7 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 20 )
+script = ExtResource( 32 )
 _sections_unfolded = [ "Collision", "Visibility" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TombStone (2)/Area2D" index="0"]
@@ -916,24 +1163,25 @@ position = Vector2( -20, -140 )
 texture = ExtResource( 12 )
 _sections_unfolded = [ "Visibility" ]
 
-[node name="KinematicBody2D" type="KinematicBody2D" parent="." index="7"]
+[node name="Personagem" type="KinematicBody2D" parent="." index="7"]
 
+editor/display_folded = true
 position = Vector2( 320, 510 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
-script = ExtResource( 21 )
-_sections_unfolded = [ "Collision", "Material", "Pause", "Pickable", "Visibility", "collision" ]
+script = ExtResource( 33 )
+_sections_unfolded = [ "Collision", "Material", "Pause", "Pickable", "Transform", "Visibility", "collision" ]
 speed = 5
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Personagem" index="0"]
 
 position = Vector2( -112.217, -20.5703 )
 scale = Vector2( 5, 6.55693 )
 shape = SubResource( 3 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D" index="1"]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Personagem" index="1"]
 
 position = Vector2( -117.539, -43.7584 )
 scale = Vector2( 0.254105, 0.258356 )
@@ -941,7 +1189,7 @@ frames = SubResource( 4 )
 animation = "caminhando_dir"
 _sections_unfolded = [ "Transform", "Visibility" ]
 
-[node name="Camera2D" type="Camera2D" parent="KinematicBody2D" index="2"]
+[node name="Camera2D" type="Camera2D" parent="Personagem" index="2"]
 
 position = Vector2( 255.573, -207.082 )
 anchor_mode = 1
@@ -968,14 +1216,16 @@ editor_draw_limits = false
 editor_draw_drag_margin = false
 _sections_unfolded = [ "Drag Margin", "Limit" ]
 
-[node name="Node2D" type="Node2D" parent="." index="8"]
+[node name="Caixas" type="Node2D" parent="." index="8"]
 
-[node name="Crate2" type="Sprite" parent="Node2D" index="0"]
+editor/display_folded = true
+
+[node name="Crate2" type="Sprite" parent="Caixas" index="0"]
 
 position = Vector2( 50, 380 )
 texture = ExtResource( 11 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="Node2D/Crate2" index="0"]
+[node name="StaticBody2D" type="StaticBody2D" parent="Caixas/Crate2" index="0"]
 
 input_pickable = false
 collision_layer = 1
@@ -985,13 +1235,13 @@ constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Crate2/StaticBody2D" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Caixas/Crate2/StaticBody2D" index="0"]
 
 position = Vector2( 5, 50 )
 scale = Vector2( 5.5, 10 )
 shape = SubResource( 5 )
 
-[node name="Crate" type="Sprite" parent="Node2D/Crate2" index="1"]
+[node name="Crate" type="Sprite" parent="Caixas/Crate2" index="1"]
 
 position = Vector2( 0, 100 )
 texture = ExtResource( 11 )
@@ -999,12 +1249,16 @@ texture = ExtResource( 11 )
 [node name="Bone (1)" type="Sprite" parent="." index="9"]
 
 position = Vector2( 3800, 440 )
-texture = ExtResource( 59 )
+texture = ExtResource( 71 )
 
 [node name="Bone (4)2" type="Sprite" parent="." index="10"]
 
 position = Vector2( 1868, 557 )
 scale = Vector2( 0.8125, 0.578125 )
-texture = ExtResource( 18 )
+texture = ExtResource( 30 )
+
+[connection signal="pressed" from="TileMap/NPC/Button" to="TileMap/NPC" method="_on_Button_pressed"]
+
+[connection signal="pressed" from="TileMap/NPC2/Button" to="TileMap/NPC2" method="_on_Button_pressed"]
 
 
