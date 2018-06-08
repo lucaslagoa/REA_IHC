@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Slide (2).png-6bac19c63bc3af8d14f2e1717d339e6f.stex"
+
+[deps]
+
+source_file="res://adventuregirl/png/Slide (2).png"
+source_md5="7ee8d3c9085142af57a4459432fa7551"
+
+dest_files=[ "res://.import/Slide (2).png-6bac19c63bc3af8d14f2e1717d339e6f.stex" ]
+dest_md5="0291a3d2f275340399240b3f7a7b66c9"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

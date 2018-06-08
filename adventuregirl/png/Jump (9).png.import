@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Jump (9).png-782deaadcbe7bd947997758315ec9af5.stex"
+
+[deps]
+
+source_file="res://adventuregirl/png/Jump (9).png"
+source_md5="20b7a762597aff62e5fd49ab7a184b7b"
+
+dest_files=[ "res://.import/Jump (9).png-782deaadcbe7bd947997758315ec9af5.stex" ]
+dest_md5="079316df62d3d1e9b6d2a85ad0fc0c12"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

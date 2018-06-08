@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/esp_Idle (4).png-852d703d5eea0411d249da362f370731.stex"
+
+[deps]
+
+source_file="res://adventuregirl/png/esp_Idle (4).png"
+source_md5="7bf651f5a49716fe45c9205ebaa514c3"
+
+dest_files=[ "res://.import/esp_Idle (4).png-852d703d5eea0411d249da362f370731.stex" ]
+dest_md5="a54f39b5e1a965fbf6404f0fcb2bc2e5"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
