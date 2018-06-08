@@ -108,6 +108,8 @@ extents = Vector2( 10, 10 )
 
 [node name="Cemiterio" type="Node"]
 
+editor/display_folded = true
+
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
 mode = 0

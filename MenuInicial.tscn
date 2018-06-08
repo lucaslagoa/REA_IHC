@@ -10,10 +10,11 @@
 [sub_resource type="Theme" id=1]
 
 
-[node name="Node2D" type="Node2D" index="0"]
+[node name="Node2D" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
+editor/display_folded = true
 mode = 0
 tile_set = null
 cell_size = Vector2( 64, 64 )
