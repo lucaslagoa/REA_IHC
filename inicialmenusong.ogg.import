@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/inicialmenusong.ogg-db3076c5fc003e0e19402caea9f3d4c1.oggstr"
+
+[deps]
+
+source_file="res://inicialmenusong.ogg"
+source_md5="0d5037271b9442e3bcc8a25369317c80"
+
+dest_files=[ "res://.import/inicialmenusong.ogg-db3076c5fc003e0e19402caea9f3d4c1.oggstr" ]
+dest_md5="db7829f7a46679cb95853a7f9ed55517"
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Tile (12).png-9e2baf6a8145cea552d7afacac5bf12c.stex"
+
+[deps]
+
+source_file="res://freescifiplatform/png/Tiles/Tile (12).png"
+source_md5="bf29d43fb699cde72df7288658bb1e52"
+
+dest_files=[ "res://.import/Tile (12).png-9e2baf6a8145cea552d7afacac5bf12c.stex" ]
+dest_md5="07efd924370e5ba3e832a494a3342737"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

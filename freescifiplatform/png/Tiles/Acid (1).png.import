@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Acid (1).png-b018c4cdacc83734fa546f119570a70a.stex"
+
+[deps]
+
+source_file="res://freescifiplatform/png/Tiles/Acid (1).png"
+source_md5="5ef1319498a26f030303cf16d5c01fce"
+
+dest_files=[ "res://.import/Acid (1).png-b018c4cdacc83734fa546f119570a70a.stex" ]
+dest_md5="6f6965ec2cb411699c2eb8b0c069b641"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
