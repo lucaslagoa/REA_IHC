@@ -33,24 +33,24 @@
 [ext_resource path="res://graveyard/png/Objects/TombStone (2).png" type="Texture" id=31]
 [ext_resource path="res://Area2D.gd" type="Script" id=32]
 [ext_resource path="res://KinematicBody2D.gd" type="Script" id=33]
-[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=34]
-[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=35]
-[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=36]
-[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=37]
-[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=38]
-[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=39]
-[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=40]
-[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=41]
-[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=42]
-[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=43]
-[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=44]
-[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=45]
-[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=46]
-[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=47]
-[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=48]
-[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=49]
-[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=50]
-[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=51]
+[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=34]
+[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=35]
+[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=36]
+[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=37]
+[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=38]
+[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=39]
+[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=40]
+[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=41]
+[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=42]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=43]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=44]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=45]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=46]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=47]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=48]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=49]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=50]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=51]
 [ext_resource path="res://templerun/Run__000.png" type="Texture" id=52]
 [ext_resource path="res://templerun/Run__001.png" type="Texture" id=53]
 [ext_resource path="res://templerun/Run__003.png" type="Texture" id=54]
@@ -109,12 +109,12 @@ height = 20.0
 animations = [ {
 "frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ) ],
 "loop": true,
-"name": "parado_esq",
+"name": "parado",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
 "loop": true,
-"name": "parado",
+"name": "parado_esq",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ) ],
@@ -134,7 +134,7 @@ _sections_unfolded = [ "Resource" ]
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[node name="Cemiterio" type="Node" index="0"]
+[node name="Cemiterio" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -867,6 +867,7 @@ shape = SubResource( 1 )
 
 [node name="NPC" type="Area2D" parent="TileMap" index="2"]
 
+editor/display_folded = true
 position = Vector2( 721.007, 497.116 )
 input_pickable = false
 gravity_vec = Vector2( 0, 1 )
@@ -949,6 +950,7 @@ align = 1
 
 [node name="NPC2" type="Area2D" parent="TileMap" index="3"]
 
+editor/display_folded = true
 visible = false
 position = Vector2( 713.455, 497.116 )
 input_pickable = false
