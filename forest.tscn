@@ -144,7 +144,6 @@ extents = Vector2( 13.65, 21.2196 )
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
-editor/display_folded = true
 mode = 0
 tile_set = null
 cell_size = Vector2( 64, 64 )
@@ -665,7 +664,7 @@ position = Vector2( 431.678, 448.426 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 4 )
 animation = "idle_girl"
-frame = 1
+frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC" index="1"]
@@ -732,7 +731,6 @@ _sections_unfolded = [ "Visibility" ]
 
 [node name="NPC2" type="Area2D" parent="." index="2"]
 
-visible = false
 input_pickable = false
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -744,8 +742,6 @@ script = ExtResource( 26 )
 
 [node name="Resposta Charada" type="Sprite" parent="NPC2" index="0"]
 
-editor/display_folded = true
-visible = false
 _sections_unfolded = [ "Margin", "Rect" ]
 
 [node name="Resposta Charada" type="RichTextLabel" parent="NPC2/Resposta Charada" index="0"]
@@ -1018,7 +1014,7 @@ position = Vector2( 2465.07, 448.426 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 4 )
 animation = "idle_girl"
-frame = 6
+frame = 8
 playing = true
 _sections_unfolded = [ "Transform" ]
 
