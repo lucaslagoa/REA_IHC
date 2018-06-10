@@ -41,36 +41,36 @@
 [ext_resource path="res://templerun/Idle__007.png" type="Texture" id=39]
 [ext_resource path="res://templerun/Idle__008.png" type="Texture" id=40]
 [ext_resource path="res://templerun/Idle__009.png" type="Texture" id=41]
-[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=42]
-[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=43]
-[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=44]
-[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=45]
-[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=46]
-[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=47]
-[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=48]
-[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=49]
-[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=50]
-[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=51]
-[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=52]
-[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=53]
-[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=54]
-[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=55]
-[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=56]
-[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=57]
-[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=58]
-[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=59]
-[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=60]
-[ext_resource path="res://templerun/leftIdle__009.png" type="Texture" id=61]
-[ext_resource path="res://templerun/Run__000.png" type="Texture" id=62]
-[ext_resource path="res://templerun/Run__001.png" type="Texture" id=63]
-[ext_resource path="res://templerun/Run__002.png" type="Texture" id=64]
-[ext_resource path="res://templerun/Run__003.png" type="Texture" id=65]
-[ext_resource path="res://templerun/Run__004.png" type="Texture" id=66]
-[ext_resource path="res://templerun/Run__005.png" type="Texture" id=67]
-[ext_resource path="res://templerun/Run__006.png" type="Texture" id=68]
-[ext_resource path="res://templerun/Run__007.png" type="Texture" id=69]
-[ext_resource path="res://templerun/Run__008.png" type="Texture" id=70]
-[ext_resource path="res://templerun/Run__009.png" type="Texture" id=71]
+[ext_resource path="res://templerun/Run__000.png" type="Texture" id=42]
+[ext_resource path="res://templerun/Run__001.png" type="Texture" id=43]
+[ext_resource path="res://templerun/Run__002.png" type="Texture" id=44]
+[ext_resource path="res://templerun/Run__003.png" type="Texture" id=45]
+[ext_resource path="res://templerun/Run__004.png" type="Texture" id=46]
+[ext_resource path="res://templerun/Run__005.png" type="Texture" id=47]
+[ext_resource path="res://templerun/Run__006.png" type="Texture" id=48]
+[ext_resource path="res://templerun/Run__007.png" type="Texture" id=49]
+[ext_resource path="res://templerun/Run__008.png" type="Texture" id=50]
+[ext_resource path="res://templerun/Run__009.png" type="Texture" id=51]
+[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=52]
+[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=53]
+[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=54]
+[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=55]
+[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=56]
+[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=57]
+[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=58]
+[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=59]
+[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=60]
+[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=61]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=62]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=63]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=64]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=65]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=66]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=67]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=68]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=69]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=70]
+[ext_resource path="res://templerun/leftIdle__009.png" type="Texture" id=71]
 [ext_resource path="res://desert.ogg" type="AudioStream" id=72]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -78,7 +78,7 @@
 custom_solver_bias = 0.0
 extents = Vector2( 12.146, 10 )
 
-[sub_resource type="SpriteFrames" id=6]
+[sub_resource type="SpriteFrames" id=2]
 
 animations = [ {
 "frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ) ],
@@ -87,13 +87,13 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="CapsuleShape2D" id=7]
+[sub_resource type="CapsuleShape2D" id=3]
 
 custom_solver_bias = 0.0
 radius = 10.0
 height = 20.0
 
-[sub_resource type="SpriteFrames" id=2]
+[sub_resource type="SpriteFrames" id=4]
 
 animations = [ {
 "frames": [ ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ) ],
@@ -103,33 +103,33 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
 "loop": true,
-"name": "caminhando_esq",
+"name": "caminhando_dir",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ) ],
 "loop": true,
-"name": "parado_esq",
+"name": "caminhando_esq",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ) ],
 "loop": true,
-"name": "caminhando_dir",
+"name": "parado_dir",
 "speed": 5.0
 } ]
 _sections_unfolded = [ "Resource" ]
 
-[sub_resource type="CapsuleShape2D" id=3]
+[sub_resource type="CapsuleShape2D" id=5]
 
 custom_solver_bias = 0.0
 radius = 4.84627
 height = 20.0
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=6]
 
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[sub_resource type="RectangleShape2D" id=5]
+[sub_resource type="RectangleShape2D" id=7]
 
 custom_solver_bias = 0.0
 extents = Vector2( 16.25, 12.8267 )
@@ -738,9 +738,9 @@ script = ExtResource( 16 )
 
 position = Vector2( 422.917, 455.129 )
 scale = Vector2( 0.254, 0.258 )
-frames = SubResource( 6 )
+frames = SubResource( 2 )
 animation = "zombie_idle"
-frame = 4
+frame = 3
 playing = true
 _sections_unfolded = [ "Transform" ]
 
@@ -748,7 +748,7 @@ _sections_unfolded = [ "Transform" ]
 
 position = Vector2( 423.58, 462.523 )
 scale = Vector2( 5.44635, 3.51211 )
-shape = SubResource( 7 )
+shape = SubResource( 3 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="NPC" index="2"]
 
@@ -770,7 +770,7 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
 bbcode_text = "Olá aventureiro, bem-vindo ao deserto. Ache todas as pistas e converse novamente comigo no final da fase!!"
-visible_characters = -1
+visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
@@ -1080,9 +1080,9 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 position = Vector2( 2306.91, 453.129 )
 scale = Vector2( 0.254, 0.258 )
-frames = SubResource( 6 )
+frames = SubResource( 2 )
 animation = "zombie_idle"
-frame = 3
+frame = 2
 playing = true
 _sections_unfolded = [ "Transform" ]
 
@@ -1090,7 +1090,7 @@ _sections_unfolded = [ "Transform" ]
 
 position = Vector2( 2317.8, 449.788 )
 scale = Vector2( 5.44635, 3.51211 )
-shape = SubResource( 7 )
+shape = SubResource( 3 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="NPC2" index="3"]
 
@@ -1149,7 +1149,6 @@ align = 1
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="." index="3"]
 
-editor/display_folded = true
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -1161,15 +1160,15 @@ speed = 5
 
 position = Vector2( 197.033, 454.822 )
 scale = Vector2( 0.254, 0.258 )
-frames = SubResource( 2 )
-animation = "caminhando_esq"
+frames = SubResource( 4 )
+animation = "caminhando_dir"
 _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D" index="1"]
 
 position = Vector2( 193.396, 440.692 )
 scale = Vector2( 10.9856, 6.93669 )
-shape = SubResource( 3 )
+shape = SubResource( 5 )
 
 [node name="Camera2D" type="Camera2D" parent="KinematicBody2D" index="2"]
 
@@ -1228,7 +1227,7 @@ bounce = 0.0
 
 position = Vector2( 8.91103, 10.9726 )
 scale = Vector2( 4.50119, 4.5981 )
-shape = SubResource( 4 )
+shape = SubResource( 6 )
 
 [node name="Cactus (1)2" type="Sprite" parent="." index="6"]
 
@@ -1252,7 +1251,7 @@ bounce = 0.0
 
 position = Vector2( -149.808, -12.3903 )
 scale = Vector2( 3.22961, 4.96605 )
-shape = SubResource( 5 )
+shape = SubResource( 7 )
 
 [connection signal="pressed" from="NPC/ButtonOkIteracao" to="NPC" method="_on_ButtonOkIteracao_pressed"]
 

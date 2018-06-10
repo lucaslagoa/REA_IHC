@@ -25,19 +25,11 @@ func _process(delta):
 	if(interacao and Input.is_action_pressed("ui_accept")):
 		print("Clique")
 		mensagem()
+	# print(is_colliding())
+#	# Called every frame. Delta is time since last frame.
+#	# Update game logic here.
 #	pass
 func mensagem():
-	
-	get_node("boas_vindas").percent_visible=1
-	get_node("Button").flat=0
-	get_node("Button").text="Ok"
-	
-
-
-
-func _on_Button_pressed():
-	get_node("boas_vindas").hide()
-	get_node("Button").hide()
-	get_node("Button").text=""
-	get_node("npc2_sprite").hide()
-	get_node("charada").show()
+	get_node("RichTextLabel").percent_visible=1
+	get_node("cabeca_falante").visible=1
+	get_node("cabeca_falante").playing=true
