@@ -39,5 +39,5 @@ func _on_Button_pressed():
 	get_node("boas_vindas").hide()
 	get_node("Button").hide()
 	get_node("Button").text=""
-	get_node("npc2_sprite").hide()
+	#get_node("npc2_sprite").hide()
 	get_node("charada").show()
