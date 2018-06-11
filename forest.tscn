@@ -144,11 +144,10 @@ extents = Vector2( 10, 21.5556 )
 custom_solver_bias = 0.0
 extents = Vector2( 13.65, 21.2196 )
 
-[node name="Forest" type="Node"]
+[node name="Forest" type="Node" index="0"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
-editor/display_folded = true
 mode = 0
 tile_set = null
 cell_size = Vector2( 64, 64 )
@@ -666,7 +665,7 @@ position = Vector2( 431.678, 448.426 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 4 )
 animation = "idle_girl"
-frame = 4
+frame = 9
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC" index="1"]
@@ -745,7 +744,6 @@ script = ExtResource( 26 )
 
 [node name="Resposta Charada" type="Sprite" parent="NPC2" index="0"]
 
-editor/display_folded = true
 visible = false
 _sections_unfolded = [ "Margin", "Rect" ]
 
@@ -781,7 +779,6 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="A" type="Button" parent="NPC2/Resposta Charada" index="1"]
 
-editor/display_folded = true
 modulate = Color( 0.964844, 0.953537, 0.953537, 1 )
 self_modulate = Color( 0.964844, 0.957306, 0.957306, 1 )
 show_behind_parent = true
@@ -820,7 +817,7 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 48.0
 margin_top = 8.0
-margin_right = 136.0
+margin_right = 406.0
 margin_bottom = 26.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
@@ -829,20 +826,20 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Resposta A"
+bbcode_text = "Foi uma ação conjunta entre os bichos e a construtora."
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta A"
+text = "Foi uma ação conjunta entre os bichos e a construtora."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
+_sections_unfolded = [ "BBCode" ]
 
 [node name="B" type="Button" parent="NPC2/Resposta Charada" index="2"]
 
-editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -878,7 +875,7 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 47.0
 margin_top = 9.0
-margin_right = 135.0
+margin_right = 427.0
 margin_bottom = 27.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
@@ -887,12 +884,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Resposta B"
+bbcode_text = "Foi uma ação conjunta do velho louco e da construtora."
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta B"
+text = "Foi uma ação conjunta do velho louco e da construtora."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -901,7 +898,6 @@ _sections_unfolded = [ "BBCode" ]
 
 [node name="C" type="Button" parent="NPC2/Resposta Charada" index="3"]
 
-editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -946,12 +942,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Foi uma ação conjunta entre a madereira e a contrutora."
+bbcode_text = "Foi uma ação conjunta entre a madereira e a construtora."
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Foi uma ação conjunta entre a madereira e a contrutora."
+text = "Foi uma ação conjunta entre a madereira e a construtora."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -960,7 +956,6 @@ _sections_unfolded = [ "BBCode" ]
 
 [node name="D" type="Button" parent="NPC2/Resposta Charada" index="4"]
 
-editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -996,7 +991,7 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 46.0
 margin_top = 6.0
-margin_right = 134.0
+margin_right = 408.0
 margin_bottom = 24.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
@@ -1005,12 +1000,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Resposta D"
+bbcode_text = "Foi uma ação conjunta entre a madeireira e os bichos."
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta D"
+text = "Foi uma ação conjunta entre a madeireira e os bichos."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -1023,7 +1018,7 @@ position = Vector2( 2465.07, 448.426 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 4 )
 animation = "idle_girl"
-frame = 9
+frame = 4
 playing = true
 _sections_unfolded = [ "Transform" ]
 
@@ -1166,6 +1161,7 @@ shape = SubResource( 8 )
 
 [node name="Stone2" type="Sprite" parent="." index="5"]
 
+editor/display_folded = true
 position = Vector2( 2778.09, 481.577 )
 texture = ExtResource( 72 )
 
