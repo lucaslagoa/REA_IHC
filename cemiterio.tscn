@@ -200,7 +200,7 @@ _sections_unfolded = [ "Resource" ]
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[node name="Cemiterio" type="Node" index="0"]
+[node name="Cemiterio" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -1341,7 +1341,7 @@ position = Vector2( -0.418844, -32.998 )
 scale = Vector2( 0.181048, 0.188173 )
 frames = SubResource( 11 )
 animation = "default"
-frame = 6
+frame = 1
 playing = true
 _sections_unfolded = [ "Transform" ]
 

@@ -10,7 +10,7 @@
 [sub_resource type="Theme" id=1]
 
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" index="0"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -34,10 +34,11 @@ tile_data = PoolIntArray(  )
 
 [node name="menuinicial" type="Sprite" parent="TileMap" index="0"]
 
-position = Vector2( 516.477, 311.576 )
-scale = Vector2( 0.855872, 0.771059 )
+position = Vector2( 516.477, 304.375 )
+scale = Vector2( 0.855872, 0.753056 )
 texture = ExtResource( 1 )
-_sections_unfolded = [ "Animation", "Offset", "Transform", "Z Index" ]
+region_filter_clip = true
+_sections_unfolded = [ "Animation", "Offset", "Region", "Transform", "Z Index" ]
 
 [node name="Camera2D" type="Camera2D" parent="TileMap" index="1"]
 

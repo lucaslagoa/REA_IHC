@@ -148,6 +148,7 @@ extents = Vector2( 13.65, 21.2196 )
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
+editor/display_folded = true
 mode = 0
 tile_set = null
 cell_size = Vector2( 64, 64 )
@@ -472,7 +473,6 @@ texture = ExtResource( 7 )
 
 [node name="Mushroom_1" type="Sprite" parent="TileMap" index="59"]
 
-editor/display_folded = true
 position = Vector2( 1566.2, 487.77 )
 texture = ExtResource( 8 )
 
@@ -501,10 +501,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -20.0
-margin_top = -81.0
-margin_right = 20.0
-margin_bottom = -41.0
+margin_left = -78.0
+margin_top = -153.0
+margin_right = 80.0
+margin_bottom = -88.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -512,12 +512,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Test"
+bbcode_text = "Se a madereira é culpada então não foi o velho louco."
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Test"
+text = "Se a madereira é culpada então não foi o velho louco."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -527,13 +527,12 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 [node name="Sprite" type="Sprite" parent="TileMap/Mushroom_1/Area2DForest" index="2"]
 
 visible = false
-position = Vector2( 0.282715, -126.84 )
-scale = Vector2( -1.53454, 0.963405 )
+position = Vector2( 9.78259, -209.972 )
+scale = Vector2( -1.53454, 1.15109 )
 texture = ExtResource( 10 )
 
 [node name="Crate" type="Sprite" parent="TileMap" index="60"]
 
-editor/display_folded = true
 position = Vector2( 1243.11, 469.72 )
 texture = ExtResource( 11 )
 
@@ -561,9 +560,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -26.0
-margin_top = -84.0
-margin_right = 14.0
+margin_left = -69.0
+margin_top = -141.0
+margin_right = 81.0
 margin_bottom = -53.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
@@ -572,12 +571,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Test"
+bbcode_text = "Quem colocou fogo não foi o velho louco."
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Test"
+text = "Quem colocou fogo não foi o velho louco."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -587,13 +586,12 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 [node name="Sprite" type="Sprite" parent="TileMap/Crate/Area2DForest" index="2"]
 
 visible = false
-position = Vector2( 3.3772, -114.86 )
+position = Vector2( 7.17737, -164.26 )
 scale = Vector2( 0.887804, 1.08987 )
 texture = ExtResource( 12 )
 
 [node name="Mushroom_2" type="Sprite" parent="TileMap" index="61"]
 
-editor/display_folded = true
 position = Vector2( 1956.23, 489.353 )
 texture = ExtResource( 12 )
 
@@ -610,7 +608,7 @@ script = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Mushroom_2/Area2DForest" index="0"]
 
-position = Vector2( -0.932251, -1.1088 )
+position = Vector2( -0.932251, 0.791199 )
 scale = Vector2( 2.35271, 2.41383 )
 shape = SubResource( 3 )
 
@@ -621,10 +619,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -17.0
-margin_top = -103.0
-margin_right = 23.0
-margin_bottom = -63.0
+margin_left = -97.0
+margin_top = -166.0
+margin_right = 97.0
+margin_bottom = -103.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -632,12 +630,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Test"
+bbcode_text = "Isso foi uma ação de dois suspeitos."
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Test"
+text = "Isso foi uma ação de dois suspeitos."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -647,11 +645,12 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 [node name="Sprite" type="Sprite" parent="TileMap/Mushroom_2/Area2DForest" index="2"]
 
 visible = false
-position = Vector2( 5.56116, -142.202 )
+position = Vector2( -2.03882, -220.102 )
 texture = ExtResource( 13 )
 
 [node name="NPC" type="Area2D" parent="." index="1"]
 
+editor/display_folded = true
 input_pickable = false
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -667,7 +666,7 @@ position = Vector2( 431.678, 448.426 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 4 )
 animation = "idle_girl"
-frame = 3
+frame = 4
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC" index="1"]
@@ -683,9 +682,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 333.0
-margin_top = 275.0
-margin_right = 511.0
+margin_left = 279.0
+margin_top = 177.0
+margin_right = 595.0
 margin_bottom = 381.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
@@ -694,12 +693,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Olá aventureiro, bem-vindo à floresta. Ache todas as pistas e converse novamente comigo no final da fase!!"
+bbcode_text = "Hey aluno, para sair dessa floresta você terá que resolver o seguinte problema de lógica para sair dessa floresta: Um crime aconteceu aqui a muito tempo, alguém colocou fogo na floresta, entretanto ela conseguiu sobreviver, contudo os bichos querem uma resposta, quem colocou fogo na floresta ? As suspeitas recaem sobre uma madereira, uma construtora e um velho louco. "
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Olá aventureiro, bem-vindo à floresta. Ache todas as pistas e converse novamente comigo no final da fase!!"
+text = "Hey aluno, para sair dessa floresta você terá que resolver o seguinte problema de lógica para sair dessa floresta: Um crime aconteceu aqui a muito tempo, alguém colocou fogo na floresta, entretanto ela conseguiu sobreviver, contudo os bichos querem uma resposta, quem colocou fogo na floresta ? As suspeitas recaem sobre uma madereira, uma construtora e um velho louco. "
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -712,10 +711,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 381.0
-margin_top = 351.0
-margin_right = 451.0
-margin_bottom = 375.0
+margin_left = 383.0
+margin_top = 328.0
+margin_right = 453.0
+margin_bottom = 352.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -734,6 +733,7 @@ _sections_unfolded = [ "Visibility" ]
 
 [node name="NPC2" type="Area2D" parent="." index="2"]
 
+visible = false
 input_pickable = false
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -745,6 +745,7 @@ script = ExtResource( 26 )
 
 [node name="Resposta Charada" type="Sprite" parent="NPC2" index="0"]
 
+editor/display_folded = true
 visible = false
 _sections_unfolded = [ "Margin", "Rect" ]
 
@@ -755,31 +756,32 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2396.0
-margin_top = 76.0
-margin_right = 2550.0
-margin_bottom = 116.0
+margin_left = 2361.0
+margin_top = 78.0
+margin_right = 2515.0
+margin_bottom = 118.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-bbcode_enabled = false
-bbcode_text = ""
+bbcode_enabled = true
+bbcode_text = "Responda a charada:"
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta Charada"
+text = "Responda a charada:"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
-_sections_unfolded = [ "Visibility" ]
+_sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="A" type="Button" parent="NPC2/Resposta Charada" index="1"]
 
+editor/display_folded = true
 modulate = Color( 0.964844, 0.953537, 0.953537, 1 )
 self_modulate = Color( 0.964844, 0.957306, 0.957306, 1 )
 show_behind_parent = true
@@ -787,10 +789,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2400.0
-margin_top = 102.0
-margin_right = 2440.0
-margin_bottom = 132.0
+margin_left = 2357.0
+margin_top = 103.0
+margin_right = 2397.0
+margin_bottom = 133.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -845,10 +847,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2400.0
-margin_top = 138.0
-margin_right = 2440.0
-margin_bottom = 168.0
+margin_left = 2356.0
+margin_top = 142.0
+margin_right = 2396.0
+margin_bottom = 172.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -904,10 +906,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2400.0
-margin_top = 176.0
-margin_right = 2440.0
-margin_bottom = 206.0
+margin_left = 2357.0
+margin_top = 180.0
+margin_right = 2397.0
+margin_bottom = 210.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -934,8 +936,8 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 48.0
-margin_top = 7.0
-margin_right = 136.0
+margin_top = 8.0
+margin_right = 422.0
 margin_bottom = 25.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
@@ -944,12 +946,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Resposta C"
+bbcode_text = "Foi uma ação conjunta entre a madereira e a contrutora."
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta C"
+text = "Foi uma ação conjunta entre a madereira e a contrutora."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -963,10 +965,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2401.0
-margin_top = 217.0
-margin_right = 2441.0
-margin_bottom = 247.0
+margin_left = 2358.0
+margin_top = 220.0
+margin_right = 2398.0
+margin_bottom = 250.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -1021,7 +1023,7 @@ position = Vector2( 2465.07, 448.426 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 4 )
 animation = "idle_girl"
-frame = 8
+frame = 9
 playing = true
 _sections_unfolded = [ "Transform" ]
 
@@ -1049,12 +1051,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Olá aventureiro, bem-vindo à floresta. Ache todas as pistas e converse novamente comigo no final da fase!!"
+bbcode_text = "Seu professor não está aqui, ele foi levado a outro lugar!"
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Olá aventureiro, bem-vindo à floresta. Ache todas as pistas e converse novamente comigo no final da fase!!"
+text = "Seu professor não está aqui, ele foi levado a outro lugar!"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -1063,6 +1065,7 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="ButtonOkIteracao" type="Button" parent="NPC2" index="4"]
 
+visible = false
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1163,12 +1166,13 @@ shape = SubResource( 8 )
 
 [node name="Stone2" type="Sprite" parent="." index="5"]
 
-editor/display_folded = true
 position = Vector2( 2778.09, 481.577 )
 texture = ExtResource( 72 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stone2" index="0"]
 
+position = Vector2( -223.223, -6.9834 )
+scale = Vector2( 1.66234, 1 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -1179,8 +1183,8 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone2/StaticBody2D" index="0"]
 
-position = Vector2( 15.8027, -0.82251 )
-scale = Vector2( 5.01233, 2.18981 )
+position = Vector2( 126.915, -3.61584 )
+scale = Vector2( 2.87788, 2.18981 )
 shape = SubResource( 9 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="6"]
