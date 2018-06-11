@@ -30,5 +30,4 @@ func _process(delta):
 #	# Update game logic here.
 #	pass
 func mensagem():
-	get_node("RichTextLabel").text="Uma árvore de dicas"
-	get_node("RichTextLabel").percent_visible=1
+	get_node("RichTextLabel").visible=true
