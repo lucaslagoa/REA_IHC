@@ -41,16 +41,16 @@
 [ext_resource path="res://templerun/Idle__007.png" type="Texture" id=39]
 [ext_resource path="res://templerun/Idle__008.png" type="Texture" id=40]
 [ext_resource path="res://templerun/Idle__009.png" type="Texture" id=41]
-[ext_resource path="res://templerun/Run__000.png" type="Texture" id=42]
-[ext_resource path="res://templerun/Run__001.png" type="Texture" id=43]
-[ext_resource path="res://templerun/Run__002.png" type="Texture" id=44]
-[ext_resource path="res://templerun/Run__003.png" type="Texture" id=45]
-[ext_resource path="res://templerun/Run__004.png" type="Texture" id=46]
-[ext_resource path="res://templerun/Run__005.png" type="Texture" id=47]
-[ext_resource path="res://templerun/Run__006.png" type="Texture" id=48]
-[ext_resource path="res://templerun/Run__007.png" type="Texture" id=49]
-[ext_resource path="res://templerun/Run__008.png" type="Texture" id=50]
-[ext_resource path="res://templerun/Run__009.png" type="Texture" id=51]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=42]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=43]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=44]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=45]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=46]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=47]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=48]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=49]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=50]
+[ext_resource path="res://templerun/leftIdle__009.png" type="Texture" id=51]
 [ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=52]
 [ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=53]
 [ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=54]
@@ -61,16 +61,16 @@
 [ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=59]
 [ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=60]
 [ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=61]
-[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=62]
-[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=63]
-[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=64]
-[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=65]
-[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=66]
-[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=67]
-[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=68]
-[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=69]
-[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=70]
-[ext_resource path="res://templerun/leftIdle__009.png" type="Texture" id=71]
+[ext_resource path="res://templerun/Run__000.png" type="Texture" id=62]
+[ext_resource path="res://templerun/Run__001.png" type="Texture" id=63]
+[ext_resource path="res://templerun/Run__002.png" type="Texture" id=64]
+[ext_resource path="res://templerun/Run__003.png" type="Texture" id=65]
+[ext_resource path="res://templerun/Run__004.png" type="Texture" id=66]
+[ext_resource path="res://templerun/Run__005.png" type="Texture" id=67]
+[ext_resource path="res://templerun/Run__006.png" type="Texture" id=68]
+[ext_resource path="res://templerun/Run__007.png" type="Texture" id=69]
+[ext_resource path="res://templerun/Run__008.png" type="Texture" id=70]
+[ext_resource path="res://templerun/Run__009.png" type="Texture" id=71]
 [ext_resource path="res://desert.ogg" type="AudioStream" id=72]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -103,7 +103,7 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
 "loop": true,
-"name": "caminhando_dir",
+"name": "parado_dir",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ) ],
@@ -113,7 +113,7 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ) ],
 "loop": true,
-"name": "parado_dir",
+"name": "caminhando_dir",
 "speed": 5.0
 } ]
 _sections_unfolded = [ "Resource" ]
@@ -138,7 +138,6 @@ extents = Vector2( 16.25, 12.8267 )
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
-editor/display_folded = true
 mode = 0
 tile_set = null
 cell_size = Vector2( 64, 64 )
@@ -531,7 +530,6 @@ texture = ExtResource( 3 )
 
 [node name="Sign" type="Sprite" parent="TileMap" index="56"]
 
-editor/display_folded = true
 position = Vector2( 726.318, 475.235 )
 scale = Vector2( 1.00659, 1.06958 )
 texture = ExtResource( 14 )
@@ -560,10 +558,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -21.0
-margin_top = -89.0
-margin_right = 19.0
-margin_bottom = -49.0
+margin_left = -93.0
+margin_top = -138.0
+margin_right = 90.0
+margin_bottom = -82.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -572,12 +570,12 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
-bbcode_text = "Teste"
+bbcode_text = "A ferramenta mágica com certeza não foi utilizada pelo fárao"
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Teste"
+text = "A ferramenta mágica com certeza não foi utilizada pelo fárao"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -593,8 +591,7 @@ texture = ExtResource( 4 )
 
 [node name="Sign2" type="Sprite" parent="TileMap" index="57"]
 
-editor/display_folded = true
-position = Vector2( 1438.28, 469.5 )
+position = Vector2( 1184.82, 472.97 )
 scale = Vector2( 1.00659, 1.06958 )
 texture = ExtResource( 14 )
 
@@ -612,7 +609,7 @@ script = ExtResource( 15 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Sign2/Area2DDesert" index="0"]
 
-position = Vector2( -683.57, -0.591522 )
+position = Vector2( -681.987, 1.26572 )
 scale = Vector2( 3.77378, 4.17342 )
 shape = SubResource( 1 )
 
@@ -623,10 +620,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -697.0
-margin_top = -104.0
-margin_right = -657.0
-margin_bottom = -64.0
+margin_left = -773.0
+margin_top = -149.0
+margin_right = -587.0
+margin_bottom = -87.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -635,12 +632,12 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
-bbcode_text = "Teste"
+bbcode_text = "O fárao ama seu cetro mágico e sua esposa indigenas"
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Teste"
+text = "O fárao ama seu cetro mágico e sua esposa indigenas"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -656,8 +653,7 @@ texture = ExtResource( 4 )
 
 [node name="Sign3" type="Sprite" parent="TileMap" index="58"]
 
-editor/display_folded = true
-position = Vector2( 2041.64, 464.353 )
+position = Vector2( 1994.45, 469.956 )
 scale = Vector2( 1.00659, 1.06958 )
 texture = ExtResource( 14 )
 
@@ -675,7 +671,7 @@ script = ExtResource( 15 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Sign3/Area2DDesert" index="0"]
 
-position = Vector2( -505.546, -1.41315 )
+position = Vector2( -504.702, 3.15784 )
 scale = Vector2( 3.77378, 4.17342 )
 shape = SubResource( 1 )
 
@@ -686,10 +682,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -525.0
-margin_top = -89.0
-margin_right = -485.0
-margin_bottom = -49.0
+margin_left = -592.0
+margin_top = -123.0
+margin_right = -409.0
+margin_bottom = -85.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -698,12 +694,12 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
-bbcode_text = "Teste"
+bbcode_text = "Eles estão em um local com iluminação"
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Teste"
+text = "Eles estão em um local com iluminação"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -717,7 +713,131 @@ position = Vector2( -495.587, -107.363 )
 scale = Vector2( 0.420783, 0.822639 )
 texture = ExtResource( 4 )
 
-[node name="51" type="Sprite" parent="TileMap" index="59"]
+[node name="Sign4" type="Sprite" parent="TileMap" index="59"]
+
+position = Vector2( 1538.33, 470.382 )
+scale = Vector2( 1.00659, 1.06958 )
+texture = ExtResource( 14 )
+
+[node name="Area2DDesert" type="Area2D" parent="TileMap/Sign4" index="0"]
+
+position = Vector2( 330.605, -0.744019 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 15 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Sign4/Area2DDesert" index="0"]
+
+position = Vector2( -330.318, -0.53009 )
+scale = Vector2( 3.77378, 4.17342 )
+shape = SubResource( 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Sign4/Area2DDesert" index="1"]
+
+modulate = Color( 0.015625, 0.00238037, 0.00238037, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -450.0
+margin_top = -119.0
+margin_right = -201.0
+margin_bottom = -87.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "Os únicos lugares iluminados são o calabouço e a sala de animais."
+visible_characters = 0
+percent_visible = 0.0
+meta_underlined = true
+tab_size = 4
+text = "Os únicos lugares iluminados são o calabouço e a sala de animais."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility", "custom_colors" ]
+
+[node name="Sprite" type="Sprite" parent="TileMap/Sign4/Area2DDesert" index="2"]
+
+visible = false
+position = Vector2( -495.587, -107.363 )
+scale = Vector2( 0.420783, 0.822639 )
+texture = ExtResource( 4 )
+
+[node name="Sign5" type="Sprite" parent="TileMap" index="60"]
+
+position = Vector2( 2415.59, 467.368 )
+scale = Vector2( 1.00659, 1.06958 )
+texture = ExtResource( 14 )
+
+[node name="Area2DDesert" type="Area2D" parent="TileMap/Sign5" index="0"]
+
+position = Vector2( 330.605, -0.744019 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 15 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Sign5/Area2DDesert" index="0"]
+
+position = Vector2( -330.318, -1.62936 )
+scale = Vector2( 3.77378, 4.17342 )
+shape = SubResource( 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Sign5/Area2DDesert" index="1"]
+
+modulate = Color( 0.015625, 0.00238037, 0.00238037, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -423.0
+margin_top = -133.0
+margin_right = -199.0
+margin_bottom = -97.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "Eles não estão numa sala"
+visible_characters = 0
+percent_visible = 0.0
+meta_underlined = true
+tab_size = 4
+text = "Eles não estão numa sala"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility", "custom_colors" ]
+
+[node name="Sprite" type="Sprite" parent="TileMap/Sign5/Area2DDesert" index="2"]
+
+visible = false
+position = Vector2( -337.49, -238.097 )
+scale = Vector2( 0.420783, 0.822639 )
+texture = ExtResource( 4 )
+
+[node name="51" type="Sprite" parent="TileMap" index="61"]
 
 position = Vector2( 1053.66, 568.153 )
 scale = Vector2( 1.07273, 0.78785 )
@@ -740,13 +860,13 @@ position = Vector2( 422.917, 455.129 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 2 )
 animation = "zombie_idle"
-frame = 3
+frame = 2
 playing = true
 _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC" index="1"]
 
-position = Vector2( 423.58, 462.523 )
+position = Vector2( 425.58, 458.523 )
 scale = Vector2( 5.44635, 3.51211 )
 shape = SubResource( 3 )
 
@@ -758,10 +878,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 352.0
-margin_top = 253.0
-margin_right = 508.0
-margin_bottom = 343.0
+margin_left = 205.0
+margin_top = 127.0
+margin_right = 682.0
+margin_bottom = 364.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -769,12 +889,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Olá aventureiro, bem-vindo ao deserto. Ache todas as pistas e converse novamente comigo no final da fase!!"
+bbcode_text = "Hey aluno explorador, aqui é a casa do grande fárao Imotep, contudo, nos últimos dias esse local tem sido invadido por forasteiros como você. Agora, para você poder sair deste lugar você terá que descobrir em qual local estão essas pessoas e expulsa-las de lá usando uma ferramenta mágica, desta forma você também conseguirá encontrar seu professor. Em qual desses lugares estão os outros forasteiros e qual é a ferramenta mágica."
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Olá aventureiro, bem-vindo ao deserto. Ache todas as pistas e converse novamente comigo no final da fase!!"
+text = "Hey aluno explorador, aqui é a casa do grande fárao Imotep, contudo, nos últimos dias esse local tem sido invadido por forasteiros como você. Agora, para você poder sair deste lugar você terá que descobrir em qual local estão essas pessoas e expulsa-las de lá usando uma ferramenta mágica, desta forma você também conseguirá encontrar seu professor. Em qual desses lugares estão os outros forasteiros e qual é a ferramenta mágica."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -787,10 +907,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 399.0
-margin_top = 333.0
-margin_right = 444.0
-margin_bottom = 357.0
+margin_left = 397.0
+margin_top = 269.0
+margin_right = 442.0
+margin_bottom = 293.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -807,7 +927,6 @@ align = 1
 
 [node name="NPC2" type="Area2D" parent="." index="2"]
 
-visible = false
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -829,10 +948,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2221.0
-margin_top = 108.0
-margin_right = 2487.0
-margin_bottom = 130.0
+margin_left = 2573.0
+margin_top = 106.0
+margin_right = 2839.0
+margin_bottom = 128.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -858,10 +977,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2223.0
-margin_top = 132.0
-margin_right = 2248.0
-margin_bottom = 152.0
+margin_left = 2586.0
+margin_top = 129.0
+margin_right = 2611.0
+margin_bottom = 149.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -887,8 +1006,8 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 34.0
 margin_top = 2.0
-margin_right = 122.0
-margin_bottom = 23.0
+margin_right = 271.0
+margin_bottom = 19.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -896,12 +1015,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Resposta A"
+bbcode_text = "Sala de troféus do imperador, cetro."
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta A"
+text = "Sala de troféus do imperador, cetro."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -914,10 +1033,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2222.0
-margin_top = 164.0
-margin_right = 2247.0
-margin_bottom = 184.0
+margin_left = 2585.0
+margin_top = 157.0
+margin_right = 2610.0
+margin_bottom = 177.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -943,8 +1062,8 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 34.0
 margin_top = 2.0
-margin_right = 122.0
-margin_bottom = 23.0
+margin_right = 178.0
+margin_bottom = 18.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -957,7 +1076,7 @@ visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta B"
+text = "Sala de animais, arco."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -970,10 +1089,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2223.0
-margin_top = 193.0
-margin_right = 2248.0
-margin_bottom = 213.0
+margin_left = 2585.0
+margin_top = 188.0
+margin_right = 2610.0
+margin_bottom = 208.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -998,8 +1117,8 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 34.0
-margin_top = 2.0
-margin_right = 122.0
+margin_top = 3.0
+margin_right = 141.0
 margin_bottom = 23.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
@@ -1008,12 +1127,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Resposta C"
+bbcode_text = "Calabouço, lupa"
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta C"
+text = "Calabouço, lupa"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -1026,10 +1145,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2224.0
-margin_top = 226.0
-margin_right = 2249.0
-margin_bottom = 246.0
+margin_left = 2584.0
+margin_top = 220.0
+margin_right = 2610.0
+margin_bottom = 240.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -1054,9 +1173,9 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 34.0
-margin_top = 2.0
-margin_right = 122.0
-margin_bottom = 23.0
+margin_top = 1.0
+margin_right = 252.0
+margin_bottom = 17.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -1064,12 +1183,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Resposta D"
+bbcode_text = "Quarto de mumificação, flecha."
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta D"
+text = "Quarto de mumificação, flecha."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -1078,17 +1197,17 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="NPC2" index="1"]
 
-position = Vector2( 2306.91, 453.129 )
+position = Vector2( 2650.82, 453.635 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 2 )
 animation = "zombie_idle"
-frame = 2
+frame = 1
 playing = true
 _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NPC2" index="2"]
 
-position = Vector2( 2317.8, 449.788 )
+position = Vector2( 2653.92, 456.324 )
 scale = Vector2( 5.44635, 3.51211 )
 shape = SubResource( 3 )
 
@@ -1100,10 +1219,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2227.0
-margin_top = 257.0
-margin_right = 2383.0
-margin_bottom = 347.0
+margin_left = 2575.0
+margin_top = 294.0
+margin_right = 2731.0
+margin_bottom = 384.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -1111,12 +1230,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Olá aventureiro, bem-vindo ao deserto. Ache todas as pistas e converse novamente comigo no final da fase!!"
+bbcode_text = "Responda corretamente a charada e assim você encontrará seu professor.."
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Olá aventureiro, bem-vindo ao deserto. Ache todas as pistas e converse novamente comigo no final da fase!!"
+text = "Responda corretamente a charada e assim você encontrará seu professor.."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -1125,14 +1244,15 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="ButtonOkIteracao" type="Button" parent="NPC2" index="4"]
 
+visible = false
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2279.0
-margin_top = 335.0
-margin_right = 2324.0
-margin_bottom = 359.0
+margin_left = 2621.0
+margin_top = 347.0
+margin_right = 2666.0
+margin_bottom = 371.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -1149,6 +1269,7 @@ align = 1
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="." index="3"]
 
+editor/display_folded = true
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -1231,8 +1352,7 @@ shape = SubResource( 6 )
 
 [node name="Cactus (1)2" type="Sprite" parent="." index="6"]
 
-editor/display_folded = true
-position = Vector2( 2604.74, 426.853 )
+position = Vector2( 2933.34, 429.868 )
 scale = Vector2( 1.36157, 1.70796 )
 texture = ExtResource( 10 )
 
@@ -1249,7 +1369,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Cactus (1)2/StaticBody2D" index="0"]
 
-position = Vector2( -149.808, -12.3903 )
+position = Vector2( -149.808, -3.56497 )
 scale = Vector2( 3.22961, 4.96605 )
 shape = SubResource( 7 )
 

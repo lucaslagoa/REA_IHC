@@ -10,7 +10,9 @@
 [sub_resource type="Theme" id=1]
 
 
-[node name="Node2D" type="Node2D" index="0"]
+[node name="Node2D" type="Node2D"]
+
+editor/display_folded = true
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -76,7 +78,7 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 390.0
 margin_top = 290.0
-margin_right = 690.0
+margin_right = 680.0
 margin_bottom = 350.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false

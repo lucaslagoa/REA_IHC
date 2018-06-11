@@ -31,4 +31,4 @@ func _process(delta):
 #	pass
 func mensagem():
 	get_node("RichTextLabel").percent_visible=1
-	get_node("Sprite").visible=1
+	#get_node("Sprite").visible=1
