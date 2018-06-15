@@ -1,26 +1,26 @@
-[gd_scene load_steps=105 format=2]
+[gd_scene load_steps=103 format=2]
 
-[ext_resource path="res://graveyard/png/Objects/Sign.png" type="Texture" id=1]
-[ext_resource path="res://dica1_cemiterio.gd" type="Script" id=2]
-[ext_resource path="res://graveyard/png/Objects/TombStone (1).png" type="Texture" id=3]
-[ext_resource path="res://Tumba_cemiterio.gd" type="Script" id=4]
-[ext_resource path="res://graveyard/zombie/esp_head1.png" type="Texture" id=5]
-[ext_resource path="res://graveyard/zombie/esp_head2.png" type="Texture" id=6]
-[ext_resource path="res://graveyard/zombie/esp_head3.png" type="Texture" id=7]
-[ext_resource path="res://graveyard/zombie/esp_head4.png" type="Texture" id=8]
-[ext_resource path="res://graveyard/zombie/esp_head5.png" type="Texture" id=9]
-[ext_resource path="res://graveyard/zombie/esp_head6.png" type="Texture" id=10]
-[ext_resource path="res://graveyard/png/Tiles/Bone (2).png" type="Texture" id=11]
-[ext_resource path="res://graveyard/png/Objects/Tree.png" type="Texture" id=12]
-[ext_resource path="res://arvore_cemiterio.gd" type="Script" id=13]
-[ext_resource path="res://freescifiplatform/png/Objects/Barrel (2).png" type="Texture" id=14]
-[ext_resource path="res://barril_cemiterio.gd" type="Script" id=15]
+[ext_resource path="res://freescifiplatform/png/Objects/Barrel (2).png" type="Texture" id=1]
+[ext_resource path="res://graveyard/png/Objects/Sign.png" type="Texture" id=2]
+[ext_resource path="res://dica1_cemiterio.gd" type="Script" id=3]
+[ext_resource path="res://graveyard/dialogo/box_pistas.png" type="Texture" id=4]
+[ext_resource path="res://graveyard/png/Objects/TombStone (1).png" type="Texture" id=5]
+[ext_resource path="res://Tumba_cemiterio.gd" type="Script" id=6]
+[ext_resource path="res://graveyard/zombie/esp_head1.png" type="Texture" id=7]
+[ext_resource path="res://graveyard/zombie/esp_head2.png" type="Texture" id=8]
+[ext_resource path="res://graveyard/zombie/esp_head3.png" type="Texture" id=9]
+[ext_resource path="res://graveyard/zombie/esp_head4.png" type="Texture" id=10]
+[ext_resource path="res://graveyard/zombie/esp_head5.png" type="Texture" id=11]
+[ext_resource path="res://graveyard/zombie/esp_head6.png" type="Texture" id=12]
+[ext_resource path="res://graveyard/png/Tiles/Bone (2).png" type="Texture" id=13]
+[ext_resource path="res://graveyard/png/Objects/Tree.png" type="Texture" id=14]
+[ext_resource path="res://arvore_cemiterio.gd" type="Script" id=15]
 [ext_resource path="res://placa_dica_cemiterio.gd" type="Script" id=16]
-[ext_resource path="res://graveyard/png/Objects/Crate.png" type="Texture" id=17]
-[ext_resource path="res://caixas_cemiterio.gd" type="Script" id=18]
-[ext_resource path="res://cabe_cemiterio.gd" type="Script" id=19]
-[ext_resource path="res://graveyard/png/Objects/Skeleton.png" type="Texture" id=20]
-[ext_resource path="res://esqueleto_cemiterio.gd" type="Script" id=21]
+[ext_resource path="res://cabe_cemiterio.gd" type="Script" id=17]
+[ext_resource path="res://graveyard/png/Objects/Skeleton.png" type="Texture" id=18]
+[ext_resource path="res://esqueleto_cemiterio.gd" type="Script" id=19]
+[ext_resource path="res://graveyard/png/Objects/TombStone (2).png" type="Texture" id=20]
+[ext_resource path="res://Area2D.gd" type="Script" id=21]
 [ext_resource path="res://graveyard/png/Tiles/Tile (5).png" type="Texture" id=22]
 [ext_resource path="res://graveyard/png/Tiles/Tile (2).png" type="Texture" id=23]
 [ext_resource path="res://graveyard/png/Objects/DeadBush.png" type="Texture" id=24]
@@ -37,56 +37,56 @@
 [ext_resource path="res://graveyard/jack/esp_Idle (8).png" type="Texture" id=35]
 [ext_resource path="res://graveyard/jack/esp_Idle (9).png" type="Texture" id=36]
 [ext_resource path="res://graveyard/jack/esp_Idle (10).png" type="Texture" id=37]
-[ext_resource path="res://NPC2_cemiterio.gd" type="Script" id=38]
-[ext_resource path="res://A_cemiterio.gd" type="Script" id=39]
-[ext_resource path="res://B_cemiterio.gd" type="Script" id=40]
-[ext_resource path="res://C_cemiterio.gd" type="Script" id=41]
-[ext_resource path="res://D_cemiterio.gd" type="Script" id=42]
-[ext_resource path="res://graveyard/png/BG_nolua.png" type="Texture" id=43]
-[ext_resource path="res://graveyard/png/BG.png" type="Texture" id=44]
-[ext_resource path="res://graveyard/cemiterio.ogg" type="AudioStream" id=45]
-[ext_resource path="res://graveyard/png/Tiles/Bone (3).png" type="Texture" id=46]
-[ext_resource path="res://graveyard/png/Tiles/Bone (4).png" type="Texture" id=47]
-[ext_resource path="res://graveyard/png/Objects/TombStone (2).png" type="Texture" id=48]
-[ext_resource path="res://Area2D.gd" type="Script" id=49]
-[ext_resource path="res://KinematicBody2D.gd" type="Script" id=50]
-[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=51]
-[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=52]
-[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=53]
-[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=54]
-[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=55]
-[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=56]
-[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=57]
-[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=58]
-[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=59]
-[ext_resource path="res://templerun/Run__000.png" type="Texture" id=60]
-[ext_resource path="res://templerun/Run__001.png" type="Texture" id=61]
-[ext_resource path="res://templerun/Run__003.png" type="Texture" id=62]
-[ext_resource path="res://templerun/Run__002.png" type="Texture" id=63]
-[ext_resource path="res://templerun/Run__004.png" type="Texture" id=64]
-[ext_resource path="res://templerun/Run__005.png" type="Texture" id=65]
-[ext_resource path="res://templerun/Run__006.png" type="Texture" id=66]
-[ext_resource path="res://templerun/Run__008.png" type="Texture" id=67]
-[ext_resource path="res://templerun/Run__007.png" type="Texture" id=68]
-[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=69]
-[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=70]
-[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=71]
-[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=72]
-[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=73]
-[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=74]
-[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=75]
-[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=76]
-[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=77]
-[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=78]
-[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=79]
-[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=80]
-[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=81]
-[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=82]
-[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=83]
-[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=84]
-[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=85]
-[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=86]
-[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=87]
+[ext_resource path="res://graveyard/dialogo/diario_box.png" type="Texture" id=38]
+[ext_resource path="res://NPC2_cemiterio.gd" type="Script" id=39]
+[ext_resource path="res://A_cemiterio.gd" type="Script" id=40]
+[ext_resource path="res://B_cemiterio.gd" type="Script" id=41]
+[ext_resource path="res://C_cemiterio.gd" type="Script" id=42]
+[ext_resource path="res://D_cemiterio.gd" type="Script" id=43]
+[ext_resource path="res://graveyard/png/BG_nolua.png" type="Texture" id=44]
+[ext_resource path="res://graveyard/png/BG.png" type="Texture" id=45]
+[ext_resource path="res://graveyard/cemiterio.ogg" type="AudioStream" id=46]
+[ext_resource path="res://graveyard/png/Tiles/Bone (3).png" type="Texture" id=47]
+[ext_resource path="res://graveyard/png/Tiles/Bone (4).png" type="Texture" id=48]
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=49]
+[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=50]
+[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=51]
+[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=52]
+[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=53]
+[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=54]
+[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=55]
+[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=56]
+[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=57]
+[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=58]
+[ext_resource path="res://templerun/Run__000.png" type="Texture" id=59]
+[ext_resource path="res://templerun/Run__001.png" type="Texture" id=60]
+[ext_resource path="res://templerun/Run__003.png" type="Texture" id=61]
+[ext_resource path="res://templerun/Run__002.png" type="Texture" id=62]
+[ext_resource path="res://templerun/Run__004.png" type="Texture" id=63]
+[ext_resource path="res://templerun/Run__005.png" type="Texture" id=64]
+[ext_resource path="res://templerun/Run__006.png" type="Texture" id=65]
+[ext_resource path="res://templerun/Run__008.png" type="Texture" id=66]
+[ext_resource path="res://templerun/Run__007.png" type="Texture" id=67]
+[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=68]
+[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=69]
+[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=70]
+[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=71]
+[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=72]
+[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=73]
+[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=74]
+[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=75]
+[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=76]
+[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=77]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=78]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=79]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=80]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=81]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=82]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=83]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=84]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=85]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=86]
+[ext_resource path="res://graveyard/png/Objects/Crate.png" type="Texture" id=87]
 [ext_resource path="res://graveyard/png/Tiles/Bone (1).png" type="Texture" id=88]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -102,7 +102,7 @@ extents = Vector2( 11.8073, 10 )
 [sub_resource type="SpriteFrames" id=3]
 
 animations = [ {
-"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
+"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ) ],
 "loop": true,
 "name": "default",
 "speed": 5.0
@@ -113,20 +113,10 @@ animations = [ {
 custom_solver_bias = 0.0
 points = PoolVector2Array( 0, -10, 8.66025, 5, -8.66025, 5 )
 
-[sub_resource type="RectangleShape2D" id=5]
-
-custom_solver_bias = 0.0
-extents = Vector2( 109.437, 112.481 )
-
 [sub_resource type="RectangleShape2D" id=6]
 
 custom_solver_bias = 0.0
 extents = Vector2( 29.1558, 45.8116 )
-
-[sub_resource type="RectangleShape2D" id=7]
-
-custom_solver_bias = 0.0
-extents = Vector2( 60.5066, 13.0862 )
 
 [sub_resource type="RectangleShape2D" id=8]
 
@@ -136,7 +126,12 @@ extents = Vector2( 48.2207, 28.6868 )
 [sub_resource type="RectangleShape2D" id=9]
 
 custom_solver_bias = 0.0
-extents = Vector2( 54.4204, 28.5226 )
+extents = Vector2( 62.6802, 28.5226 )
+
+[sub_resource type="RectangleShape2D" id=13]
+
+custom_solver_bias = 0.0
+extents = Vector2( 30, 40 )
 
 [sub_resource type="RectangleShape2D" id=10]
 
@@ -159,11 +154,6 @@ custom_solver_bias = 0.0
 radius = 10.0
 height = 20.0
 
-[sub_resource type="RectangleShape2D" id=13]
-
-custom_solver_bias = 0.0
-extents = Vector2( 30, 40 )
-
 [sub_resource type="CapsuleShape2D" id=14]
 
 custom_solver_bias = 0.0
@@ -173,22 +163,22 @@ height = 20.0
 [sub_resource type="SpriteFrames" id=15]
 
 animations = [ {
-"frames": [ ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ) ],
+"frames": [ ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ) ],
 "loop": true,
 "name": "parado",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ) ],
+"frames": [ ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ) ],
 "loop": true,
 "name": "caminhando_dir",
-"speed": 6.01
+"speed": 8.0
 }, {
-"frames": [ ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ) ],
+"frames": [ ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ) ],
 "loop": true,
 "name": "caminhando_esq",
-"speed": 6.01002
+"speed": 8.0
 }, {
-"frames": [ ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ) ],
+"frames": [ ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ) ],
 "loop": true,
 "name": "parado_esq",
 "speed": 5.0
@@ -200,7 +190,11 @@ _sections_unfolded = [ "Resource" ]
 custom_solver_bias = 0.0
 extents = Vector2( 10, 10 )
 
-[node name="Cemiterio" type="Node"]
+[node name="Cemiterio" type="Node" index="0"]
+
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -223,15 +217,20 @@ format = 1
 tile_data = PoolIntArray(  )
 _sections_unfolded = [ "Cell" ]
 
-[node name="Objetos interativos" type="Node" parent="TileMap" index="0"]
+[node name="Objetos_interativos" type="Node" parent="TileMap" index="0"]
 
-[node name="dica 1" type="Sprite" parent="TileMap/Objetos interativos" index="0"]
+[node name="barril" type="Sprite" parent="TileMap/Objetos_interativos" index="0"]
 
-editor/display_folded = true
-position = Vector2( 1340.22, 482.371 )
+position = Vector2( 1892.92, 489.75 )
+scale = Vector2( 0.416676, 0.334034 )
 texture = ExtResource( 1 )
 
-[node name="dica1_cemiterio" type="Area2D" parent="TileMap/Objetos interativos/dica 1" index="0"]
+[node name="dica 1" type="Sprite" parent="TileMap/Objetos_interativos" index="1"]
+
+position = Vector2( 1340.22, 482.371 )
+texture = ExtResource( 2 )
+
+[node name="dica1_cemiterio" type="Area2D" parent="TileMap/Objetos_interativos/dica 1" index="0"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -240,19 +239,28 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 2 )
+script = ExtResource( 3 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos interativos/dica 1/dica1_cemiterio" index="0"]
+[node name="box_pistas" type="Sprite" parent="TileMap/Objetos_interativos/dica 1/dica1_cemiterio" index="0"]
 
 visible = false
+show_behind_parent = true
+position = Vector2( 84.9552, -93.2038 )
+scale = Vector2( 0.652045, 0.412927 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos_interativos/dica 1/dica1_cemiterio" index="1"]
+
+modulate = Color( 0.00390625, 0.00375366, 0.00375366, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -13.0
-margin_top = -111.0
-margin_right = 168.0
-margin_bottom = -56.0
+margin_left = 4.0
+margin_top = -117.0
+margin_right = 155.0
+margin_bottom = -62.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -260,32 +268,32 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Andava a cavalo Killy the bid, Jão e Jaq, e um outro que não sei"
-visible_characters = -1
-percent_visible = 1.0
+bbcode_text = "Andava a cavalo Killy the bid, Jão e Jaq, e um outro que não sei."
+visible_characters = 0
+percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Andava a cavalo Killy the bid, Jão e Jaq, e um outro que não sei"
+text = "Andava a cavalo Killy the bid, Jão e Jaq, e um outro que não sei."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
-_sections_unfolded = [ "BBCode" ]
+_sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos interativos/dica 1/dica1_cemiterio" index="1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos_interativos/dica 1/dica1_cemiterio" index="2"]
 
-position = Vector2( 1.88284, -1.51761 )
+position = Vector2( 4.823, -1.51761 )
 scale = Vector2( 0.875646, 1.07461 )
 shape = SubResource( 1 )
+_sections_unfolded = [ "Visibility" ]
 
-[node name="TombStone (1)4" type="Sprite" parent="TileMap/Objetos interativos" index="1"]
+[node name="TombStone (1)4" type="Sprite" parent="TileMap/Objetos_interativos" index="2"]
 
-editor/display_folded = true
 position = Vector2( 1490, 500.982 )
 scale = Vector2( 1.48148, 1.03636 )
-texture = ExtResource( 3 )
+texture = ExtResource( 5 )
 
-[node name="tumba" type="Area2D" parent="TileMap/Objetos interativos/TombStone (1)4" index="0"]
+[node name="tumba" type="Area2D" parent="TileMap/Objetos_interativos/TombStone (1)4" index="0"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -294,33 +302,34 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 4 )
+script = ExtResource( 6 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos interativos/TombStone (1)4/tumba" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos_interativos/TombStone (1)4/tumba" index="0"]
 
 position = Vector2( -1.22522, 5.46561 )
 scale = Vector2( 3.38862, 3.33972 )
 shape = SubResource( 2 )
 
-[node name="cabeca_falante" type="AnimatedSprite" parent="TileMap/Objetos interativos/TombStone (1)4/tumba" index="1"]
+[node name="cabeca_falante" type="AnimatedSprite" parent="TileMap/Objetos_interativos/TombStone (1)4/tumba" index="1"]
 
 visible = false
-position = Vector2( 3.23456, -147.041 )
+position = Vector2( -0.662109, -183.168 )
 scale = Vector2( 0.0605622, 0.0799365 )
 frames = SubResource( 3 )
 animation = "default"
 frame = 2
 
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos interativos/TombStone (1)4/tumba" index="2"]
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos_interativos/TombStone (1)4/tumba" index="2"]
 
+modulate = Color( 0.03125, 0.0297852, 0.0297852, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -53.0
-margin_top = -227.0
-margin_right = 89.0
-margin_bottom = -184.0
+margin_left = -64.0
+margin_top = -299.0
+margin_right = 78.0
+margin_bottom = -256.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -338,79 +347,30 @@ scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
-_sections_unfolded = [ "BBCode" ]
+_sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="Bone (2)2" type="Sprite" parent="TileMap/Objetos interativos/TombStone (1)4" index="1"]
+[node name="box_pistas" type="Sprite" parent="TileMap/Objetos_interativos/TombStone (1)4/tumba" index="3"]
+
+visible = false
+show_behind_parent = true
+position = Vector2( 10.7105, -267.407 )
+scale = Vector2( 0.665049, 0.649985 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Bone (2)2" type="Sprite" parent="TileMap/Objetos_interativos/TombStone (1)4" index="1"]
 
 position = Vector2( -6.15582, -3.49564 )
 scale = Vector2( 0.300587, 0.354305 )
-texture = ExtResource( 11 )
+texture = ExtResource( 13 )
 
-[node name="Tree" type="Sprite" parent="TileMap/Objetos interativos" index="2"]
+[node name="Tree" type="Sprite" parent="TileMap/Objetos_interativos" index="3"]
 
-editor/display_folded = true
 position = Vector2( 1190, 410 )
-texture = ExtResource( 12 )
-
-[node name="arvore_cemiterio" type="Area2D" parent="TileMap/Objetos interativos/Tree" index="0"]
-
-input_pickable = true
-gravity_vec = Vector2( 0, 1 )
-gravity = 98.0
-linear_damp = 0.1
-angular_damp = 1.0
-audio_bus_override = false
-audio_bus_name = "Master"
-script = ExtResource( 13 )
-
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos interativos/Tree/arvore_cemiterio" index="0"]
-
-visible = false
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = -100.0
-margin_top = -212.0
-margin_right = 109.0
-margin_bottom = -140.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = true
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-bbcode_enabled = false
-bbcode_text = "O Jdango usava um chapeu vermelhor."
-visible_characters = -1
-percent_visible = 1.0
-meta_underlined = true
-tab_size = 4
-text = "O Jdango usava um chapeu vermelhor."
-scroll_active = true
-scroll_following = false
-selection_enabled = false
-override_selected_font_color = false
-_sections_unfolded = [ "BBCode", "Visibility" ]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos interativos/Tree/arvore_cemiterio" index="1"]
-
-position = Vector2( 14.6592, 48.696 )
-scale = Vector2( 9.08303, 15.2005 )
-shape = SubResource( 4 )
-
-[node name="barril" type="Sprite" parent="TileMap/Objetos interativos" index="3"]
-
-editor/display_folded = true
-position = Vector2( 1892.92, 489.75 )
-scale = Vector2( 0.416676, 0.334034 )
 texture = ExtResource( 14 )
 
-[node name="barril_cemiterio" type="Area2D" parent="TileMap/Objetos interativos/barril" index="0"]
+[node name="arvore_cemiterio" type="Area2D" parent="TileMap/Objetos_interativos/Tree" index="0"]
 
-editor/display_folded = true
-position = Vector2( -8.69932, -3.56939 )
-scale = Vector2( 2.38825, 3.84803 )
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -420,23 +380,17 @@ audio_bus_override = false
 audio_bus_name = "Master"
 script = ExtResource( 15 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos interativos/barril/barril_cemiterio" index="0"]
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos_interativos/Tree/arvore_cemiterio" index="0"]
 
-position = Vector2( 2.95267, -3.11618 )
-scale = Vector2( 0.440854, 0.352428 )
-shape = SubResource( 5 )
-
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos interativos/barril/barril_cemiterio" index="1"]
-
-visible = false
+modulate = Color( 0.0351562, 0.0339203, 0.0339203, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -47.0
-margin_top = -90.0
-margin_right = 86.0
-margin_bottom = -50.0
+margin_left = -100.0
+margin_top = -212.0
+margin_right = 65.0
+margin_bottom = -140.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -444,26 +398,42 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Um barril com conteúdo suspeito."
-visible_characters = -1
-percent_visible = 1.0
+bbcode_text = "O Jdango usava um chapeu vermelho."
+visible_characters = 0
+percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Um barril com conteúdo suspeito."
+text = "O Jdango usava um chapeu vermelho."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="placa_dica" type="Sprite" parent="TileMap/Objetos interativos" index="4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos_interativos/Tree/arvore_cemiterio" index="1"]
+
+position = Vector2( 5.06946, 43.2258 )
+scale = Vector2( 8.13451, 15.2005 )
+shape = SubResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="box_pistas" type="Sprite" parent="TileMap/Objetos_interativos/Tree/arvore_cemiterio" index="2"]
+
+visible = false
+show_behind_parent = true
+position = Vector2( -17.9563, -167.576 )
+scale = Vector2( 0.783123, 0.707051 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="placa_dica" type="Sprite" parent="TileMap/Objetos_interativos" index="4"]
 
 editor/display_folded = true
 position = Vector2( 2250, 490 )
 scale = Vector2( 0.824176, 0.827957 )
-texture = ExtResource( 1 )
+texture = ExtResource( 2 )
 
-[node name="placa_dica" type="Area2D" parent="TileMap/Objetos interativos/placa_dica" index="0"]
+[node name="placa_dica" type="Area2D" parent="TileMap/Objetos_interativos/placa_dica" index="0"]
 
 position = Vector2( -4.5822, -15.9822 )
 scale = Vector2( 1.84397, 1.49944 )
@@ -476,17 +446,17 @@ audio_bus_override = false
 audio_bus_name = "Master"
 script = ExtResource( 16 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos interativos/placa_dica/placa_dica" index="0"]
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos_interativos/placa_dica/placa_dica" index="0"]
 
-visible = false
+modulate = Color( 0.0625, 0.0605469, 0.0605469, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -43.0
-margin_top = -116.0
-margin_right = 153.0
-margin_bottom = -63.0
+margin_left = -38.0
+margin_top = -154.0
+margin_right = 72.0
+margin_bottom = -59.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -495,8 +465,8 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
 bbcode_text = "Andava de bandana roxa Kid the Billy e Jdango"
-visible_characters = -1
-percent_visible = 1.0
+visible_characters = 0
+percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
 text = "Andava de bandana roxa Kid the Billy e Jdango"
@@ -504,84 +474,30 @@ scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
-_sections_unfolded = [ "BBCode" ]
+_sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos interativos/placa_dica/placa_dica" index="1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos_interativos/placa_dica/placa_dica" index="1"]
 
-position = Vector2( 0, 1.14334 )
+position = Vector2( 1.61584, -0.310577 )
 scale = Vector2( 1, 1.02342 )
 shape = SubResource( 6 )
 
-[node name="Caixas" type="Sprite" parent="TileMap/Objetos interativos" index="5"]
-
-editor/display_folded = true
-position = Vector2( 2660, 388.5 )
-scale = Vector2( 1, 0.971698 )
-texture = ExtResource( 17 )
-
-[node name="caixas_cemiterio" type="Area2D" parent="TileMap/Objetos interativos/Caixas" index="0"]
-
-position = Vector2( 15.6968, 22.6881 )
-scale = Vector2( 2.60442, 2.59723 )
-input_pickable = true
-gravity_vec = Vector2( 0, 1 )
-gravity = 98.0
-linear_damp = 0.1
-angular_damp = 1.0
-audio_bus_override = false
-audio_bus_name = "Master"
-script = ExtResource( 18 )
-
-[node name="Crate" type="Sprite" parent="TileMap/Objetos interativos/Caixas/caixas_cemiterio" index="0"]
-
-position = Vector2( -5.38428, 28.8114 )
-scale = Vector2( 0.35864, 0.347645 )
-texture = ExtResource( 17 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos interativos/Caixas/caixas_cemiterio" index="1"]
-
-position = Vector2( -2.07629, 9.21002 )
-scale = Vector2( 0.49829, 3.14806 )
-shape = SubResource( 7 )
-
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos interativos/Caixas/caixas_cemiterio" index="2"]
+[node name="box_pistas" type="Sprite" parent="TileMap/Objetos_interativos/placa_dica/placa_dica" index="2"]
 
 visible = false
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = -49.0
-margin_top = -78.0
-margin_right = 45.0
-margin_bottom = -38.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = true
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-bbcode_enabled = false
-bbcode_text = "Caixas do destino."
-visible_characters = -1
-percent_visible = 1.0
-meta_underlined = true
-tab_size = 4
-text = "Caixas do destino."
-scroll_active = true
-scroll_following = false
-selection_enabled = false
-override_selected_font_color = false
-_sections_unfolded = [ "BBCode" ]
+show_behind_parent = true
+position = Vector2( 8.26965, -102.325 )
+scale = Vector2( 0.486821, 0.623266 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
 
-[node name="cabeça_esqueleto" type="Sprite" parent="TileMap/Objetos interativos" index="6"]
+[node name="cabeça_esqueleto" type="Sprite" parent="TileMap/Objetos_interativos" index="5"]
 
-editor/display_folded = true
 position = Vector2( 2849.99, 522.902 )
 scale = Vector2( 0.503233, 0.501667 )
-texture = ExtResource( 11 )
+texture = ExtResource( 13 )
 
-[node name="cabe_cemiterio" type="Area2D" parent="TileMap/Objetos interativos/cabeça_esqueleto" index="0"]
+[node name="cabe_cemiterio" type="Area2D" parent="TileMap/Objetos_interativos/cabeça_esqueleto" index="0"]
 
 position = Vector2( 15.1018, -30.2964 )
 scale = Vector2( 2.21382, 1.94676 )
@@ -592,25 +508,26 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 19 )
+script = ExtResource( 17 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos interativos/cabeça_esqueleto/cabe_cemiterio" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos_interativos/cabeça_esqueleto/cabe_cemiterio" index="0"]
 
-position = Vector2( 0.912109, 1.94421 )
+position = Vector2( 2.10327, 2.25354 )
 scale = Vector2( 0.568585, 1 )
 shape = SubResource( 8 )
+_sections_unfolded = [ "Visibility" ]
 
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos interativos/cabeça_esqueleto/cabe_cemiterio" index="1"]
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos_interativos/cabeça_esqueleto/cabe_cemiterio" index="1"]
 
-visible = false
+modulate = Color( 0.0351562, 0.0339203, 0.0339203, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -89.0
-margin_top = -130.0
-margin_right = 88.0
-margin_bottom = -55.0
+margin_left = -40.0
+margin_top = -133.0
+margin_right = 57.0
+margin_bottom = -67.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -619,8 +536,8 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
 bbcode_text = "A cabeça de alguem que já esteve vivo!!"
-visible_characters = -1
-percent_visible = 1.0
+visible_characters = 0
+percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
 text = "A cabeça de alguem que já esteve vivo!!"
@@ -628,16 +545,29 @@ scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
-_sections_unfolded = [ "BBCode" ]
+_sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="Esqueleto" type="Sprite" parent="TileMap/Objetos interativos" index="7"]
+[node name="box_pistas" type="Sprite" parent="TileMap/Objetos_interativos/cabeça_esqueleto/cabe_cemiterio" index="2"]
 
-editor/display_folded = true
-position = Vector2( 3180.01, 500.362 )
-texture = ExtResource( 20 )
+visible = false
+show_behind_parent = true
+position = Vector2( 11.7148, -93.3255 )
+scale = Vector2( 0.473232, 0.575666 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+__meta__ = {
+"_edit_lock_": true
+}
 
-[node name="Area2D" type="Area2D" parent="TileMap/Objetos interativos/Esqueleto" index="0"]
+[node name="Esqueleto" type="Sprite" parent="TileMap/Objetos_interativos" index="6"]
 
+position = Vector2( 2613.96, 510.33 )
+texture = ExtResource( 18 )
+
+[node name="Area2D" type="Area2D" parent="TileMap/Objetos_interativos/Esqueleto" index="0"]
+
+position = Vector2( -20.4168, -15.3765 )
+scale = Vector2( 1.17084, 1.643 )
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -645,23 +575,26 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 21 )
+script = ExtResource( 19 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos interativos/Esqueleto/Area2D" index="0"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos_interativos/Esqueleto/Area2D" index="0"]
 
+position = Vector2( 15.7199, -1.66397 )
+scale = Vector2( 0.872004, 1 )
 shape = SubResource( 9 )
+_sections_unfolded = [ "Visibility" ]
 
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos interativos/Esqueleto/Area2D" index="1"]
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos_interativos/Esqueleto/Area2D" index="1"]
 
-visible = false
+modulate = Color( 0.0351562, 0.0339203, 0.0339203, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -55.0
-margin_top = -93.0
-margin_right = 68.0
-margin_bottom = -43.0
+margin_left = -44.0
+margin_top = -99.0
+margin_right = 67.0
+margin_bottom = -57.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -669,17 +602,95 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Quem raptou andava a cavalo"
-visible_characters = -1
-percent_visible = 1.0
+bbcode_text = "Quem raptou andava a cavalo."
+visible_characters = 0
+percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Quem raptou andava a cavalo"
+text = "Quem raptou andava a cavalo."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
-_sections_unfolded = [ "BBCode" ]
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="box_pistas" type="Sprite" parent="TileMap/Objetos_interativos/Esqueleto/Area2D" index="2"]
+
+visible = false
+show_behind_parent = true
+position = Vector2( 17.261, -77.2675 )
+scale = Vector2( 0.587643, 0.408924 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="TombStone (2)" type="Sprite" parent="TileMap/Objetos_interativos" index="7"]
+
+position = Vector2( 970, 490 )
+texture = ExtResource( 20 )
+
+[node name="Area2D" type="Area2D" parent="TileMap/Objetos_interativos/TombStone (2)" index="0"]
+
+input_pickable = true
+space_override = 3
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 21 )
+_sections_unfolded = [ "Collision", "Visibility" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Objetos_interativos/TombStone (2)/Area2D" index="0"]
+
+position = Vector2( -1.47021, 3.5 )
+scale = Vector2( 1, 1.0814 )
+shape = SubResource( 13 )
+_sections_unfolded = [ "Pause" ]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Objetos_interativos/TombStone (2)/Area2D" index="1"]
+
+modulate = Color( 0.0273438, 0.0267029, 0.0267029, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -60.0
+margin_top = -121.0
+margin_right = 60.0
+margin_bottom = -54.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+hint_tooltip = "Olá Estranho mundo Crueeeel :)"
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "Quem raptou o índio não andava em bando."
+visible_characters = 0
+percent_visible = 0.0
+meta_underlined = true
+tab_size = 4
+text = "Quem raptou o índio não andava em bando."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="box_pistas" type="Sprite" parent="TileMap/Objetos_interativos/TombStone (2)/Area2D" index="2"]
+
+visible = false
+show_behind_parent = true
+position = Vector2( 1.05388, -91.696 )
+scale = Vector2( 0.563956, 0.509001 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
 
 [node name="Terreno" type="Node2D" parent="TileMap" index="1"]
 
@@ -1281,17 +1292,17 @@ texture = ExtResource( 25 )
 [node name="TombStone (1)2" type="Sprite" parent="TileMap/Objetos do cenario" index="2"]
 
 position = Vector2( 1760, 500 )
-texture = ExtResource( 3 )
+texture = ExtResource( 5 )
 
 [node name="TombStone (1)" type="Sprite" parent="TileMap/Objetos do cenario" index="3"]
 
 position = Vector2( 1670, 500 )
-texture = ExtResource( 3 )
+texture = ExtResource( 5 )
 
 [node name="TombStone (1)3" type="Sprite" parent="TileMap/Objetos do cenario" index="4"]
 
 position = Vector2( 1590, 500 )
-texture = ExtResource( 3 )
+texture = ExtResource( 5 )
 
 [node name="Bush (1)2" type="Sprite" parent="TileMap/Objetos do cenario" index="5"]
 
@@ -1324,7 +1335,6 @@ shape = SubResource( 10 )
 
 [node name="NPC" type="Area2D" parent="TileMap" index="3"]
 
-editor/display_folded = true
 position = Vector2( 721.007, 497.116 )
 input_pickable = false
 gravity_vec = Vector2( 0, 1 )
@@ -1337,30 +1347,31 @@ script = ExtResource( 27 )
 
 [node name="npc_sprite" type="AnimatedSprite" parent="TileMap/NPC" index="0"]
 
-position = Vector2( -0.418844, -32.998 )
+position = Vector2( -117.18, -34.5422 )
 scale = Vector2( 0.181048, 0.188173 )
 frames = SubResource( 11 )
 animation = "default"
-frame = 1
+frame = 6
 playing = true
 _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/NPC" index="1"]
 
-position = Vector2( 3.04131, -16.4678 )
+position = Vector2( -108.958, -31.4977 )
 scale = Vector2( 4.55025, 3.89574 )
 shape = SubResource( 12 )
 
 [node name="boas_vindas" type="RichTextLabel" parent="TileMap/NPC" index="2"]
 
+modulate = Color( 0.015625, 0.0153809, 0.0153809, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -238.0
-margin_top = -254.0
-margin_right = 275.0
-margin_bottom = -99.0
+margin_left = -277.0
+margin_top = -389.0
+margin_right = 79.0
+margin_bottom = -187.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -1369,16 +1380,16 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
 bbcode_text = "Hey aluno cara-pálida, esse é uma cemitério de  indios que serve para bandidos esconderem pessoas, 
-contudo, nós fantasmas que moramos aqui não gostamos dessas vigarices e queremos apenas ficar em paz, 
+contudo, nós caminhantes noturnos que moramos aqui não gostamos dessas vigarices e queremos apenas ficar em paz, 
 ajude-nos a expulsar esse meliantes, resolvendo o seguinte problema: 
 Em 1872 um cacique foi raptado por ancestrais desses bandidos. 
 Descubra qual desses bandidos raptaram o cacique: Killy the bid, o forasteiro sem nome, Jão e Jaq Marston ou Jdango"
-visible_characters = -1
+visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
 text = "Hey aluno cara-pálida, esse é uma cemitério de  indios que serve para bandidos esconderem pessoas, 
-contudo, nós fantasmas que moramos aqui não gostamos dessas vigarices e queremos apenas ficar em paz, 
+contudo, nós caminhantes noturnos que moramos aqui não gostamos dessas vigarices e queremos apenas ficar em paz, 
 ajude-nos a expulsar esse meliantes, resolvendo o seguinte problema: 
 Em 1872 um cacique foi raptado por ancestrais desses bandidos. 
 Descubra qual desses bandidos raptaram o cacique: Killy the bid, o forasteiro sem nome, Jão e Jaq Marston ou Jdango"
@@ -1394,10 +1405,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -44.0
-margin_top = -134.0
-margin_right = 34.0
-margin_bottom = -106.0
+margin_left = -155.0
+margin_top = -202.0
+margin_right = -40.0
+margin_bottom = -166.0
+rect_rotation = 0.246838
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -1412,8 +1424,21 @@ group = null
 flat = true
 align = 1
 
+[node name="box_pistas" type="Sprite" parent="TileMap/NPC" index="4"]
+
+visible = false
+show_behind_parent = true
+position = Vector2( -83.347, -277.509 )
+scale = Vector2( 1.04524, 0.930502 )
+texture = ExtResource( 38 )
+_sections_unfolded = [ "Visibility" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
 [node name="NPC2" type="Area2D" parent="TileMap" index="4"]
 
+editor/display_folded = true
 visible = false
 position = Vector2( 1967.1, 490.267 )
 scale = Vector2( 0.936905, 1 )
@@ -1424,16 +1449,17 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 38 )
+script = ExtResource( 39 )
 _sections_unfolded = [ "Visibility" ]
 
 [node name="charada" type="Sprite" parent="TileMap/NPC2" index="0"]
 
+editor/display_folded = true
 _sections_unfolded = [ "Visibility" ]
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/NPC2/charada" index="0"]
 
-modulate = Color( 0.972656, 0.953659, 0.953659, 1 )
+modulate = Color( 0.015625, 0.015625, 0.015625, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1449,12 +1475,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = false
-bbcode_text = "Qual desses bandidos raptaram o cacique"
+bbcode_text = "Qual desses bandidos raptou o cacique?"
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Qual desses bandidos raptaram o cacique"
+text = "Qual desses bandidos raptou o cacique?"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -1463,6 +1489,7 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="A" type="Button" parent="TileMap/NPC2/charada" index="1"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1486,11 +1513,12 @@ text = "A)"
 flat = false
 clip_text = true
 align = 1
-script = ExtResource( 39 )
+script = ExtResource( 40 )
+_sections_unfolded = [ "custom_colors" ]
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/NPC2/charada/A" index="0"]
 
-modulate = Color( 0.96875, 0.946045, 0.946045, 1 )
+modulate = Color( 0.0195312, 0.0187683, 0.0187683, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1520,6 +1548,7 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="B" type="Button" parent="TileMap/NPC2/charada" index="2"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1543,11 +1572,11 @@ text = "B)"
 flat = false
 clip_text = true
 align = 1
-script = ExtResource( 40 )
+script = ExtResource( 41 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/NPC2/charada/B" index="0"]
 
-modulate = Color( 0.96875, 0.942261, 0.942261, 1 )
+modulate = Color( 0.0351562, 0.0346069, 0.0346069, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1577,6 +1606,7 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="C" type="Button" parent="TileMap/NPC2/charada" index="3"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1599,11 +1629,11 @@ group = null
 text = "C)"
 flat = false
 align = 1
-script = ExtResource( 41 )
+script = ExtResource( 42 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/NPC2/charada/C" index="0"]
 
-modulate = Color( 0.972656, 0.94986, 0.94986, 1 )
+modulate = Color( 0.0234375, 0.022522, 0.022522, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1633,6 +1663,7 @@ _sections_unfolded = [ "BBCode", "Visibility" ]
 
 [node name="D" type="Button" parent="TileMap/NPC2/charada" index="4"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1655,11 +1686,11 @@ group = null
 text = "D)"
 flat = false
 align = 1
-script = ExtResource( 42 )
+script = ExtResource( 43 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="TileMap/NPC2/charada/D" index="0"]
 
-modulate = Color( 0.957031, 0.938339, 0.938339, 1 )
+modulate = Color( 0.0351562, 0.0340576, 0.0340576, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -1693,7 +1724,7 @@ position = Vector2( 1664.03, -27.8499 )
 scale = Vector2( 0.181048, 0.188173 )
 frames = SubResource( 11 )
 animation = "default"
-frame = 4
+frame = 8
 _sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="colisor" type="CollisionShape2D" parent="TileMap/NPC2" index="2"]
@@ -1756,6 +1787,245 @@ group = null
 flat = true
 align = 1
 
+[node name="box_pistas" type="Sprite" parent="TileMap/NPC2" index="5"]
+
+show_behind_parent = true
+position = Vector2( 1722.26, -259.606 )
+scale = Vector2( 1, 1.21918 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="diario" type="Node2D" parent="TileMap" index="5"]
+
+[node name="pista1" type="RichTextLabel" parent="TileMap/diario" index="0"]
+
+visible = false
+modulate = Color( 0.0625, 0.0612793, 0.0612793, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3067.0
+margin_top = 84.0
+margin_right = 3389.0
+margin_bottom = 124.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "Quem raptou o índio não andava em bando."
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "Quem raptou o índio não andava em bando."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="pista2" type="RichTextLabel" parent="TileMap/diario" index="1"]
+
+visible = false
+modulate = Color( 0.0625, 0.0612793, 0.0612793, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3069.0
+margin_top = 109.0
+margin_right = 3395.0
+margin_bottom = 131.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "O Jdango usava um chapeu vermelho."
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "O Jdango usava um chapeu vermelho."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="pista3" type="RichTextLabel" parent="TileMap/diario" index="2"]
+
+visible = false
+modulate = Color( 0.0625, 0.0612793, 0.0612793, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3069.0
+margin_top = 136.0
+margin_right = 3390.0
+margin_bottom = 185.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "Andava a cavalo Killy the bid, Jão e Jaq, e um outro que não sei."
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "Andava a cavalo Killy the bid, Jão e Jaq, e um outro que não sei."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="pista4" type="RichTextLabel" parent="TileMap/diario" index="3"]
+
+visible = false
+modulate = Color( 0.0625, 0.0612793, 0.0612793, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3071.0
+margin_top = 179.0
+margin_right = 3394.0
+margin_bottom = 219.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "Um dia Viva eu fui! Um dia viva voltarei..."
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "Um dia Viva eu fui! Um dia viva voltarei..."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="pista5" type="RichTextLabel" parent="TileMap/diario" index="4"]
+
+visible = false
+modulate = Color( 0.0625, 0.0612793, 0.0612793, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3070.0
+margin_top = 212.0
+margin_right = 3371.0
+margin_bottom = 252.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "Andava de bandana roxa Kid the Billy e Jdango."
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "Andava de bandana roxa Kid the Billy e Jdango."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="pista6" type="RichTextLabel" parent="TileMap/diario" index="5"]
+
+visible = false
+modulate = Color( 0.0625, 0.0612793, 0.0612793, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3071.0
+margin_top = 235.0
+margin_right = 3349.0
+margin_bottom = 255.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "Quem raptou andava a cavalo"
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "Quem raptou andava a cavalo"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="pista7" type="RichTextLabel" parent="TileMap/diario" index="6"]
+
+visible = false
+modulate = Color( 0.0625, 0.0612793, 0.0612793, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 3071.0
+margin_top = 258.0
+margin_right = 3364.0
+margin_bottom = 298.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "A cabeça de alguem que já esteve vivo!!"
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "A cabeça de alguem que já esteve vivo!!"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Visibility" ]
+
+[node name="diario_box" type="Sprite" parent="TileMap/diario" index="7"]
+
+visible = false
+show_behind_parent = true
+position = Vector2( 3224.3, 209.549 )
+scale = Vector2( 0.848961, 0.927735 )
+texture = ExtResource( 38 )
+_sections_unfolded = [ "Visibility" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." index="1"]
 
 editor/display_folded = true
@@ -1775,7 +2045,7 @@ scroll_ignore_camera_zoom = false
 
 position = Vector2( 645.66, 275.153 )
 scale = Vector2( 0.644703, 0.480501 )
-texture = ExtResource( 43 )
+texture = ExtResource( 44 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -1784,7 +2054,7 @@ __meta__ = {
 
 position = Vector2( 1950, 280 )
 scale = Vector2( 0.670071, 0.480664 )
-texture = ExtResource( 43 )
+texture = ExtResource( 44 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -1793,14 +2063,14 @@ __meta__ = {
 
 position = Vector2( 3327.5, 280 )
 scale = Vector2( 0.7225, 0.482846 )
-texture = ExtResource( 44 )
+texture = ExtResource( 45 )
 __meta__ = {
 "_edit_lock_": true
 }
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="2"]
 
-stream = ExtResource( 45 )
+stream = ExtResource( 46 )
 volume_db = 0.0
 autoplay = true
 mix_target = 0
@@ -1809,92 +2079,28 @@ bus = "Master"
 [node name="Bone (3)" type="Sprite" parent="." index="3"]
 
 position = Vector2( 330, 610 )
-texture = ExtResource( 46 )
+texture = ExtResource( 47 )
 
 [node name="Bone (2)" type="Sprite" parent="." index="4"]
 
 position = Vector2( 868, 570 )
 scale = Vector2( 0.8125, 0.625 )
-texture = ExtResource( 11 )
+texture = ExtResource( 13 )
 
 [node name="Bone (4)" type="Sprite" parent="." index="5"]
 
 position = Vector2( 648, 575 )
 scale = Vector2( 0.65625, 0.390625 )
-texture = ExtResource( 47 )
-
-[node name="TombStone (2)" type="Sprite" parent="." index="6"]
-
-position = Vector2( 970, 490 )
 texture = ExtResource( 48 )
 
-[node name="Area2D" type="Area2D" parent="TombStone (2)" index="0"]
-
-input_pickable = true
-space_override = 3
-gravity_vec = Vector2( 0, 1 )
-gravity = 98.0
-linear_damp = 0.1
-angular_damp = 1.0
-audio_bus_override = false
-audio_bus_name = "Master"
-script = ExtResource( 49 )
-_sections_unfolded = [ "Collision", "Visibility" ]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TombStone (2)/Area2D" index="0"]
-
-position = Vector2( 0, 3.5 )
-scale = Vector2( 1, 1.0814 )
-shape = SubResource( 13 )
-_sections_unfolded = [ "Pause" ]
-
-[node name="RichTextLabel" type="RichTextLabel" parent="TombStone (2)/Area2D" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = -60.0
-margin_top = -137.0
-margin_right = 60.0
-margin_bottom = -70.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = true
-hint_tooltip = "Olá Estranho mundo Crueeeel :)"
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
-bbcode_enabled = true
-bbcode_text = "Quem raptou o índio não andava em bando."
-visible_characters = 0
-percent_visible = 0.0
-meta_underlined = true
-tab_size = 4
-text = "Quem raptou o índio não andava em bando."
-scroll_active = true
-scroll_following = false
-selection_enabled = false
-override_selected_font_color = false
-_sections_unfolded = [ "BBCode", "Visibility" ]
-
-[node name="Bone" type="Sprite" parent="TombStone (2)/Area2D" index="2"]
-
-visible = false
-position = Vector2( 14.3952, -178.844 )
-scale = Vector2( 0.645452, 0.556252 )
-texture = ExtResource( 11 )
-_sections_unfolded = [ "Visibility" ]
-
-[node name="Personagem" type="KinematicBody2D" parent="." index="7"]
+[node name="Personagem" type="KinematicBody2D" parent="." index="6"]
 
 position = Vector2( 320, 510 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
-script = ExtResource( 50 )
+script = ExtResource( 49 )
 _sections_unfolded = [ "Collision", "Material", "Pause", "Pickable", "Transform", "Visibility", "collision" ]
 speed = 5
 
@@ -1923,7 +2129,7 @@ limit_left = 0
 limit_top = 0
 limit_right = 10000000
 limit_bottom = 10000000
-limit_smoothed = false
+limit_smoothed = true
 drag_margin_h_enabled = true
 drag_margin_v_enabled = true
 smoothing_enabled = false
@@ -1937,11 +2143,13 @@ drag_margin_bottom = 0.2
 editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
-_sections_unfolded = [ "Drag Margin", "Limit" ]
+_sections_unfolded = [ "Drag Margin", "Limit", "Smoothing" ]
+__meta__ = {
+"_edit_lock_": true
+}
 
-[node name="Caixas" type="Node2D" parent="." index="8"]
+[node name="Caixas" type="Node2D" parent="." index="7"]
 
-editor/display_folded = true
 position = Vector2( 166.972, 193.982 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Caixas" index="0"]
@@ -1965,23 +2173,23 @@ shape = SubResource( 16 )
 [node name="Crate" type="Sprite" parent="Caixas" index="1"]
 
 position = Vector2( -124, 284 )
-texture = ExtResource( 17 )
+texture = ExtResource( 87 )
 
 [node name="Crate2" type="Sprite" parent="Caixas" index="2"]
 
 position = Vector2( -126, 178 )
-texture = ExtResource( 17 )
+texture = ExtResource( 87 )
 
-[node name="Bone (1)" type="Sprite" parent="." index="9"]
+[node name="Bone (1)" type="Sprite" parent="." index="8"]
 
 position = Vector2( 3800, 440 )
 texture = ExtResource( 88 )
 
-[node name="Bone (4)2" type="Sprite" parent="." index="10"]
+[node name="Bone (4)2" type="Sprite" parent="." index="9"]
 
 position = Vector2( 1868, 557 )
 scale = Vector2( 0.8125, 0.578125 )
-texture = ExtResource( 47 )
+texture = ExtResource( 48 )
 
 [connection signal="pressed" from="TileMap/NPC/Button" to="TileMap/NPC" method="_on_Button_pressed"]
 

@@ -9,12 +9,11 @@ func _ready():
 	# Initialization here
 	pass
 
-func _pressed():
-	print("Alternativa B");
-	var opcao = get_node("/root/Cemiterio/TileMap/NPC2")
-	opcao.tentativas-=1
-	opcao.desabilitar_botao("B")
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.
 #	# Update game logic here.
 #	pass
+
+
+func _on_Button_pressed():
+	get_node("msg_erro").visible=false

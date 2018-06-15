@@ -11,6 +11,9 @@ func _ready():
 
 func _pressed():
 	print("Alternativa C")
+	var opcao = get_node("/root/Cemiterio/TileMap/NPC2")
+	opcao.tentativas-=1
+	opcao.desabilitar_botao("C")
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.
 #	# Update game logic here.
