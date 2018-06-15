@@ -4,7 +4,7 @@
 [ext_resource path="res://SobreOJogoButton.gd" type="Script" id=2]
 [ext_resource path="res://inicialmenusong.ogg" type="AudioStream" id=3]
 
-[node name="Node" type="Node" index="0"]
+[node name="Node" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
