@@ -2,7 +2,7 @@ extends Area2D
 
 # class member variables go here, for example:
 var interacao = 0
-var _timer= null
+var _timer=0
 # var b = "textvar"
 func _ready():
 	# Called every time the node is added to the scene.
@@ -24,13 +24,21 @@ func saiu(body):
 
 func _process(delta):
 	if(interacao and Input.is_action_pressed("ui_accept")):
+		print("Clique")
 		mensagem()
-		
 	# print(is_colliding())
 #	# Called every frame. Delta is time since last frame.
 #	# Update game logic here.
 #	pass
-
+func mensagem():
+	var posicao = get_node("/root/Deserto/diario")
+	posicao.get_node("pista1").visible=true
+	get_node("box_pistas").visible=true
+	get_node("RichTextLabel").visible=true
+	#get_node("RichTextLabel").percent_visible=1
+	ligacao()
+	#get_node("Sprite").visible=1
+	
 func ligacao():
 	#ligacao com o contador.
 	_timer = Timer.new()
@@ -40,29 +48,7 @@ func ligacao():
 	_timer.set_one_shot(false)
 	_timer.start()
 	
-	
-func mensagem():
-	get_node("box_pistas").visible=true
-	#get_node("boas_vindas").percent_visible=1
-	get_node("ButtonOkIteracao").flat=0
-	get_node("ButtonOkIteracao").text="OK"
-	ligacao()
-	#print("Deu certo")
-
 func tempo():
 	#Torna as letras pouco a pouco visiveis.)
-	var no = get_node("boas_vindas")
-	no.set_visible_characters(no.get_visible_characters()+1)
-	
-func _on_ButtonOkIteracao_pressed():
-	get_node("boas_vindas").hide()
-	get_node("ButtonOkIteracao").hide()
-	get_node("ButtonOkIteracao").text=""
-	get_node("AnimatedSprite").hide();
-	get_node("box_pistas").hide()
-	var posicao = get_node("/root/Deserto/NPC2")
-	posicao.show()
-	var diario = get_node("/root/Deserto/diario")
-	diario.get_node("diario_box").visible=true
-
-	pass # replace with function body
+	var no = get_node("RichTextLabel")
+	no.set_visible_characters(no.get_visible_characters()+1)	

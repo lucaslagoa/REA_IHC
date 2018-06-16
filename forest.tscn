@@ -1,4 +1,4 @@
-[gd_scene load_steps=83 format=2]
+[gd_scene load_steps=87 format=2]
 
 [ext_resource path="res://forest/png/BG/BG.png" type="Texture" id=1]
 [ext_resource path="res://forest/png/Tiles/1.png" type="Texture" id=2]
@@ -8,71 +8,75 @@
 [ext_resource path="res://forest/png/Object/Sign_1.png" type="Texture" id=6]
 [ext_resource path="res://forest/png/Object/Tree_2.png" type="Texture" id=7]
 [ext_resource path="res://forest/png/Object/Mushroom_1.png" type="Texture" id=8]
-[ext_resource path="res://Area2DForest.gd" type="Script" id=9]
-[ext_resource path="res://graveyard/png/Objects/TombStone (2).png" type="Texture" id=10]
-[ext_resource path="res://forest/png/Object/Crate.png" type="Texture" id=11]
-[ext_resource path="res://forest/png/Object/Mushroom_2.png" type="Texture" id=12]
-[ext_resource path="res://graveyard/png/Objects/Skeleton.png" type="Texture" id=13]
-[ext_resource path="res://NPC.gd" type="Script" id=14]
-[ext_resource path="res://adventuregirl/png/esp_Idle (1).png" type="Texture" id=15]
-[ext_resource path="res://adventuregirl/png/esp_Idle (10).png" type="Texture" id=16]
-[ext_resource path="res://adventuregirl/png/esp_Idle (2).png" type="Texture" id=17]
-[ext_resource path="res://adventuregirl/png/esp_Idle (3).png" type="Texture" id=18]
-[ext_resource path="res://adventuregirl/png/esp_Idle (4).png" type="Texture" id=19]
-[ext_resource path="res://adventuregirl/png/esp_Idle (5).png" type="Texture" id=20]
-[ext_resource path="res://adventuregirl/png/esp_Idle (6).png" type="Texture" id=21]
-[ext_resource path="res://adventuregirl/png/esp_Idle (7).png" type="Texture" id=22]
-[ext_resource path="res://adventuregirl/png/esp_Idle (8).png" type="Texture" id=23]
-[ext_resource path="res://adventuregirl/png/esp_Idle (9).png" type="Texture" id=24]
-[ext_resource path="res://ButtonOkIteracao.gd" type="Script" id=25]
-[ext_resource path="res://NPC2.gd" type="Script" id=26]
-[ext_resource path="res://A_forest.gd" type="Script" id=27]
-[ext_resource path="res://B_forest.gd" type="Script" id=28]
-[ext_resource path="res://C_forest.gd" type="Script" id=29]
-[ext_resource path="res://D_forest.gd" type="Script" id=30]
-[ext_resource path="res://KinematicBody2D.gd" type="Script" id=31]
-[ext_resource path="res://templerun/Idle__000.png" type="Texture" id=32]
-[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=33]
-[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=34]
-[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=35]
-[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=36]
-[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=37]
-[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=38]
-[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=39]
-[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=40]
-[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=41]
-[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=42]
-[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=43]
-[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=44]
-[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=45]
-[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=46]
-[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=47]
-[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=48]
-[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=49]
-[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=50]
-[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=51]
-[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=52]
-[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=53]
-[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=54]
-[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=55]
-[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=56]
-[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=57]
-[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=58]
-[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=59]
-[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=60]
-[ext_resource path="res://templerun/leftIdle__009.png" type="Texture" id=61]
-[ext_resource path="res://templerun/Run__000.png" type="Texture" id=62]
-[ext_resource path="res://templerun/Run__001.png" type="Texture" id=63]
-[ext_resource path="res://templerun/Run__002.png" type="Texture" id=64]
-[ext_resource path="res://templerun/Run__003.png" type="Texture" id=65]
-[ext_resource path="res://templerun/Run__004.png" type="Texture" id=66]
-[ext_resource path="res://templerun/Run__005.png" type="Texture" id=67]
-[ext_resource path="res://templerun/Run__006.png" type="Texture" id=68]
-[ext_resource path="res://templerun/Run__007.png" type="Texture" id=69]
-[ext_resource path="res://templerun/Run__008.png" type="Texture" id=70]
-[ext_resource path="res://templerun/Run__009.png" type="Texture" id=71]
-[ext_resource path="res://forest/png/Object/Stone.png" type="Texture" id=72]
-[ext_resource path="res://forest.ogg" type="AudioStream" id=73]
+[ext_resource path="res://Clue3Forest.gd" type="Script" id=9]
+[ext_resource path="res://graveyard/dialogo/box_pistas.png" type="Texture" id=10]
+[ext_resource path="res://graveyard/png/Objects/TombStone (2).png" type="Texture" id=11]
+[ext_resource path="res://forest/png/Object/Crate.png" type="Texture" id=12]
+[ext_resource path="res://Clue1Forest.gd" type="Script" id=13]
+[ext_resource path="res://forest/png/Object/Mushroom_2.png" type="Texture" id=14]
+[ext_resource path="res://Clue2Forest.gd" type="Script" id=15]
+[ext_resource path="res://graveyard/png/Objects/Skeleton.png" type="Texture" id=16]
+[ext_resource path="res://NPC.gd" type="Script" id=17]
+[ext_resource path="res://graveyard/dialogo/diario_box.png" type="Texture" id=18]
+[ext_resource path="res://adventuregirl/png/esp_Idle (1).png" type="Texture" id=19]
+[ext_resource path="res://adventuregirl/png/esp_Idle (10).png" type="Texture" id=20]
+[ext_resource path="res://adventuregirl/png/esp_Idle (2).png" type="Texture" id=21]
+[ext_resource path="res://adventuregirl/png/esp_Idle (3).png" type="Texture" id=22]
+[ext_resource path="res://adventuregirl/png/esp_Idle (4).png" type="Texture" id=23]
+[ext_resource path="res://adventuregirl/png/esp_Idle (5).png" type="Texture" id=24]
+[ext_resource path="res://adventuregirl/png/esp_Idle (6).png" type="Texture" id=25]
+[ext_resource path="res://adventuregirl/png/esp_Idle (7).png" type="Texture" id=26]
+[ext_resource path="res://adventuregirl/png/esp_Idle (8).png" type="Texture" id=27]
+[ext_resource path="res://adventuregirl/png/esp_Idle (9).png" type="Texture" id=28]
+[ext_resource path="res://ButtonOkIteracao.gd" type="Script" id=29]
+[ext_resource path="res://NPC2.gd" type="Script" id=30]
+[ext_resource path="res://A_forest.gd" type="Script" id=31]
+[ext_resource path="res://B_forest.gd" type="Script" id=32]
+[ext_resource path="res://C_forest.gd" type="Script" id=33]
+[ext_resource path="res://D_forest.gd" type="Script" id=34]
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=35]
+[ext_resource path="res://templerun/Idle__000.png" type="Texture" id=36]
+[ext_resource path="res://templerun/Idle__001.png" type="Texture" id=37]
+[ext_resource path="res://templerun/Idle__002.png" type="Texture" id=38]
+[ext_resource path="res://templerun/Idle__003.png" type="Texture" id=39]
+[ext_resource path="res://templerun/Idle__004.png" type="Texture" id=40]
+[ext_resource path="res://templerun/Idle__005.png" type="Texture" id=41]
+[ext_resource path="res://templerun/Idle__006.png" type="Texture" id=42]
+[ext_resource path="res://templerun/Idle__007.png" type="Texture" id=43]
+[ext_resource path="res://templerun/Idle__008.png" type="Texture" id=44]
+[ext_resource path="res://templerun/Idle__009.png" type="Texture" id=45]
+[ext_resource path="res://templerun/Run__000.png" type="Texture" id=46]
+[ext_resource path="res://templerun/Run__001.png" type="Texture" id=47]
+[ext_resource path="res://templerun/Run__002.png" type="Texture" id=48]
+[ext_resource path="res://templerun/Run__003.png" type="Texture" id=49]
+[ext_resource path="res://templerun/Run__004.png" type="Texture" id=50]
+[ext_resource path="res://templerun/Run__005.png" type="Texture" id=51]
+[ext_resource path="res://templerun/Run__006.png" type="Texture" id=52]
+[ext_resource path="res://templerun/Run__007.png" type="Texture" id=53]
+[ext_resource path="res://templerun/Run__008.png" type="Texture" id=54]
+[ext_resource path="res://templerun/Run__009.png" type="Texture" id=55]
+[ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=56]
+[ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=57]
+[ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=58]
+[ext_resource path="res://templerun/leftRun__003.png" type="Texture" id=59]
+[ext_resource path="res://templerun/leftRun__004.png" type="Texture" id=60]
+[ext_resource path="res://templerun/leftRun__005.png" type="Texture" id=61]
+[ext_resource path="res://templerun/leftRun__006.png" type="Texture" id=62]
+[ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=63]
+[ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=64]
+[ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=65]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=66]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=67]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=68]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=69]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=70]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=71]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=72]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=73]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=74]
+[ext_resource path="res://templerun/leftIdle__009.png" type="Texture" id=75]
+[ext_resource path="res://forest/png/Object/Stone.png" type="Texture" id=76]
+[ext_resource path="res://forest.ogg" type="AudioStream" id=77]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -92,7 +96,7 @@ extents = Vector2( 10, 10 )
 [sub_resource type="SpriteFrames" id=4]
 
 animations = [ {
-"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
+"frames": [ ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ],
 "loop": true,
 "name": "idle_girl",
 "speed": 6.0
@@ -107,24 +111,24 @@ height = 4.47708
 [sub_resource type="SpriteFrames" id=6]
 
 animations = [ {
-"frames": [ ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ) ],
+"frames": [ ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ) ],
 "loop": true,
 "name": "parado",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
+"frames": [ ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ) ],
+"loop": true,
+"name": "caminhando_dir",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ) ],
 "loop": true,
 "name": "caminhando_esq",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ) ],
+"frames": [ ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ) ],
 "loop": true,
 "name": "parado_esq",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ) ],
-"loop": true,
-"name": "caminhando_dir",
 "speed": 5.0
 } ]
 
@@ -144,7 +148,7 @@ extents = Vector2( 10, 21.5556 )
 custom_solver_bias = 0.0
 extents = Vector2( 13.65, 21.2196 )
 
-[node name="Forest" type="Node" index="0"]
+[node name="Forest" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -470,12 +474,12 @@ texture = ExtResource( 6 )
 position = Vector2( 902.842, 362.085 )
 texture = ExtResource( 7 )
 
-[node name="Mushroom_1" type="Sprite" parent="TileMap" index="59"]
+[node name="Clue3Forest" type="Sprite" parent="TileMap" index="59"]
 
 position = Vector2( 1566.2, 487.77 )
 texture = ExtResource( 8 )
 
-[node name="Area2DForest" type="Area2D" parent="TileMap/Mushroom_1" index="0"]
+[node name="Clue3Forest" type="Area2D" parent="TileMap/Clue3Forest" index="0"]
 
 position = Vector2( -1.02808, -0.257019 )
 input_pickable = true
@@ -487,13 +491,20 @@ audio_bus_override = false
 audio_bus_name = "Master"
 script = ExtResource( 9 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Mushroom_1/Area2DForest" index="0"]
+[node name="box_pistas" type="Sprite" parent="TileMap/Clue3Forest/Clue3Forest" index="0"]
+
+visible = false
+position = Vector2( 7.7725, -128.04 )
+scale = Vector2( 0.748822, 0.422778 )
+texture = ExtResource( 10 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Clue3Forest/Clue3Forest" index="1"]
 
 position = Vector2( -0.0221894, 1.06449 )
 scale = Vector2( 2.43184, 1.9771 )
 shape = SubResource( 1 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Mushroom_1/Area2DForest" index="1"]
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Clue3Forest/Clue3Forest" index="2"]
 
 self_modulate = Color( 0.0390625, 0.0100708, 0.0100708, 1 )
 anchor_left = 0.0
@@ -523,19 +534,19 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="Sprite" type="Sprite" parent="TileMap/Mushroom_1/Area2DForest" index="2"]
+[node name="Sprite" type="Sprite" parent="TileMap/Clue3Forest/Clue3Forest" index="3"]
 
 visible = false
 position = Vector2( 9.78259, -209.972 )
 scale = Vector2( -1.53454, 1.15109 )
-texture = ExtResource( 10 )
+texture = ExtResource( 11 )
 
 [node name="Crate" type="Sprite" parent="TileMap" index="60"]
 
 position = Vector2( 1243.11, 469.72 )
-texture = ExtResource( 11 )
+texture = ExtResource( 12 )
 
-[node name="Area2DForest" type="Area2D" parent="TileMap/Crate" index="0"]
+[node name="Clue1Forest" type="Area2D" parent="TileMap/Crate" index="0"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -544,15 +555,22 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 9 )
+script = ExtResource( 13 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Crate/Area2DForest" index="0"]
+[node name="box_pistas" type="Sprite" parent="TileMap/Crate/Clue1Forest" index="0"]
+
+visible = false
+position = Vector2( 8.72277, -126.256 )
+scale = Vector2( 0.719617, 0.383744 )
+texture = ExtResource( 10 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Crate/Clue1Forest" index="1"]
 
 position = Vector2( -1.65344, -0.78244 )
 scale = Vector2( 3.64885, 3.7314 )
 shape = SubResource( 2 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Crate/Area2DForest" index="1"]
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Crate/Clue1Forest" index="2"]
 
 self_modulate = Color( 0.0273438, 0.00715637, 0.00715637, 1 )
 anchor_left = 0.0
@@ -560,9 +578,9 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = -69.0
-margin_top = -141.0
+margin_top = -143.0
 margin_right = 81.0
-margin_bottom = -53.0
+margin_bottom = -55.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -582,19 +600,19 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="Sprite" type="Sprite" parent="TileMap/Crate/Area2DForest" index="2"]
+[node name="Sprite" type="Sprite" parent="TileMap/Crate/Clue1Forest" index="3"]
 
 visible = false
 position = Vector2( 7.17737, -164.26 )
 scale = Vector2( 0.887804, 1.08987 )
-texture = ExtResource( 12 )
+texture = ExtResource( 14 )
 
 [node name="Mushroom_2" type="Sprite" parent="TileMap" index="61"]
 
 position = Vector2( 1956.23, 489.353 )
-texture = ExtResource( 12 )
+texture = ExtResource( 14 )
 
-[node name="Area2DForest" type="Area2D" parent="TileMap/Mushroom_2" index="0"]
+[node name="Clue2Forest" type="Area2D" parent="TileMap/Mushroom_2" index="0"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -603,15 +621,22 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 9 )
+script = ExtResource( 15 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Mushroom_2/Area2DForest" index="0"]
+[node name="box_pistas" type="Sprite" parent="TileMap/Mushroom_2/Clue2Forest" index="0"]
+
+visible = false
+position = Vector2( -0.898339, -146.845 )
+scale = Vector2( 0.827925, 0.257977 )
+texture = ExtResource( 10 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Mushroom_2/Clue2Forest" index="1"]
 
 position = Vector2( -0.932251, 0.791199 )
 scale = Vector2( 2.35271, 2.41383 )
 shape = SubResource( 3 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Mushroom_2/Area2DForest" index="1"]
+[node name="RichTextLabel" type="RichTextLabel" parent="TileMap/Mushroom_2/Clue2Forest" index="2"]
 
 self_modulate = Color( 0.00390625, 0.00175476, 0.00175476, 1 )
 anchor_left = 0.0
@@ -641,11 +666,11 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="Sprite" type="Sprite" parent="TileMap/Mushroom_2/Area2DForest" index="2"]
+[node name="Sprite" type="Sprite" parent="TileMap/Mushroom_2/Clue2Forest" index="3"]
 
 visible = false
 position = Vector2( -2.03882, -220.102 )
-texture = ExtResource( 13 )
+texture = ExtResource( 16 )
 
 [node name="NPC" type="Area2D" parent="." index="1"]
 
@@ -657,24 +682,31 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 14 )
+script = ExtResource( 17 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="NPC" index="0"]
+[node name="box_pistas" type="Sprite" parent="NPC" index="0"]
+
+visible = false
+position = Vector2( 450.825, 239.522 )
+scale = Vector2( 0.966711, 0.601894 )
+texture = ExtResource( 18 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="NPC" index="1"]
 
 position = Vector2( 431.678, 448.426 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 4 )
 animation = "idle_girl"
-frame = 9
+frame = 6
 playing = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC" index="1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC" index="2"]
 
 position = Vector2( 417.369, 448.505 )
 scale = Vector2( 8.17791, 6.85149 )
 shape = SubResource( 5 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="NPC" index="2"]
+[node name="boas_vindas" type="RichTextLabel" parent="NPC" index="3"]
 
 modulate = Color( 0.0429688, 0.0135956, 0.0135956, 1 )
 anchor_left = 0.0
@@ -682,7 +714,7 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 279.0
-margin_top = 177.0
+margin_top = 158.0
 margin_right = 595.0
 margin_bottom = 381.0
 rect_pivot_offset = Vector2( 0, 0 )
@@ -704,16 +736,16 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="ButtonOkIteracao" type="Button" parent="NPC" index="3"]
+[node name="ButtonOkIteracao" type="Button" parent="NPC" index="4"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 383.0
-margin_top = 328.0
-margin_right = 453.0
-margin_bottom = 352.0
+margin_left = 395.0
+margin_top = 295.0
+margin_right = 465.0
+margin_bottom = 319.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -727,7 +759,7 @@ shortcut = null
 group = null
 flat = true
 align = 1
-script = ExtResource( 25 )
+script = ExtResource( 29 )
 _sections_unfolded = [ "Visibility" ]
 
 [node name="NPC2" type="Area2D" parent="." index="2"]
@@ -740,24 +772,31 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 26 )
+script = ExtResource( 30 )
 
-[node name="Resposta Charada" type="Sprite" parent="NPC2" index="0"]
+[node name="box_pistas" type="Sprite" parent="NPC2" index="0"]
+
+visible = false
+position = Vector2( 2597.5, 191.492 )
+scale = Vector2( 1.94512, 1.17629 )
+texture = ExtResource( 10 )
+
+[node name="Resposta Charada" type="Sprite" parent="NPC2" index="1"]
 
 visible = false
 _sections_unfolded = [ "Margin", "Rect" ]
 
-[node name="Resposta Charada" type="RichTextLabel" parent="NPC2/Resposta Charada" index="0"]
+[node name="Responda" type="RichTextLabel" parent="NPC2/Resposta Charada" index="0"]
 
 modulate = Color( 0, 0, 0, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2361.0
-margin_top = 78.0
-margin_right = 2515.0
-margin_bottom = 118.0
+margin_left = 2376.0
+margin_top = 99.0
+margin_right = 2530.0
+margin_bottom = 139.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -766,8 +805,8 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
 bbcode_text = "Responda a charada:"
-visible_characters = -1
-percent_visible = 1.0
+visible_characters = 0
+percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
 text = "Responda a charada:"
@@ -786,10 +825,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2357.0
-margin_top = 103.0
-margin_right = 2397.0
-margin_bottom = 133.0
+margin_left = 2376.0
+margin_top = 119.0
+margin_right = 2416.0
+margin_bottom = 149.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -805,10 +844,10 @@ text = "A)"
 flat = false
 clip_text = true
 align = 1
-script = ExtResource( 27 )
+script = ExtResource( 31 )
 _sections_unfolded = [ "Rect" ]
 
-[node name="Resposta A" type="RichTextLabel" parent="NPC2/Resposta Charada/A" index="0"]
+[node name="RichTextLabel" type="RichTextLabel" parent="NPC2/Resposta Charada/A" index="0"]
 
 modulate = Color( 0.046875, 0.0230713, 0.0230713, 1 )
 anchor_left = 0.0
@@ -844,10 +883,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2356.0
-margin_top = 142.0
-margin_right = 2396.0
-margin_bottom = 172.0
+margin_left = 2376.0
+margin_top = 161.0
+margin_right = 2416.0
+margin_bottom = 191.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -863,10 +902,10 @@ text = "B)"
 flat = false
 clip_text = true
 align = 1
-script = ExtResource( 28 )
+script = ExtResource( 32 )
 _sections_unfolded = [ "Focus", "Rect" ]
 
-[node name="Resposta B" type="RichTextLabel" parent="NPC2/Resposta Charada/B" index="0"]
+[node name="RichTextLabel" type="RichTextLabel" parent="NPC2/Resposta Charada/B" index="0"]
 
 modulate = Color( 0.046875, 0.0230713, 0.0230713, 1 )
 anchor_left = 0.0
@@ -902,10 +941,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2357.0
-margin_top = 180.0
-margin_right = 2397.0
-margin_bottom = 210.0
+margin_left = 2376.0
+margin_top = 199.0
+margin_right = 2416.0
+margin_bottom = 229.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -921,10 +960,10 @@ text = "C)"
 flat = false
 clip_text = true
 align = 1
-script = ExtResource( 29 )
+script = ExtResource( 33 )
 _sections_unfolded = [ "Rect" ]
 
-[node name="Resposta C" type="RichTextLabel" parent="NPC2/Resposta Charada/C" index="0"]
+[node name="RichTextLabel" type="RichTextLabel" parent="NPC2/Resposta Charada/C" index="0"]
 
 modulate = Color( 0.046875, 0.0230713, 0.0230713, 1 )
 anchor_left = 0.0
@@ -960,10 +999,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2358.0
-margin_top = 220.0
-margin_right = 2398.0
-margin_bottom = 250.0
+margin_left = 2376.0
+margin_top = 243.0
+margin_right = 2416.0
+margin_bottom = 273.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
@@ -979,10 +1018,10 @@ text = "D)"
 flat = false
 clip_text = true
 align = 1
-script = ExtResource( 30 )
+script = ExtResource( 34 )
 _sections_unfolded = [ "Rect" ]
 
-[node name="Resposta D" type="RichTextLabel" parent="NPC2/Resposta Charada/D" index="0"]
+[node name="RichTextLabel" type="RichTextLabel" parent="NPC2/Resposta Charada/D" index="0"]
 
 modulate = Color( 0.046875, 0.0230713, 0.0230713, 1 )
 anchor_left = 0.0
@@ -1012,33 +1051,33 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode" ]
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="NPC2" index="1"]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="NPC2" index="2"]
 
-position = Vector2( 2465.07, 448.426 )
+position = Vector2( 2637.07, 452.426 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 4 )
 animation = "idle_girl"
-frame = 4
+frame = 1
 playing = true
 _sections_unfolded = [ "Transform" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC2" index="2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NPC2" index="3"]
 
-position = Vector2( 2460.46, 438.141 )
+position = Vector2( 2650.46, 440.141 )
 scale = Vector2( 8.17791, 6.85149 )
 shape = SubResource( 5 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="NPC2" index="3"]
+[node name="RichTextLabel" type="RichTextLabel" parent="NPC2" index="4"]
 
 modulate = Color( 0.0429688, 0.0135956, 0.0135956, 1 )
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 2366.0
-margin_top = 260.0
-margin_right = 2544.0
-margin_bottom = 366.0
+margin_left = 2559.0
+margin_top = 320.0
+margin_right = 2737.0
+margin_bottom = 426.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = true
 mouse_filter = 0
@@ -1058,7 +1097,7 @@ selection_enabled = false
 override_selected_font_color = false
 _sections_unfolded = [ "BBCode", "Visibility" ]
 
-[node name="ButtonOkIteracao" type="Button" parent="NPC2" index="4"]
+[node name="ButtonOkIteracao" type="Button" parent="NPC2" index="5"]
 
 visible = false
 anchor_left = 0.0
@@ -1082,7 +1121,7 @@ shortcut = null
 group = null
 flat = true
 align = 1
-script = ExtResource( 25 )
+script = ExtResource( 29 )
 _sections_unfolded = [ "Visibility" ]
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="." index="3"]
@@ -1092,7 +1131,7 @@ input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
-script = ExtResource( 31 )
+script = ExtResource( 35 )
 speed = 5
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D" index="0"]
@@ -1141,7 +1180,7 @@ _sections_unfolded = [ "Limit" ]
 editor/display_folded = true
 position = Vector2( 87.6583, 471.109 )
 scale = Vector2( 1.88241, 1.87034 )
-texture = ExtResource( 72 )
+texture = ExtResource( 76 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stone" index="0"]
 
@@ -1161,13 +1200,12 @@ shape = SubResource( 8 )
 
 [node name="Stone2" type="Sprite" parent="." index="5"]
 
-editor/display_folded = true
-position = Vector2( 2778.09, 481.577 )
-texture = ExtResource( 72 )
+position = Vector2( 2948.09, 481.577 )
+texture = ExtResource( 76 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stone2" index="0"]
 
-position = Vector2( -223.223, -6.9834 )
+position = Vector2( -255.223, -24.9833 )
 scale = Vector2( 1.66234, 1 )
 input_pickable = false
 collision_layer = 1
@@ -1179,17 +1217,120 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stone2/StaticBody2D" index="0"]
 
-position = Vector2( 126.915, -3.61584 )
+position = Vector2( 156.993, 12.3842 )
 scale = Vector2( 2.87788, 2.18981 )
 shape = SubResource( 9 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="6"]
 
-stream = ExtResource( 73 )
+stream = ExtResource( 77 )
 volume_db = 0.0
 autoplay = true
 mix_target = 0
 bus = "Master"
+
+[node name="diario" type="Node2D" parent="." index="7"]
+
+[node name="diario_box" type="Sprite" parent="diario" index="0"]
+
+visible = false
+position = Vector2( 2203.84, 195.125 )
+scale = Vector2( 1.15598, 1.16908 )
+texture = ExtResource( 10 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="pista1" type="RichTextLabel" parent="diario" index="1"]
+
+visible = false
+modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2071.0
+margin_top = 120.0
+margin_right = 2313.0
+margin_bottom = 160.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = false
+bbcode_text = ""
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "Quem colocou fogo não foi o velho louco."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "Visibility" ]
+
+[node name="pista2" type="RichTextLabel" parent="diario" index="2"]
+
+visible = false
+modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2071.0
+margin_top = 167.0
+margin_right = 2315.0
+margin_bottom = 207.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = false
+bbcode_text = ""
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "Se a madereira é culpada então não foi o velho louco."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "Visibility" ]
+
+[node name="pista3" type="RichTextLabel" parent="diario" index="3"]
+
+visible = false
+modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2072.0
+margin_top = 215.0
+margin_right = 2307.0
+margin_bottom = 255.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = false
+bbcode_text = ""
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "Isso foi uma ação de dois suspeitos."
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "Visibility" ]
 
 [connection signal="pressed" from="NPC/ButtonOkIteracao" to="NPC" method="_on_ButtonOkIteracao_pressed"]
 

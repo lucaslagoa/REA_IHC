@@ -10,7 +10,11 @@ func _ready():
 	pass
 
 func _pressed():
-	print("Clicou no B")
+	var opcao = get_node("/root/Forest/NPC2")
+	opcao.tentativas-=1
+	#print (opcao.tentativas)
+	# chama a função para desabilitar o botao.
+	opcao.desabilitar_botao("B")
 	
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.

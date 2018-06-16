@@ -2,6 +2,7 @@ extends Area2D
 
 # class member variables go here, for example:
 var interacao = 0
+var _timer=0
 # var b = "textvar"
 func _ready():
 	# Called every time the node is added to the scene.
@@ -30,5 +31,20 @@ func _process(delta):
 #	# Update game logic here.
 #	pass
 func mensagem():
-	get_node("RichTextLabel").percent_visible=1
+	#get_node("RichTextLabel").percent_visible=1
+	ligacao()
 	#get_node("Sprite").visible=1
+	
+func ligacao():
+	#ligacao com o contador.
+	_timer = Timer.new()
+	add_child(_timer)
+	_timer.connect("timeout",self,"tempo")
+	_timer.set_wait_time(0.12)
+	_timer.set_one_shot(false)
+	_timer.start()
+	
+func tempo():
+	#Torna as letras pouco a pouco visiveis.)
+	var no = get_node("RichTextLabel")
+	no.set_visible_characters(no.get_visible_characters()+1)	

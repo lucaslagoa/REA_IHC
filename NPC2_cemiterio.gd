@@ -46,7 +46,6 @@ func _on_Button_pressed():
 	get_node("charada").show()
 
 func desabilitar_botao(raiz):
-	#funcao que desabilita a opção errada escolhida.
 	var btn = get_node("/root/Cemiterio/TileMap/NPC2/charada/"+raiz)
 	var desabilitar = get_node("/root/Cemiterio/TileMap/NPC2/charada")
 	btn.get_node("RichTextLabel").modulate="ef0f0f"

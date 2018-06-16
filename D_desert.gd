@@ -10,7 +10,11 @@ func _ready():
 	pass
 
 func _pressed():
-	print("Clicou no D")
+	print("Alternativa B");
+	var opcao = get_node("/root/Deserto/NPC2")
+	opcao.tentativas-=1
+	print (opcao.tentativas)
+	opcao.desabilitar_botao("D")
 	
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.
