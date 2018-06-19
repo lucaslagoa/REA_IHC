@@ -47,16 +47,16 @@
 [ext_resource path="res://templerun/Idle__007.png" type="Texture" id=45]
 [ext_resource path="res://templerun/Idle__008.png" type="Texture" id=46]
 [ext_resource path="res://templerun/Idle__009.png" type="Texture" id=47]
-[ext_resource path="res://templerun/Run__000.png" type="Texture" id=48]
-[ext_resource path="res://templerun/Run__001.png" type="Texture" id=49]
-[ext_resource path="res://templerun/Run__002.png" type="Texture" id=50]
-[ext_resource path="res://templerun/Run__003.png" type="Texture" id=51]
-[ext_resource path="res://templerun/Run__004.png" type="Texture" id=52]
-[ext_resource path="res://templerun/Run__005.png" type="Texture" id=53]
-[ext_resource path="res://templerun/Run__006.png" type="Texture" id=54]
-[ext_resource path="res://templerun/Run__007.png" type="Texture" id=55]
-[ext_resource path="res://templerun/Run__008.png" type="Texture" id=56]
-[ext_resource path="res://templerun/Run__009.png" type="Texture" id=57]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=48]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=49]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=50]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=51]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=52]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=53]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=54]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=55]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=56]
+[ext_resource path="res://templerun/leftIdle__009.png" type="Texture" id=57]
 [ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=58]
 [ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=59]
 [ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=60]
@@ -67,16 +67,16 @@
 [ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=65]
 [ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=66]
 [ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=67]
-[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=68]
-[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=69]
-[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=70]
-[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=71]
-[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=72]
-[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=73]
-[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=74]
-[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=75]
-[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=76]
-[ext_resource path="res://templerun/leftIdle__009.png" type="Texture" id=77]
+[ext_resource path="res://templerun/Run__000.png" type="Texture" id=68]
+[ext_resource path="res://templerun/Run__001.png" type="Texture" id=69]
+[ext_resource path="res://templerun/Run__002.png" type="Texture" id=70]
+[ext_resource path="res://templerun/Run__003.png" type="Texture" id=71]
+[ext_resource path="res://templerun/Run__004.png" type="Texture" id=72]
+[ext_resource path="res://templerun/Run__005.png" type="Texture" id=73]
+[ext_resource path="res://templerun/Run__006.png" type="Texture" id=74]
+[ext_resource path="res://templerun/Run__007.png" type="Texture" id=75]
+[ext_resource path="res://templerun/Run__008.png" type="Texture" id=76]
+[ext_resource path="res://templerun/Run__009.png" type="Texture" id=77]
 [ext_resource path="res://desert.ogg" type="AudioStream" id=78]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -109,7 +109,7 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ) ],
 "loop": true,
-"name": "caminhando_dir",
+"name": "parado_dir",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ) ],
@@ -119,7 +119,7 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ) ],
 "loop": true,
-"name": "parado_dir",
+"name": "caminhando_dir",
 "speed": 5.0
 } ]
 _sections_unfolded = [ "Resource" ]
@@ -140,10 +140,11 @@ extents = Vector2( 10, 10 )
 custom_solver_bias = 0.0
 extents = Vector2( 16.25, 12.8267 )
 
-[node name="Deserto" type="Node" index="0"]
+[node name="Deserto" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
+editor/display_folded = true
 mode = 0
 tile_set = null
 cell_size = Vector2( 64, 64 )
@@ -913,7 +914,7 @@ position = Vector2( 422.917, 455.129 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 2 )
 animation = "zombie_idle"
-frame = 2
+frame = 5
 playing = true
 _sections_unfolded = [ "Transform" ]
 
@@ -996,6 +997,7 @@ visible = false
 
 [node name="box_pistas" type="Sprite" parent="NPC2/Resposta Charada" index="0"]
 
+visible = false
 position = Vector2( 3165.93, 171.606 )
 scale = Vector2( 0.742484, 0.610915 )
 texture = ExtResource( 32 )
@@ -1131,12 +1133,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Resposta B"
+bbcode_text = "Sala de animais, arco"
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "Resposta B"
+text = "Sala de animais, arco"
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -1261,7 +1263,7 @@ position = Vector2( 2650.82, 453.635 )
 scale = Vector2( 0.254, 0.258 )
 frames = SubResource( 2 )
 animation = "zombie_idle"
-frame = 1
+frame = 4
 playing = true
 _sections_unfolded = [ "Transform" ]
 
@@ -1435,6 +1437,8 @@ scale = Vector2( 3.22961, 4.96605 )
 shape = SubResource( 7 )
 
 [node name="diario" type="Node2D" parent="." index="7"]
+
+editor/display_folded = true
 
 [node name="diario_box" type="Sprite" parent="diario" index="0"]
 

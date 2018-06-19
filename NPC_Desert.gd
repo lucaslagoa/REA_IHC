@@ -58,11 +58,10 @@ func _on_ButtonOkIteracao_pressed():
 	get_node("boas_vindas").hide()
 	get_node("ButtonOkIteracao").hide()
 	get_node("ButtonOkIteracao").text=""
-	get_node("AnimatedSprite").hide();
+	get_node("AnimatedSprite").hide()
 	get_node("box_pistas").hide()
 	var posicao = get_node("/root/Deserto/NPC2")
 	posicao.show()
 	var diario = get_node("/root/Deserto/diario")
 	diario.get_node("diario_box").visible=true
-
 	pass # replace with function body

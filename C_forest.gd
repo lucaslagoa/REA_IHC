@@ -11,7 +11,7 @@ func _ready():
 
 func _pressed():
 	print("Clicou no C")
-	get_tree().change_scene("res://cemiterio.tscn")
+	get_tree().change_scene("res://Transition.tscn")
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.
 #	# Update game logic here.
