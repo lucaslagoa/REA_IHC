@@ -10,7 +10,7 @@ func _ready():
 	pass
 
 func _pressed():
-	get_tree().change_scene("res://forest.tscn")
+	get_tree().change_scene("res://Forest.tscn")
 	print ("entrei")
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.

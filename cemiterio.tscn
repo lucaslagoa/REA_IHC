@@ -58,15 +58,15 @@
 [ext_resource path="res://templerun/Idle__008.png" type="Texture" id=56]
 [ext_resource path="res://templerun/Idle__007.png" type="Texture" id=57]
 [ext_resource path="res://templerun/Idle__009.png" type="Texture" id=58]
-[ext_resource path="res://templerun/Run__000.png" type="Texture" id=59]
-[ext_resource path="res://templerun/Run__001.png" type="Texture" id=60]
-[ext_resource path="res://templerun/Run__003.png" type="Texture" id=61]
-[ext_resource path="res://templerun/Run__002.png" type="Texture" id=62]
-[ext_resource path="res://templerun/Run__004.png" type="Texture" id=63]
-[ext_resource path="res://templerun/Run__005.png" type="Texture" id=64]
-[ext_resource path="res://templerun/Run__006.png" type="Texture" id=65]
-[ext_resource path="res://templerun/Run__008.png" type="Texture" id=66]
-[ext_resource path="res://templerun/Run__007.png" type="Texture" id=67]
+[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=59]
+[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=60]
+[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=61]
+[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=62]
+[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=63]
+[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=64]
+[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=65]
+[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=66]
+[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=67]
 [ext_resource path="res://templerun/leftRun__000.png" type="Texture" id=68]
 [ext_resource path="res://templerun/leftRun__002.png" type="Texture" id=69]
 [ext_resource path="res://templerun/leftRun__001.png" type="Texture" id=70]
@@ -77,15 +77,15 @@
 [ext_resource path="res://templerun/leftRun__009.png" type="Texture" id=75]
 [ext_resource path="res://templerun/leftRun__008.png" type="Texture" id=76]
 [ext_resource path="res://templerun/leftRun__007.png" type="Texture" id=77]
-[ext_resource path="res://templerun/leftIdle__000.png" type="Texture" id=78]
-[ext_resource path="res://templerun/leftIdle__001.png" type="Texture" id=79]
-[ext_resource path="res://templerun/leftIdle__002.png" type="Texture" id=80]
-[ext_resource path="res://templerun/leftIdle__004.png" type="Texture" id=81]
-[ext_resource path="res://templerun/leftIdle__003.png" type="Texture" id=82]
-[ext_resource path="res://templerun/leftIdle__005.png" type="Texture" id=83]
-[ext_resource path="res://templerun/leftIdle__006.png" type="Texture" id=84]
-[ext_resource path="res://templerun/leftIdle__008.png" type="Texture" id=85]
-[ext_resource path="res://templerun/leftIdle__007.png" type="Texture" id=86]
+[ext_resource path="res://templerun/Run__000.png" type="Texture" id=78]
+[ext_resource path="res://templerun/Run__001.png" type="Texture" id=79]
+[ext_resource path="res://templerun/Run__003.png" type="Texture" id=80]
+[ext_resource path="res://templerun/Run__002.png" type="Texture" id=81]
+[ext_resource path="res://templerun/Run__004.png" type="Texture" id=82]
+[ext_resource path="res://templerun/Run__005.png" type="Texture" id=83]
+[ext_resource path="res://templerun/Run__006.png" type="Texture" id=84]
+[ext_resource path="res://templerun/Run__008.png" type="Texture" id=85]
+[ext_resource path="res://templerun/Run__007.png" type="Texture" id=86]
 [ext_resource path="res://graveyard/png/Objects/Crate.png" type="Texture" id=87]
 [ext_resource path="res://graveyard/png/Tiles/Bone (1).png" type="Texture" id=88]
 
@@ -170,8 +170,8 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ) ],
 "loop": true,
-"name": "caminhando_dir",
-"speed": 8.0
+"name": "parado_esq",
+"speed": 5.0
 }, {
 "frames": [ ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ) ],
 "loop": true,
@@ -180,8 +180,8 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ) ],
 "loop": true,
-"name": "parado_esq",
-"speed": 5.0
+"name": "caminhando_dir",
+"speed": 8.0
 } ]
 _sections_unfolded = [ "Resource" ]
 
@@ -1349,7 +1349,10 @@ position = Vector2( -117.18, -34.5422 )
 scale = Vector2( 0.181048, 0.188173 )
 frames = SubResource( 10 )
 animation = "default"
+<<<<<<< HEAD
 frame = 8
+=======
+>>>>>>> 7882777006177240d127954f53bd9dac3d13d62f
 playing = true
 _sections_unfolded = [ "Transform" ]
 

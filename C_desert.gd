@@ -10,7 +10,7 @@ func _ready():
 	pass
 
 func _pressed():
-	get_tree().change_scene("res://forest.tscn")
+	get_tree().change_scene("res://EndGame.tscn")
 	print("Clicou no C")
 	
 #func _process(delta):

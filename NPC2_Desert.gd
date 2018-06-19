@@ -18,7 +18,7 @@ func verifica_tentativa(tentativas):
 	if(tentativas == 0):
 		print("Fim de Jogo")
 		# adicionar aqui o caminho para a tela de fim de jogo
-		get_tree().change_scene("res://MenuInicial.tscn")
+		get_tree().change_scene("res://GameOver.tscn")
 
 
 
