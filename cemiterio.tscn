@@ -493,7 +493,6 @@ _sections_unfolded = [ "Visibility" ]
 
 [node name="cabeça_esqueleto" type="Sprite" parent="TileMap/Objetos_interativos" index="5"]
 
-editor/display_folded = true
 position = Vector2( 2849.99, 522.902 )
 scale = Vector2( 0.503233, 0.501667 )
 texture = ExtResource( 13 )
@@ -536,12 +535,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "A cabeça de alguem que já esteve vivo!!"
+bbcode_text = "Killy the bid, jao e jaq andavam em bando."
 visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "A cabeça de alguem que já esteve vivo!!"
+text = "Killy the bid, jao e jaq andavam em bando."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
@@ -694,8 +693,6 @@ texture = ExtResource( 4 )
 _sections_unfolded = [ "Visibility" ]
 
 [node name="Terreno" type="Node2D" parent="TileMap" index="1"]
-
-editor/display_folded = true
 
 [node name="chao_extra" type="Sprite" parent="TileMap/Terreno" index="0"]
 
@@ -1336,7 +1333,6 @@ shape = SubResource( 9 )
 
 [node name="NPC" type="Area2D" parent="TileMap" index="3"]
 
-editor/display_folded = true
 position = Vector2( 721.007, 497.116 )
 input_pickable = false
 gravity_vec = Vector2( 0, 1 )
@@ -1353,6 +1349,7 @@ position = Vector2( -117.18, -34.5422 )
 scale = Vector2( 0.181048, 0.188173 )
 frames = SubResource( 10 )
 animation = "default"
+frame = 8
 playing = true
 _sections_unfolded = [ "Transform" ]
 
@@ -1380,7 +1377,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "Hey aluno cara-pálida, esse é uma cemitério de  indios que serve para bandidos esconderem pessoas, 
+bbcode_text = "Hey aluno cara-pálida, esse é uma cemitério de  indios que serve para bandidos esconderem das pessoas, 
 contudo, nós caminhantes noturnos que moramos aqui não gostamos dessas vigarices e queremos apenas ficar em paz, 
 ajude-nos a expulsar esse meliantes, resolvendo o seguinte problema: 
 Em 1872 um cacique foi raptado por ancestrais desses bandidos. 
@@ -1389,7 +1386,7 @@ visible_characters = 0
 percent_visible = 0.0
 meta_underlined = true
 tab_size = 4
-text = "Hey aluno cara-pálida, esse é uma cemitério de  indios que serve para bandidos esconderem pessoas, 
+text = "Hey aluno cara-pálida, esse é uma cemitério de  indios que serve para bandidos esconderem das pessoas, 
 contudo, nós caminhantes noturnos que moramos aqui não gostamos dessas vigarices e queremos apenas ficar em paz, 
 ajude-nos a expulsar esse meliantes, resolvendo o seguinte problema: 
 Em 1872 um cacique foi raptado por ancestrais desses bandidos. 
@@ -1997,12 +1994,12 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 bbcode_enabled = true
-bbcode_text = "A cabeça de alguem que já esteve vivo!!"
+bbcode_text = "Killy the bid, jao e jaq andavam em bando."
 visible_characters = -1
 percent_visible = 1.0
 meta_underlined = true
 tab_size = 4
-text = "A cabeça de alguem que já esteve vivo!!"
+text = "Killy the bid, jao e jaq andavam em bando."
 scroll_active = true
 scroll_following = false
 selection_enabled = false
